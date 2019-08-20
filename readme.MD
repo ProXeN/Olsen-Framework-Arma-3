@@ -12,7 +12,7 @@
         <img src="https://img.shields.io/github/issues-raw/dklollol/Olsen-Framework-Arma-3.svg?label=Issues" alt="Olsen Framework Issues">
     </a>
     <a href="https://www.ctsimulacion.com/wiki/doku.php?id=edicion:principal">
-        <img src="https://img.shields.io/badge/CTS-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="UO Thread">
+        <img src="https://img.shields.io/badge/CTS-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="CTS Wiki">
     </a>
     <a href="https://discord.gg/x75Q7zM">
         <img src="https://img.shields.io/discord/419542231276584961?label=Discord&logo=discord" akt="Discord CTS">
