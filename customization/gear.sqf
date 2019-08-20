@@ -10,16 +10,15 @@
 FW_force_remove_facewear = false;
 
 //forces adding an item to inventory. Works only if container is specified!
-FW_enableOverfill = false;
+FW_enableOverfill = true;
 
 _unit call FNC_RemoveAllGear;
 
 switch (_type) do {
 	
-	//#include "loadouts\USMCRiflePlatoon.sqf"
-	//#include "loadouts\RURiflePlatoon.sqf"
-	//#include "loadouts\BAF.sqf"
-	//#include "loadouts\1989USARMY.sqf"
-	//#include "loadouts\1989VDV.sqf"
-	//#include "loadouts\2000MSV.sqf"
+	//#include "loadouts\CTSMC.sqf" //Multicam
+	//#include "loadouts\CTSMCT.sqf" //Multicam Tropic
+	//#include "loadouts\CTSATACSFG.sqf" //ATACS FG
+	#include "loadouts\CTSMCA.sqf" //Multicam Arido
+	//#include "loadouts\CTSAOR1.sqf" //AOR1
 };
