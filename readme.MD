@@ -14,6 +14,9 @@
     <a href="https://www.ctsimulacion.com/wiki/doku.php?id=edicion:principal">
         <img src="https://img.shields.io/badge/CTS-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="UO Thread">
     </a>
+    <a href="https://discord.gg/x75Q7zM">
+        <img src="https://img.shields.io/discord/419542231276584961?label=Discord&logo=discord" akt="Discord CTS">
+    </a>
 </p>
 
 **Olsen Framework** is an efficient and modular mission making framework designed to help create large scale, high quality Arma 3 scenarios. Although originally designed for [United Operations](http://unitedoperations.net/) scenarios, it can be used in different types of communities and servers due to it's modular nature and high flexibility.
