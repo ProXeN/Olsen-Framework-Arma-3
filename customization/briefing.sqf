@@ -4,7 +4,7 @@ switch (side player) do { //Checks what team the player is on
 
 case west: { //If player is west he receives this briefing
 
-NEWTAB("I. Situation:")
+NEWTAB("I. Situación:")
 <font color='#BBBBBB' size='16' face='PuristaBold'>This is an example header:</font><br/>
 <br/>
 Example text.<br/>
@@ -12,40 +12,28 @@ Example text.<br/>
 This is how you create a <marker name='markerName'>marker</marker>.
 ENDTAB;
 
-NEWTAB("A. Enemy Forces:")
+NEWTAB("A. Fuerzas Enemigas:")
 //Text goes here
 ENDTAB;
 
-NEWTAB("B. Friendly Forces:")
-//Text goes here
+NEWTAB("B. Fuerzas Aliadas:")
+- 4 Escuadras CTS
 ENDTAB;
 
-NEWTAB("II. Mission:")
-//Text goes here
+NEWTAB("II. Misión:")
+- Objetivo 1<br/>
+- Objetivo 2
 ENDTAB;
 
-NEWTAB("III. Execution:")
-//Text goes here
+NEWTAB("III. Soporte:")
+- Dron YABHON-R3
 ENDTAB;
-
-NEWTAB("IV. Service Support:")
-//Text goes here
-ENDTAB;
-
-NEWTAB("V. Command & Signal:")
-//Text goes here
-ENDTAB;
-
 }; //End of west case
 
 }; //End of switch
 	
-NEWTAB("VI. Mission notes:") //This is shown for everyone
-//Text goes here
-ENDTAB;
-
-NEWTAB("Game Mastering") //This is shown for everyone
-This mission is not designed for game mastering and should only be manipulated for technical, administrative or diagnostic purposes.
+NEWTAB("IV. Notas de Misión:") //This is shown for everyone
+Misión de prueba.
 ENDTAB;
 
 DISPLAYBRIEFING();
