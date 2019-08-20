@@ -16,9 +16,9 @@ _unit call FNC_RemoveAllGear;
 
 switch (_type) do {
 	
-	//#include "loadouts\CTSMC.sqf" //Multicam
+	#include "loadouts\CTSMC.sqf" //Multicam
 	//#include "loadouts\CTSMCT.sqf" //Multicam Tropic
 	//#include "loadouts\CTSATACSFG.sqf" //ATACS FG
-	#include "loadouts\CTSMCA.sqf" //Multicam Arido
+	//#include "loadouts\CTSMCA.sqf" //Multicam Arido
 	//#include "loadouts\CTSAOR1.sqf" //AOR1
 };
