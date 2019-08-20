@@ -8,7 +8,7 @@
 	respawnButton = 1; //Disables the respawn button
 	respawnDialog = 0; //Disables the score screen while respawning
 	respawnTemplates[] = {"Base"}; //Disables respawn countdown
-	enableDebugConsole = 1; //Only for logged-in admins
+	enableDebugConsole[] = {"76561198008840087"}; //Only for logged-in admins
 	enableTargetDebug = 1; //Enable CBA Target Debugging
 
 	class Extended_PreInit_EventHandlers {
@@ -24,6 +24,10 @@
 		class acex_killTracker {
 			title = "Acex Killed Events";
 			variable = "acex_killTracker_outputText";
+		};
+		class Stats {
+			title = "Mission Stats";
+			variable = "FW_EndStats";
 		};
 	};
 
