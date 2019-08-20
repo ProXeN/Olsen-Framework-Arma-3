@@ -55,7 +55,7 @@ for "_x" from 1 to _amount do {
 				_succes = true;
 			};
 		};
-		if (!_succes && _type in ["Map", "GPS", "Compass", "Watch", "NVGoggles"]) then {
+		if (!_succes && _type in ["Map", "GPS", "Compass", "Watch", "NVGoggles", "ItemcTab", "UAVTerminal", "Radio"]) then {
 			if ([_unit, _type] call FNC_CanLinkItem) then {
 				_unit linkItem _item;
 				_succes = true;
@@ -91,7 +91,7 @@ for "_x" from 1 to _amount do {
 				_succes = true;
 			};
 		};
-		if (!_succes && _type == "Binocular") then {
+		if (!_succes && (_type == "Binocular" || _type == "LaserDesignator")) then {
 			if (binocular _unit == "") then {
 				_unit addWeaponGlobal _item;
 				_succes = true;
