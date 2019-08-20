@@ -24,16 +24,6 @@ if (!isDedicated) then {
 	
 	eg_keyHandler = {
 		params ["_control", "_code", "_shift", "_control", "_alt"];
-
-		private _acre = ["ACRE2", "HeadSet"] call CBA_fnc_getKeybind;
-		if (!isNil "_acre") then {
-			private _action = _acre select 4;
-			private _keys = _acre select 5;
-
-			if (_code == _keys select 0 && (_keys select 1) isEqualTo [_shift, _control, _alt]) then {
-				call _action;
-			};
-		};
 		
 		if (_code == 35 && !_shift && _control && !_alt) then {
 			if (!eg_keyHandler_display_hidden) then {
@@ -237,19 +227,7 @@ if (!isDedicated) then {
 
 			player setVariable ["FW_Spectating", true, true];
 
-			[true] call acre_api_fnc_setSpectator;
-			//If babel is enabled, allowed spectator to hear all languages present in mission.
-			if (!isNil "FW_enable_babel" && {FW_enable_babel}) then {
-				private _missionLanguages = [];
-				{
-					{
-						if (!(_x in _missionLanguages)) then {
-							_missionLanguages pushback _x;
-						};
-					} foreach _x;
-				} forEach FW_languages_babel;
-				_missionLanguages call acre_api_fnc_babelSetSpokenLanguages;
-			};
+			[player, true] call TFAR_fnc_forceSpectator;
 
 			//we set default pos in case all methods fail and we end up with 0,0,0
 			private _pos = [2000, 2000, 100];
