@@ -5,4 +5,6 @@
 
 //_AOMarkers = [MARKERNAMEINQUOTES,ISCENTERED,ZOOMLEVEL,NAME VISIBLE IN SELF INTERACT, AO NUMBER];
 //_AOMarkers = [["AOMarker_1",true,0.4,"Bahnhof",1]];
-_AOMarkers = [["AOMarker_1",true,0.6,"AO",1],["AOMarker_2",true,0.8,"AO 2",2]];
+//_AOMarkers = [["AOMarker_1",true,0.6,"AO",1],["AOMarker_2",true,0.8,"AO 2",2]];
+_AOMarkers = [["AO",true,0.4,"Area de Operaciones",1]];
+

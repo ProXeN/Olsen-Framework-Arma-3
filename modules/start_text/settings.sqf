@@ -17,8 +17,8 @@ switch (side player) do { //Checks what team the player is on
 	case west: { //If player is west he receives this message
 
 		_startTextArray = [
-			["TITLEQUOTE", "BLUFOR Time"],
-			["TEXT", "Somewhere in Kavala"],
+			["TITLEQUOTE", toUpper getText (missionConfigFile >> "onLoadName")],
+			["TEXT", worldName],
 			["DATETIME"]
 		];
 
@@ -27,30 +27,10 @@ switch (side player) do { //Checks what team the player is on
 	case east: { //If player is east he receives this message
 
 		_startTextArray = [
-			["TITLEQUOTE", "Malden"],
-			["TEXT", "Near Saint Maire"],
+			["TITLEQUOTE", toUpper getText (missionConfigFile >> "onLoadName")],
+			["TEXT", worldName],
 			["DATETIME"]
 		];
 
 	}; //End of east case
-
-	case independent: {
-
-		_startTextArray = [
-			["TITLEQUOTE", "Malden"],
-			["TEXT", "Near Saint Maire"],
-			["DATETIME"]
-		];
-
-	};
-
-	case civilian: {
-
-		_startTextArray = [
-			["TITLEQUOTE", "Malden"],
-			["TEXT", "Near Saint Maire"],
-			["DATETIME"]
-		];
-
-	};
 }; //End of switch

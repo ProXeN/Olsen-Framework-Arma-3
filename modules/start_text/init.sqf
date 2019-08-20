@@ -5,6 +5,10 @@ if (!isDedicated) then {
 
 	#include "settings.sqf"
 
+	addMissionEventHandler ["PreloadFinished", {
+	preload_complete = true; 
+	}];
+
 	switch (date select 1) do {
 
 		case 1: {_month = "January"};
@@ -98,9 +102,18 @@ if (!isDedicated) then {
 	_unparsedText = _unparsedText + "</t>";
 
 	[parsetext _unparsedText, true, nil, 10, 0.7, 0] spawn {
-
-		sleep 10;
+		0 fadesound 0;
+		cutText ["", "BLACK FADED", 999];
+		waitUntil {!(isNil "preload_complete")};
+		sleep 3;
+		"dynamicBlur" ppEffectEnable true;   
+		"dynamicBlur" ppEffectAdjust [6];   
+		"dynamicBlur" ppEffectCommit 0;     
+		"dynamicBlur" ppEffectAdjust [0.0];  
+		"dynamicBlur" ppEffectCommit 5;  
+		cutText ["", "BLACK IN", 2];
+		4 fadeSound 1;
+		sleep 5;
 		_this call BIS_fnc_textTiles;
-
 	};
 };

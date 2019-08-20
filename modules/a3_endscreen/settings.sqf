@@ -23,4 +23,4 @@
 
 //ENABLE_A3_ENDSCREEN
 //Whether or not to use the ArmA 3 gorgeous EndScreen.
-#define ENABLE_A3_ENDSCREEN false
+#define ENABLE_A3_ENDSCREEN true

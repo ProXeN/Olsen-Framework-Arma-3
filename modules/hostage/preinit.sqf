@@ -1,16 +1,34 @@
 FNC_SetHostage = {
+	if (!isServer) exitWith {};
 
-	private "_unit";
+	private ["_unit", "_marker"];
 
 	_unit = _this select 0;
+	_marker = _this select 1;
+	[_marker, 0] remoteExec ["setMarkerAlpha", [0,-2] select isDedicated,true];
 
-	if (hasInterface) then {
-		_unit addAction ["<t color='#FBB829'>Rescue Hostage</t>",{
-			[-2,{_this call FNC_RescueHostage;},[_this select 0, _this select 1]] call CBA_fnc_globalExecute;
-		}, nil, 6, true, true, "", "(_target distance _this) < 2 && !(_target getVariable ['FW_Rescued', false]);"];
-	};
-
-	if (!isServer) exitWith {};
+	[
+	_unit,
+	"Rescue",
+	"\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa",
+	"\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa",
+	"_this distance _target < 3",
+	"true",
+	{},
+	{},
+	{
+	_complMessage = selectRandom ["Pensaba que iba a morir...","Gracias.","Sácame de aquí..","¿Por qué habéis tardado tanto?"];
+	[[[name (_this select 0), _complMessage, (_this select 0)]],"DIRECT",0.15,true] spawn FNC_SIMPLECONV;
+	[_this select 0, _this select 1] remoteExec ["FNC_RescueHostage", 0, true];
+	[(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove", 0, true];
+	},
+	{},
+	[],
+	3,
+	10,
+	true,
+	false
+	] remoteExec ["BIS_fnc_holdActionAdd", 0, true];
 
 	_this spawn {
 
@@ -24,6 +42,7 @@ FNC_SetHostage = {
 		_unit setBehaviour "CARELESS";
 		_unit allowFleeing 0;
 		_unit setCaptive true;
+		_unit disableAI "PATH";
 
 		_unit playMoveNow "Acts_AidlPsitMstpSsurWnonDnon04";
 
@@ -48,18 +67,7 @@ FNC_SetHostage = {
 
 				_unit setVariable ["FW_Rescued", true, true];
 
-				if (vehicle _unit == _unit) then {
-
-					[_unit] joinSilent grpNull;
-					_unit disableAI "MOVE";
-
-					sleep 1;
-
-					_unit playMoveNow "AmovPsitMstpSnonWnonDnon_ground";
-
-					_break = true;
-
-				};
+				_break = true;
 
 			};
 

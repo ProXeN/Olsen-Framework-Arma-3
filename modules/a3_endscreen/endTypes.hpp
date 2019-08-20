@@ -2,6 +2,19 @@
 class CfgDebriefing {
 
 	// EndTypes Templates
+	class MissionSuccess {
+		subtitle = "Buen trabajo";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class MissionFail {
+		subtitle = "We'll get 'em next time";
+		pictureBackground = "";
+		picture = "KIA";
+		pictureColor[] = {0.5,0.0,0.0,1};
+	};
 	class OPFOREliminated {
 		subtitle = "OPFOR took too many casualties";
 		pictureBackground = "";

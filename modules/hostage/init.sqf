@@ -16,8 +16,6 @@ FNC_RescueHostage = {
 
 	};
 
-	[_unit] join group _caller;
-
 };
 
 FNC_IsRescued = {
