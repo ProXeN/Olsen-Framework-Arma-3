@@ -11,8 +11,8 @@
     <a href="https://github.com/dklollol/Olsen-Framework-Arma-3/issues">
         <img src="https://img.shields.io/github/issues-raw/dklollol/Olsen-Framework-Arma-3.svg?label=Issues" alt="Olsen Framework Issues">
     </a>
-    <a href="http://forums.unitedoperations.net/index.php/topic/27450-olsen-framework-infodiscussion-thread/">
-        <img src="https://img.shields.io/badge/UO-Thread-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="UO Thread">
+    <a href="https://www.ctsimulacion.com/wiki/doku.php?id=edicion:principal">
+        <img src="https://img.shields.io/badge/CTS-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="UO Thread">
     </a>
 </p>
 
