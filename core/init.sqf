@@ -27,6 +27,9 @@ PREP(countTeam);
 PREP(spawnAI);
 PREP(spawnVehicle);
 PREP(hasExtracted);
+PREP(RRR);
+PREP(simpleConv);
+PREP(objectMarker);
 
 enableSaving [false, false];
 
@@ -72,7 +75,7 @@ if (!isDedicated) then {
 
 	//Various settings
 	enableEngineArtillery false; //Disable Arma 3 artillery computer
-	enableRadio false; //Disable Arma 3 regular radio
+	enableRadio true; //Disable Arma 3 regular radio
 	enableSentences false; //Disable Arma 3 regular radio chatter
 	0 fadeRadio 0; //Lower radio volume to 0
 
