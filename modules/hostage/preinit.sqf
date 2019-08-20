@@ -5,11 +5,11 @@ FNC_SetHostage = {
 
 	_unit = _this select 0;
 	_marker = _this select 1;
-	[_marker, 0] remoteExec ["setMarkerAlpha", [0,-2] select isDedicated,true];
+	_marker setMarkerAlpha 0;
 
 	[
 	_unit,
-	"Rescue",
+	"Rescatar",
 	"\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa",
 	"\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_unbind_ca.paa",
 	"_this distance _target < 3",
@@ -20,7 +20,7 @@ FNC_SetHostage = {
 	_complMessage = selectRandom ["Pensaba que iba a morir...","Gracias.","Sácame de aquí..","¿Por qué habéis tardado tanto?"];
 	[[[name (_this select 0), _complMessage, (_this select 0)]],"DIRECT",0.15,true] spawn FNC_SIMPLECONV;
 	[_this select 0, _this select 1] remoteExec ["FNC_RescueHostage", 0, true];
-	[(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove", 0, true];
+	[(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove", [0,-2] select isDedicated, true];
 	},
 	{},
 	[],
@@ -28,7 +28,7 @@ FNC_SetHostage = {
 	10,
 	true,
 	false
-	] remoteExec ["BIS_fnc_holdActionAdd", 0, true];
+	] remoteExec ["BIS_fnc_holdActionAdd", [0,-2] select isDedicated, true];
 
 	_this spawn {
 
