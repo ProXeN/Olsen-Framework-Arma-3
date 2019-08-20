@@ -8,7 +8,7 @@ class EditorData
 	toggles=1061;
 	class ItemIDProvider
 	{
-		nextID=296;
+		nextID=297;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7779.9946,8.4646397,4364.2407};
-		dir[]={-0.84146065,-0.53578812,0.071581669};
-		up[]={-0.53411478,0.84415674,0.045436453};
-		aside[]={0.084760539,6.5597123e-007,0.99649107};
+		pos[]={7757.4629,6.9267111,4241.1538};
+		dir[]={0.9721415,-0.21145506,0.1023126};
+		up[]={0.21065798,0.97727448,0.022170365};
+		aside[]={0.10468311,4.5274319e-006,-0.99459004};
 	};
 };
 binarizationWanted=0;
@@ -50,7 +50,6 @@ addons[]=
 	"alive_sup_transport",
 	"alive_sup_artillery",
 	"3den_Objects",
-	"CFP_B_USRANGERS_WDL",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Structures_F_Exp_Infrastructure_Pavements",
 	"A3_Structures_F_Heli_Items_Airport",
@@ -60,7 +59,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=26;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -203,32 +202,26 @@ class AddonsMetaData
 		};
 		class Item22
 		{
-			className="CFP_B_USRANGERS_WDL";
-			name="CFP_B_USRANGERS_WDL";
-			author="Drew";
-		};
-		class Item23
-		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="uh60";
 			name="uh60";
@@ -472,7 +465,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=93;
+		items=91;
 		class Item0
 		{
 			dataType="Group";
@@ -5446,120 +5439,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7772.1099,56.825001,4404.0371};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="ascensorArriba";
-			};
-			id=185;
-			type="Land_HelipadEmpty_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item32
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={7775.7681,5,4374.772};
 			};
 			side="Empty";
@@ -5669,7 +5548,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item33
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5785,7 +5664,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item34
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5902,7 +5781,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item35
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6018,7 +5897,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item36
+		class Item35
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6267,7 +6146,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item37
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6402,7 +6281,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item38
+		class Item37
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -6413,7 +6292,7 @@ class Mission
 			description="Bloquea la puerta que tiene más cerca";
 			id=203;
 		};
-		class Item39
+		class Item38
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -6423,7 +6302,7 @@ class Mission
 			title="Ascensor";
 			id=204;
 		};
-		class Item40
+		class Item39
 		{
 			dataType="Group";
 			side="West";
@@ -6554,7 +6433,7 @@ class Mission
 			};
 			id=205;
 		};
-		class Item41
+		class Item40
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6916,7 +6795,7 @@ class Mission
 				nAttributes=18;
 			};
 		};
-		class Item42
+		class Item41
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7259,7 +7138,7 @@ class Mission
 				nAttributes=17;
 			};
 		};
-		class Item43
+		class Item42
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7412,7 +7291,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item44
+		class Item43
 		{
 			dataType="Group";
 			side="West";
@@ -7431,7 +7310,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{[this, ""CTS_RFL""] call FNC_GearScript; [this,[""WATCH"",""ASIS""],nil,true] call FNC_ambientAnimMonitor}";
+						init="call{[this, ""CTS_RFL""] call FNC_GearScript; [this,[""STAND"",""ASIS""],nil,true] call FNC_ambientAnimMonitor}";
 					};
 					id=213;
 					type="B_Soldier_F";
@@ -7543,7 +7422,7 @@ class Mission
 			id=212;
 			atlOffset=0.001999855;
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -7553,7 +7432,7 @@ class Mission
 			title="Animaciones";
 			id=214;
 		};
-		class Item46
+		class Item45
 		{
 			dataType="Group";
 			side="West";
@@ -7565,7 +7444,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7792,5.0014386,4272.0498};
+						position[]={7824,5.0014386,4272.0498};
 					};
 					side="West";
 					flags=6;
@@ -7580,7 +7459,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7792,5.0014386,4272.0498};
+						position[]={7824,5.0014386,4272.0498};
 					};
 					side="West";
 					flags=4;
@@ -7628,12 +7507,12 @@ class Mission
 			};
 			id=215;
 		};
-		class Item47
+		class Item46
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7792,6.5683393,4271.9888};
+				position[]={7824,6.5683393,4271.9888};
 			};
 			side="West";
 			flags=6;
@@ -7672,7 +7551,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item48
+		class Item47
 		{
 			dataType="Group";
 			side="West";
@@ -7747,7 +7626,7 @@ class Mission
 			};
 			id=219;
 		};
-		class Item49
+		class Item48
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7788,7 +7667,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item50
+		class Item49
 		{
 			dataType="Trigger";
 			position[]={7762,5,4376};
@@ -7803,7 +7682,7 @@ class Mission
 			id=223;
 			type="EmptyDetector";
 		};
-		class Item51
+		class Item50
 		{
 			dataType="Trigger";
 			position[]={7758,5,4376};
@@ -7818,7 +7697,7 @@ class Mission
 			id=224;
 			type="EmptyDetector";
 		};
-		class Item52
+		class Item51
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -7829,7 +7708,7 @@ class Mission
 			description="Trigger de Misión Fallida";
 			id=225;
 		};
-		class Item53
+		class Item52
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -7840,7 +7719,7 @@ class Mission
 			description="Trigger de Misión Cumplida";
 			id=226;
 		};
-		class Item54
+		class Item53
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8063,7 +7942,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item55
+		class Item54
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8761,7 +8640,7 @@ class Mission
 				nAttributes=36;
 			};
 		};
-		class Item56
+		class Item55
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8890,7 +8769,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item57
+		class Item56
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -9018,7 +8897,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item58
+		class Item57
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -9260,7 +9139,7 @@ class Mission
 				nAttributes=12;
 			};
 		};
-		class Item59
+		class Item58
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9395,7 +9274,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item60
+		class Item59
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9406,7 +9285,7 @@ class Mission
 			description="Cambiarse de ropa";
 			id=237;
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9417,7 +9296,7 @@ class Mission
 			description="Configurados para que no interfieran con VCOM y para que tengan fuel infinito.";
 			id=238;
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9428,7 +9307,7 @@ class Mission
 			description="Estos dos módulos son obligatorios si se va a usar ALIVE";
 			id=239;
 		};
-		class Item63
+		class Item62
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9439,7 +9318,7 @@ class Mission
 			description="Módulo principal de Soporte";
 			id=240;
 		};
-		class Item64
+		class Item63
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9450,7 +9329,7 @@ class Mission
 			description="Podemos crear helicopteros de transporte usando este módulo. Elegimos el tipo de helicoptero y le pones cajas cerca para que pueda llevarlas con eslingas.";
 			id=244;
 		};
-		class Item65
+		class Item64
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9461,140 +9340,7 @@ class Mission
 			description="Elegimos el tipo de artillería.";
 			id=245;
 		};
-		class Item66
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7824,5.0014386,4272.0498};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=248;
-					type="B_UAV_AI";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7824,5.0014386,4272.0498};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=249;
-					type="B_UAV_AI";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=2;
-				};
-				class Links
-				{
-					items=2;
-					class Item0
-					{
-						linkID=0;
-						item0=248;
-						item1=247;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=249;
-						item1=247;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=246;
-		};
-		class Item67
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7824,6.904613,4271.9951};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-				init="call{(group this) setVariable [""Vcm_Disable"",true];" \n "nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } };}";
-			};
-			id=247;
-			type="CFP_B_USRANGERS_MQ_9Reaper_WDL_01";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""FirstAidKit""],[2]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item68
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9748,7 +9494,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item69
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9901,7 +9647,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item70
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10054,7 +9800,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item71
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10207,7 +9953,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item72
+		class Item69
 		{
 			dataType="Trigger";
 			position[]={7807,5,4321};
@@ -10225,7 +9971,7 @@ class Mission
 			id=254;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item73
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10240,7 +9986,7 @@ class Mission
 			id=255;
 			type="Land_HelipadSquare_F";
 		};
-		class Item74
+		class Item71
 		{
 			dataType="Trigger";
 			position[]={7787,5,4321};
@@ -10258,7 +10004,7 @@ class Mission
 			id=258;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item75
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10273,7 +10019,7 @@ class Mission
 			id=259;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item76
+		class Item73
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10288,7 +10034,7 @@ class Mission
 			id=260;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item77
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10304,7 +10050,7 @@ class Mission
 			id=261;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item78
+		class Item75
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10320,7 +10066,7 @@ class Mission
 			id=262;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item79
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10335,7 +10081,7 @@ class Mission
 			id=263;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item80
+		class Item77
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10350,7 +10096,7 @@ class Mission
 			id=264;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item81
+		class Item78
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10365,7 +10111,7 @@ class Mission
 			id=265;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item82
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10380,7 +10126,7 @@ class Mission
 			id=266;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item83
+		class Item80
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10390,7 +10136,7 @@ class Mission
 			title="FARP Aire";
 			id=267;
 		};
-		class Item84
+		class Item81
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10400,7 +10146,7 @@ class Mission
 			title="FARP Tierra";
 			id=268;
 		};
-		class Item85
+		class Item82
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10411,7 +10157,7 @@ class Mission
 			description="Para que lo usen los jugadores. Lleva medicinas y paracaidas en el inventario.";
 			id=278;
 		};
-		class Item86
+		class Item83
 		{
 			dataType="Group";
 			side="West";
@@ -10542,7 +10288,7 @@ class Mission
 			};
 			id=279;
 		};
-		class Item87
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10695,7 +10441,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item88
+		class Item85
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10848,7 +10594,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item89
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11001,7 +10747,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item90
+		class Item87
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -11012,7 +10758,7 @@ class Mission
 			description="También podemos colocar el helicoptero a mano y sincronizarlo con el módulo de soporte. Aseguraos de cambiar el INIT para elegir el CALLSIGN y el tipo de soporte (CAS o TRANSPORT)";
 			id=288;
 		};
-		class Item91
+		class Item88
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11090,7 +10836,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item92
+		class Item89
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11168,6 +10914,120 @@ class Mission
 					};
 				};
 				nAttributes=3;
+			};
+		};
+		class Item90
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7772.856,56.825001,4403.5781};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="ascensorArriba";
+			};
+			id=296;
+			type="Land_HelipadEmpty_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 	};
