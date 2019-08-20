@@ -6,7 +6,7 @@
         <img src="https://img.shields.io/badge/Version-3.3.3-blue.svg" alt="Olsen Framework Version">
     </a>
     <a href="https://www.ctsimulacion.com">
-        <img src="https://img.shields.io/badge/FORK-CTS-green" alt="CTS">
+        <img src="https://img.shields.io/badge/FORK-CTS-green.svg" alt="CTS">
     </a>
     <a href="https://github.com/dklollol/Olsen-Framework-Arma-3/issues">
         <img src="https://img.shields.io/github/issues-raw/dklollol/Olsen-Framework-Arma-3.svg?label=Issues" alt="Olsen Framework Issues">
