@@ -1,4 +1,14 @@
 #define description
+class Header
+{
+	gameType = COOP;	// Game type
+};
+
+author = "Proxen";
+OnLoadName = "CTS Plantilla";
+OnLoadMission = "Prueba la plantilla de CTS.";
+OverviewText = "Prueba la plantilla de CTS.";
+loadScreen = "images\loadScreen.jpg";
 
 #include "core\description.hpp" //DO NOT REMOVE
 #include "modules\modules.sqf" //DO NOT REMOVE
