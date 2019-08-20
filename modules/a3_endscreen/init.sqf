@@ -20,17 +20,7 @@ if (isServer) then {
 
 			_time = ceil(time / 60);
 
-			if (_time >= FW_TimeLimit) then {_time = FW_TimeLimit;};
-
-			if (FW_TimeLimit == 0) then {
-
-				FW_EndStats = format ["<t font='PuristaBold' size='1'>Mission duration: %1 minutes.</t><br/><br/>", _time];
-
-			} else {
-
-				FW_EndStats = format ["<t font='PuristaBold' size='1'>Mission duration: %1 out of %2 minutes.</t><br/><br/>", _time, FW_TimeLimit];
-
-			};
+			FW_EndStats = format ["<t font='PuristaBold' size='1'>Mission duration: %1 minutes.</t><br/><br/>", _time];
 
 			for "_i" from 0 to count FW_Teams -1 do {
 				_team = FW_Teams select _i;

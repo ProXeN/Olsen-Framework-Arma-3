@@ -7,7 +7,7 @@ _bottomLeft = 3004;
 _bottomMiddle = 3005;
 _bottomRight = 3006;
 
-params ["_scenario", "_timeLimit", "_teams"];
+params ["_scenario", "_teams"];
 
 {
 
@@ -78,22 +78,6 @@ _textSide = 0;
 } forEach _teams;
 
 _endTitleText = _scenario;
-
-if (_timeLimit != 0) then {
-
-	_time = ceil(time / 60);
-
-	if (_time >= _timeLimit) then {
-
-		_time = _timeLimit;
-
-	};
-
-	_timeLimitText = format ["Mission duration: %1 out of %2 minutes", _time, _timeLimit];
-
-	_endTitleText = format ["%1<br />%2", _scenario, _timeLimitText];
-
-};
 
 if (!isNil "aCount_textBLU" && !isNil "aCount_textRED" && !isNil "aCount_textRES") then {
 	_bottomTextLeft = format["%1",aCount_textBLU];
