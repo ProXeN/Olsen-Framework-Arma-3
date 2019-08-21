@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7757.4629,6.9267111,4241.1538};
-		dir[]={0.9721415,-0.21145506,0.1023126};
-		up[]={0.21065798,0.97727448,0.022170365};
-		aside[]={0.10468311,4.5274319e-006,-0.99459004};
+		pos[]={7766.1021,15.413248,4336.0015};
+		dir[]={0.017719433,-0.4850978,0.87442434};
+		up[]={0.0098341648,0.87426412,0.48527986};
+		aside[]={0.99987817,1.8706269e-006,-0.020252466};
 	};
 };
 binarizationWanted=0;
@@ -7518,9 +7518,6 @@ class Mission
 			flags=6;
 			class Attributes
 			{
-				health=0.33521008;
-				ammo=0;
-				fuel=0.20412433;
 				init="call{(group this) setVariable [""Vcm_Disable"",true];" \n "nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } };}";
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
