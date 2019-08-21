@@ -77,3 +77,14 @@ class Params {
 };
 
 #undef description_params
+
+#define description_carrier
+
+class CfgCarrier {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+	
+};
+
+#undef description_carrier
