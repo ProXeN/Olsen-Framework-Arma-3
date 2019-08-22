@@ -3,7 +3,7 @@
 
 if (isServer) then {
 
-	setViewDistance 1200; //View distance for the server (the ai's)
+	setViewDistance 2500; //View distance for the server (the ai's)
 
 	[west, "CTS", "player"] call FNC_AddTeam; //Adds a player team called CTS on side west
 	[east, "OPFOR", "ai"] call FNC_AddTeam; //Adds a ai team called OPFOR on side east
@@ -38,7 +38,7 @@ if (!isDedicated) then {
 
 	FW_DebugMessagesEnabled = true; //Only disable debug messages when the mission is released
 
-	setViewDistance 1200; //View distance for the player
+	setViewDistance 2500; //View distance for the player
 
 	//call FNC_forceTerrainGrid; //uncomment this to force high terrain setting. This will prevent faraway objects from appearing as floating. Useful for missions with long sightlines.
 	
