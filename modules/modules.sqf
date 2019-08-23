@@ -21,7 +21,7 @@
 //Additional modules that can be enabled by removing the //
 //!!Some of them require changing settings in their settings.sqf file!!
 
-
+//#include "hc\root.sqf"
 //#include "ace_medical\root.sqf"
 //#include "ai_drivers\root.sqf"
 //#include "ambient_effects\root.sqf"
