@@ -32,5 +32,6 @@
 //#include "hostage\root.sqf"
 //#include "setup_timer\root.sqf"
 //#include "start_in_parachute\root.sqf"
+//#include "start_in_vehicle\root.sqf"
 
 
