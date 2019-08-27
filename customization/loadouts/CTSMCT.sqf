@@ -38,7 +38,7 @@ SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
-SET_GROUP(uniformAT) //Uniforme Automatic Rifleman
+SET_GROUP(uniformAT) //Uniforme Rifleman AT
 	["CTS_JPC_Ranger", "CTS_JPC_2_Ranger", "CTS_JPC_3_Ranger", "CTS_Armatus_1_Ranger"] call FNC_AddItemRandom;
 	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
 	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
@@ -47,7 +47,7 @@ SET_GROUP(uniformAT) //Uniforme Automatic Rifleman
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
-SET_GROUP(uniformENG) //Uniforme Automatic Rifleman
+SET_GROUP(uniformENG) //Uniforme Engineer
 	["CTS_RAV_operator_MulticamTropic", "CTS_FAPC_Breacher_MulticamTropic", "CTS_FAPC_Operator_MulticamTropic",
 	 "CTS_FAPC_Breacher_OGA_OD", "CTS_FAPC_Operator_OGA_OD"] call FNC_AddItemRandom;
 	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
@@ -280,6 +280,7 @@ case (package + "CM"): { //Medic
 	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
+	["LaserBatteries"] call FNC_AddItem; //Baterias Designador
 	["LaserDesignator"] call FNC_AddItem; //Designador
 	["B_UAVTerminal"] call FNC_AddItem; //Tablet
 	["ItemcTab",1,"uniform"] call FNC_AddItem; //Tablet
