@@ -107,7 +107,7 @@ for "_i" from 0 to (count _lines) - 1 do
 	private _break = count _currentLine * _breakMultiplier;
 
 	if !(isNull _speaker) then {_speaker setRandomLip true};
-  if (_colour == "SIDE") then {playSound "RadioTransmit"};
+  if (_colour == "SIDE") then {playSound "CTSRadio"};
 	private _handle = [_nameSpeaker,_currentLine,_colourHTML,_break] spawn _fnc_showSubtitles;
 	waitUntil {scriptDone _handle};
 
