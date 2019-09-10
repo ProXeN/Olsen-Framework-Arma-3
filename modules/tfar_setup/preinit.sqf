@@ -22,20 +22,31 @@ FNC_AutoSetupRadios = {
 
 		private _unitSquadTeam = format["%1_%2", _squad, _team];
 
+		//Radios cortas estructura pelotones
+		// switch (_unitSquadTeam) do{
+		// 	case "1_1": {[_currentRadio, 0] call TFAR_fnc_setSwChannel}; //RAPTOR 1
+		// 	case "1_2": {[_currentRadio, 1] call TFAR_fnc_setSwChannel}; //RAPTOR 2
+		// 	case "2_1": {[_currentRadio, 2] call TFAR_fnc_setSwChannel}; //HORNET 1
+		// 	case "2_2": {[_currentRadio, 3] call TFAR_fnc_setSwChannel}; //HORNET 2
+		// 	case "3_1": {[_currentRadio, 4] call TFAR_fnc_setSwChannel}; //ARROW 1
+		// 	case "3_2": {[_currentRadio, 5] call TFAR_fnc_setSwChannel}; //ARROW 2
+		// 	case "4_1": {[_currentRadio, 6] call TFAR_fnc_setSwChannel}; //BREACHER 1
+		// 	case "4_2": {[_currentRadio, 7] call TFAR_fnc_setSwChannel}; //BREACHER 2
+		// 	default {[_currentRadio, 8] call TFAR_fnc_setSwChannel}; //DEFAULT
+		// };
+
+		//Radios cortas estructura escuadras
 		switch (_unitSquadTeam) do{
-			case "1_1": {[_currentRadio, 0] call TFAR_fnc_setSwChannel}; //RAPTOR 1
-			case "1_2": {[_currentRadio, 1] call TFAR_fnc_setSwChannel}; //RAPTOR 2
-			case "2_1": {[_currentRadio, 2] call TFAR_fnc_setSwChannel}; //HORNET 1
-			case "2_2": {[_currentRadio, 3] call TFAR_fnc_setSwChannel}; //HORNET 2
-			case "3_1": {[_currentRadio, 4] call TFAR_fnc_setSwChannel}; //ARROW 1
-			case "3_2": {[_currentRadio, 5] call TFAR_fnc_setSwChannel}; //ARROW 2
-			case "4_1": {[_currentRadio, 6] call TFAR_fnc_setSwChannel}; //BREACHER 1
-			case "4_2": {[_currentRadio, 7] call TFAR_fnc_setSwChannel}; //BREACHER 2
+			case "1_1": {[_currentRadio, 0] call TFAR_fnc_setSwChannel}; //RAPTOR 
+			case "2_1": {[_currentRadio, 1] call TFAR_fnc_setSwChannel}; //HORNET
+			case "3_1": {[_currentRadio, 2] call TFAR_fnc_setSwChannel}; //ARROW
+			case "4_1": {[_currentRadio, 3] call TFAR_fnc_setSwChannel}; //BREACHER
+			case "5_1": {[_currentRadio, 4] call TFAR_fnc_setSwChannel}; //DELTA
 			default {[_currentRadio, 8] call TFAR_fnc_setSwChannel}; //DEFAULT
 		};
 
 		if ((_unit == "1") && (_squadNumber > 0)) then {
-			[_currentRadio, 2] call TFAR_fnc_setSwStereo;
+			[_currentRadio, 2] call TFAR_fnc_setSwStereo; //RADiO CORTA LADO DERECHO PARA LIDERES
 			//[_currentRadio, 7] call TFAR_fnc_setAdditionalSwChannel;
 			//[_currentRadio, 2] call TFAR_fnc_setAdditionalSwStereo;
 		};

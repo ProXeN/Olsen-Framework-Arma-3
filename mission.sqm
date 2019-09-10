@@ -8,7 +8,7 @@ class EditorData
 	toggles=1061;
 	class ItemIDProvider
 	{
-		nextID=298;
+		nextID=305;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7770.6069,19.296881,4332.8784};
-		dir[]={-0.037420645,-0.50626409,0.86171192};
-		up[]={-0.021975355,0.86217761,0.50605875};
-		aside[]={0.99914294,1.7286366e-006,0.043397974};
+		pos[]={7772.8682,27.992599,4353.3647};
+		dir[]={-0.098676406,-0.67139494,0.73467594};
+		up[]={-0.089399844,0.74087161,0.66561872};
+		aside[]={0.99118608,-5.8265869e-007,0.13313702};
 	};
 };
 binarizationWanted=0;
@@ -473,7 +473,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=92;
+		items=93;
 		class Item0
 		{
 			dataType="Group";
@@ -1196,6 +1196,29 @@ class Mission
 				name="blu_1_1";
 			};
 			id=0;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Raptor";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item1
 		{
@@ -2625,12 +2648,12 @@ class Mission
 		class Item16
 		{
 			dataType="Trigger";
-			position[]={7766,5,4364};
+			position[]={7768,5,4364};
 			class Attributes
 			{
 				condition="call{{_x call FNC_Alive} count thisList <= 1}";
-				sizeA=8;
-				sizeB=8;
+				sizeA=10;
+				sizeB=10;
 				timeout[]={10,10,10};
 				interuptable=1;
 				activationType="NOT PRESENT";
@@ -3443,6 +3466,29 @@ class Mission
 				name="blu_2_1";
 			};
 			id=158;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Hornet";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item24
 		{
@@ -4165,6 +4211,29 @@ class Mission
 				name="blu_3_1";
 			};
 			id=165;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Arrow";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item25
 		{
@@ -4887,6 +4956,29 @@ class Mission
 				name="blu_4_1";
 			};
 			id=172;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Breacher";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item26
 		{
@@ -6438,8 +6530,32 @@ class Mission
 			};
 			class Attributes
 			{
+				name="blu_0_0";
 			};
 			id=205;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Zero";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item40
 		{
@@ -11123,6 +11239,751 @@ class Mission
 					};
 				};
 				nAttributes=4;
+			};
+		};
+		class Item92
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=6;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4368.0498};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{[this, ""CTS_FTL"", ""Delta""] call FNC_GearScript; [this, ""YELLOW""] call FNC_SetTeamColor;}";
+						name="blu_5_1_1";
+						description="Lider de Equipo@Delta";
+						isPlayable=1;
+					};
+					id=299;
+					type="B_Soldier_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4366.0498};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{[this, ""CTS_M"", ""Delta""] call FNC_GearScript; [this, ""BLUE""] call FNC_SetTeamColor;}";
+						name="blu_5_1_2";
+						description="Tirador Designado";
+						isPlayable=1;
+					};
+					id=300;
+					type="B_soldier_M_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4364.0498};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{[this, ""CTS_AR"", ""Delta""] call FNC_GearScript; [this, ""BLUE""] call FNC_SetTeamColor;}";
+						name="blu_5_1_3";
+						description="Fusilero Automático";
+						isPlayable=1;
+					};
+					id=301;
+					type="B_soldier_AR_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4358.0498};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{[this, ""CTS_MEDIC"", ""Delta""] call FNC_GearScript; [this, ""YELLOW""] call FNC_SetTeamColor;}";
+						name="blu_5_1_6";
+						description="Médico";
+						isPlayable=1;
+					};
+					id=302;
+					type="B_medic_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4360.0498};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{[this, ""CTS_ENG"", ""Delta""] call FNC_GearScript; [this, ""RED""] call FNC_SetTeamColor;}";
+						name="blu_5_1_5";
+						description="Ingeniero";
+						isPlayable=1;
+					};
+					id=303;
+					type="B_engineer_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={7776,5.0014391,4362.0498};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="call{[this, ""CTS_AT"", ""Delta""] call FNC_GearScript; [this, ""RED""] call FNC_SetTeamColor;}";
+						name="blu_5_1_4";
+						description="Fusilero (AT)";
+						isPlayable=1;
+					};
+					id=304;
+					type="B_soldier_LAT_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="mrh_message_codeToExec";
+							expression="_this setVariable ['MRH_message_codeToExecute',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="mrh_textMess";
+							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male08ENG";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="mrh_message_passedParams";
+							expression="_this setVariable ['MRH_message_parametersPassed',_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="[]";
+								};
+							};
+						};
+						nAttributes=5;
+					};
+				};
+			};
+			class Attributes
+			{
+				name="blu_5_1";
+			};
+			id=298;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="[_this, _value] call CBA_fnc_setCallsign";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Delta";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};
