@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7772.8682,27.992599,4353.3647};
-		dir[]={-0.098676406,-0.67139494,0.73467594};
-		up[]={-0.089399844,0.74087161,0.66561872};
-		aside[]={0.99118608,-5.8265869e-007,0.13313702};
+		pos[]={7767.4341,22.087048,4346.9048};
+		dir[]={-0.01233056,-0.67203796,0.74058449};
+		up[]={-0.011189615,0.74028802,0.67214435};
+		aside[]={0.99994618,-3.7622385e-008,0.016655978};
 	};
 };
 binarizationWanted=0;
@@ -2714,7 +2714,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7764,5,4354};
+				position[]={7766,5,4354};
 			};
 			name="hc1";
 			isPlayable=1;
@@ -2726,7 +2726,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7766,5,4354};
+				position[]={7768,5,4354};
 			};
 			name="hc2";
 			isPlayable=1;
@@ -2738,7 +2738,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7768,5,4354};
+				position[]={7770,5,4354};
 			};
 			name="hc3";
 			isPlayable=1;
@@ -11156,7 +11156,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7766,5,4352};
+				position[]={7768,5,4352};
 			};
 			id=297;
 			type="ModuleCurator_F";
