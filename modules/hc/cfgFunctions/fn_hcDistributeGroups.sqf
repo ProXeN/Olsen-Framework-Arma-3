@@ -33,9 +33,9 @@ if (isMultiplayer && isServer) then {
         };
         
         /* Don't move if the group shouldn't be moved */
-        private _noMove = _x getVariable ["FHQ_HC_HC_NOMOVE", false];
+        private _noMove = _x getVariable ["FHQ_HC_NOMOVE", false];
         {
-            if (_x getVariable ["FHQ_HC_HC_NOMOVE", false]) then {
+            if (_x getVariable ["FHQ_HC_NOMOVE", false]) then {
                 _noMove = true;
             };
         } foreach units _x;
