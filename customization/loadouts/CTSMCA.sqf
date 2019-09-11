@@ -105,7 +105,9 @@ SET_GROUP(items) //Objetos básicos
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
 	["TF_ANPRC152"] call FNC_AddItem;
 	
-	if (sunOrMoon < 1) then { //Objetos básicos nocturnos
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0; 	
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1; 	
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Objetos básicos nocturnos
 		["ACE_Flashlight_XL50",1,"vest"] call FNC_AddItem;
 		["ACE_IR_Strobe_Item",1,"vest"] call FNC_AddItem;
 		["B_IR_Grenade",1,"vest"] call FNC_AddItem;
@@ -129,7 +131,9 @@ SET_GROUP(rifle) //Rifle principal
 	["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["rhsusf_acc_grip2"] call FNC_AddItem; //Laser	
 	
-	if (sunOrMoon < 1) then { //Accesorios nocturnos para rifle
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
 		["rhsusf_acc_anpeq15side"] call FNC_AddItem; //Laser	
 		["rhsusf_acc_nt4_tan"] call FNC_AddItem; //Silenciador
 	};
@@ -144,7 +148,9 @@ SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["1Rnd_Smoke_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["1Rnd_SmokeRed_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	
-	if (sunOrMoon < 1) then { //Accesorios nocturnos para rifle
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
 		["rhsusf_acc_anpeq15side"] call FNC_AddItem; //Laser	
 		["rhsusf_acc_nt4_tan"] call FNC_AddItem; //Silenciador
 	};
@@ -156,7 +162,9 @@ SET_GROUP(rifleM) //Rifle Marksman
 	["optic_AMS_snd"] call FNC_AddItem; //Mira 
 	["bipod_01_F_snd"] call FNC_AddItem; //Bípode
 	
-	if (sunOrMoon < 1) then { //Accesorios nocturnos para rifle
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
 		["optic_nightstalker",1,"backpack"] call FNC_AddItem; //Mira Nocturna
 		["acc_pointer_ir"] call FNC_AddItem; //Laser	
 		["muzzle_snds_B_snd_f"] call FNC_AddItem; //Silenciador
@@ -168,7 +176,9 @@ SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	["rhs_weap_m249_pip_L"] call FNC_AddItem; //Rifle
 	["rhsusf_acc_compm4"] call FNC_AddItem; //Mira 
 	
-	if (sunOrMoon < 1) then { //Accesorios nocturnos para rifle
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
 		["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
 		["rhsusf_acc_nt4_black"] call FNC_AddItem; //Silenciador
 	};
