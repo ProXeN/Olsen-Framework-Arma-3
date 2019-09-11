@@ -97,4 +97,14 @@ if (!isDedicated) then {
 	player addRating 100000; //Makes sure ai doesnt turn hostile when teamkilling
 	player setVariable ["BIS_noCoreConversations", true]; //Disable scroll wheel conversations
 
+	//Post Processing Effect During Daytime
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if !(daytime < (_lite) || (daytime + 1) > _dark) then { 
+		_eoreal3 = PPEffectCreate ["ColorCorrections", 2005];
+		_eoreal3   PPEffectAdjust [0.75, 0.75, -0.05, [0.00, 0.00, 0.00, -1.00], [2.00, 2.00, 2.00, 1.05], [-4.00, 2.50, 2.50, 0.00]];
+		_eoreal3   PPEffectCommit 0;
+		_eoreal3   PPEffectForceInNVG false;
+		_eoreal3   PPEffectEnable true;
+	};
 };
