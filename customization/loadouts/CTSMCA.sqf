@@ -121,7 +121,6 @@ SET_GROUP(ammofrag) //Granadas/Explosivos básicos
 	["SmokeShellGreen", 2] call FNC_AddItem;
 	["HandGrenade", 2] call FNC_AddItem;
 	["rhs_mag_mk84",4,"vest"] call FNC_AddItem;
-	["AMP_Breaching_Charge_Mag",1,"vest"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
@@ -193,6 +192,7 @@ END_GROUP;
 SET_GROUP(EXP) //Explosivos
 	["DemoCharge_Remote_Mag",2,"backpack"] call FNC_AddItem; //M112
 	["SatchelCharge_Remote_Mag",1,"backpack"] call FNC_AddItem; //M183
+	["AMP_Breaching_Charge_Mag",3,"vest"] call FNC_AddItem; //Breaching Charge
 END_GROUP;
 
 SET_GROUP(pistol) //Pistola
