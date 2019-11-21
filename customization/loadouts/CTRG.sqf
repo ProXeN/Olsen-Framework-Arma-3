@@ -5,7 +5,7 @@ SET_GROUP(uniformFTL)
 	["V_PlateCarrierL_CTRG"] call FNC_AddItem;
 	["H_Cap_khaki_specops_UK"] call FNC_AddItem;
 	if (TFAR_Enabled) then {
-		["tf_rt1523g"] call FNC_AddItem;
+		["TFAR_rt1523g"] call FNC_AddItem;
 	} else {
 		["B_AssaultPack_khk"] call FNC_AddItem;
 	};

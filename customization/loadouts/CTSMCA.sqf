@@ -103,7 +103,7 @@ SET_GROUP(items) //Objetos básicos
 	["ItemcTabHCam",1,"vest"] call FNC_AddItem;
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
-	["TF_ANPRC152"] call FNC_AddItem;
+	["TFAR_ANPRC152"] call FNC_AddItem;
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0; 	
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1; 	
