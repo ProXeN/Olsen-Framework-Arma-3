@@ -21,4 +21,5 @@ switch (_type) do {
 	//#include "loadouts\CTSATACSFG.sqf" //ATACS FG
 	//#include "loadouts\CTSMCA.sqf" //Multicam Arido
 	//#include "loadouts\CTSAOR1.sqf" //AOR1
+	//#include "loadouts\CTSRUS.sqf" //Multicam RUS
 };
