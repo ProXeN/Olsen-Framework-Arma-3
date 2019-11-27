@@ -76,6 +76,44 @@ switch (_type) do {
 		};
 	};
 
+	case "FULLRUS": {
+		
+		_vehicle call FNC_RemoveAllVehicleGear;
+
+		["rhs_30Rnd_545x39_7N22_AK", 40] call FNC_AddItemVehicle;
+		["rhs_30Rnd_545x39_AK_plum_green", 40] call FNC_AddItemVehicle;
+		["rhs_VOG25", 15] call FNC_AddItemVehicle;
+		["rhs_VG40OP_white", 15] call FNC_AddItemVehicle;
+		["RHS_VG40OP_red", 15] call FNC_AddItemVehicle;
+		["10Rnd_762x54_Mag", 20] call FNC_AddItemVehicle;
+		["75rnd_762x39_AK12_Mag_F", 20] call FNC_AddItemVehicle;
+		["RPG32_F", 10] call FNC_AddItemVehicle;
+		["RPG32_HE_F", 10] call FNC_AddItemVehicle;
+		["DemoCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
+		["SatchelCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
+		["16Rnd_9x21_Mag", 20] call FNC_AddItemVehicle;
+		["ACE_CableTie", 20] call FNC_AddItemVehicle;
+		["SmokeShell", 30] call FNC_AddItemVehicle;
+		["SmokeShellGreen", 30] call FNC_AddItemVehicle;
+		["SmokeShellBlue", 30] call FNC_AddItemVehicle;
+		["HandGrenade", 30] call FNC_AddItemVehicle;
+
+		if (isClass(configFile>>"CfgPatches">>"ACE_COMMON")) then {
+			["ACE_fieldDressing", 50] call FNC_AddItemVehicle;
+			["ACE_elasticBandage", 50] call FNC_AddItemVehicle;
+			["ACE_packingBandage", 50] call FNC_AddItemVehicle;
+			["ACE_quikclot", 50] call FNC_AddItemVehicle;
+			["ACE_morphine", 50] call FNC_AddItemVehicle;
+			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
+			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
+			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
+			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
+		} else {
+			["FirstAidKit", 50] call FNC_AddItemVehicle;
+		};
+	};
+
 	case "AIR": {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
