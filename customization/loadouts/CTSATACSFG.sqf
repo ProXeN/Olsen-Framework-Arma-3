@@ -260,7 +260,6 @@ case (package + "ENG"): { //Medic
 	ADD_GROUP(rifle);
 	ADD_GROUP(EXP);
 	["MRH_HackingTool"] call FNC_AddItem; //Hacking Tool
-	["ACE_wirecutter"] call FNC_AddItem; //Wirecutter
 	["Toolkit",1, "backpack"] call FNC_AddItem; //Toolkit
 };
 
