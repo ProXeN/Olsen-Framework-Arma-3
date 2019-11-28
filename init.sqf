@@ -17,6 +17,15 @@ if (isServer) then {
 				
 		};	
 	};
+
+	[] spawn { // Place all editor units under Curator control
+        {
+            _x addCuratorEditableObjects [allUnits, true];
+            _x addCuratorEditableObjects [vehicles, true];
+			_x addCuratorEditableObjects [allUnitsUAV, true];
+			_x addCuratorEditableObjects [allMines, true];
+        } forEach allCurators;
+    };
 };
 
 #include "modules\modules.sqf" //DO NOT REMOVE
