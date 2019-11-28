@@ -1,50 +1,83 @@
 #define package "CTS_"
 
 SET_GROUP(uniform) //Uniforme Básico
-	["U_O_R_Gorka_01_F"
-	] call FNC_AddItem;
+	["USP_CRYE_G3FC",
+	"USP_FLEECE_G3C_TAN",
+	"USP_CRYE_G3C_SHORT",
+	"USP_CRYE_G3C_SHORT_ATACSAU_MC",
+	"USP_PCU_G3C_MC"
+	] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
-	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["tfw_ilbe_dd_gr"] call FNC_AddItem;
+	["CPC_belt_LBTgp", "CPC_belt_LBTgpcoy"] call FNC_AddItemRandom;
+	["milgp_h_airframe_01_KHK", "milgp_h_airframe_01_KHK_hexagon", "milgp_h_airframe_01_MC",
+	"milgp_h_airframe_02_KHK", "milgp_h_airframe_02_KHK_hexagon", "milgp_h_airframe_02_MC",
+	"milgp_h_airframe_04_KHK", "milgp_h_airframe_04_KHK_hexagon", "milgp_h_airframe_04_MC",
+	"CTS_AirFrame" ] call FNC_AddItemRandom;
+	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformM) //Uniforme Marksman
-	["CTS_JPC_2_Ranger", "CTS_JPC_3_Ranger"] call FNC_AddItemRandom;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
+	["CTS_JPC_2", "CTS_JPC_3"] call FNC_AddItemRandom;
+	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
+	 "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
+	 "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
+	 "milgp_h_opscore_04_mc"] call FNC_AddItemRandom;
+	["CTS_MC_Backpack_compact"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
-	["CTS_FAPC_MG_OGA_OD", "CTS_CarrierRig_Gunner_OGA_OD", "CTS_LBT6094_MG_OGA_OD", "CTS_RAV_MG_OGA_OD"] call FNC_AddItemRandom;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
+	["CTS_FAPC_MG_Multicam", "CTS_CarrierRig_Gunner_Multicam", "CTS_LBT6094_MG_Multicam", "CTS_RAV_MG_Multicam",
+	 "CTS_FAPC_MG_OGA", "CTS_CarrierRig_Gunner_OGA", "CTS_LBT6094_MG_OGA", "CTS_RAV_MG_OGA"] call FNC_AddItemRandom;
+	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
+	 "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
+	 "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
+	 "milgp_h_opscore_04_mc"] call FNC_AddItemRandom;
+	["CTS_MC_Backpack_compact"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAT) //Uniforme Rifleman AT
-	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
+	["CPC_belt_LBT", "CPC_belt_LBTcoy"] call FNC_AddItemRandom;
+	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
+	 "milgp_h_opscore_01_khk_hexagon", "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
+	 "milgp_h_opscore_02_khk_hexagon", "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
+	 "milgp_h_opscore_04_khk_hexagon", "milgp_h_opscore_04_mc"] call FNC_AddItemRandom;
+	["CTS_MC_Backpack_compact"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformENG) //Uniforme Engineer
-	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["CTS_MCT_Kitbag_compact2"] call FNC_AddItemRandom;
+	["CPC_belt_LBT", "CPC_belt_LBTcoy"] call FNC_AddItemRandom;
+	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
+	 "milgp_h_opscore_01_khk_hexagon", "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
+	 "milgp_h_opscore_02_khk_hexagon", "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
+	 "milgp_h_opscore_04_khk_hexagon", "milgp_h_opscore_04_mc"] call FNC_AddItemRandom;
+	["CTS_MC_Kitbag_compact", "CTS_MCA_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
-	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
-	["CTS_MCT_Kitbag_compact2"] call FNC_AddItemRandom;
+	["CPC_belt_LBT", "CPC_belt_LBTcoy"] call FNC_AddItemRandom;
+	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
+	 "milgp_h_opscore_01_khk_hexagon", "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
+	 "milgp_h_opscore_02_khk_hexagon", "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
+	 "milgp_h_opscore_04_khk_hexagon", "milgp_h_opscore_04_mc"] call FNC_AddItemRandom;
+	["CTS_MC_Kitbag_compact", "CTS_MCA_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformCM) //Uniforme CM
-	["CPC_belt_LBTgprgr"] call FNC_AddItem;
+	["CPC_belt_LBT", "CPC_belt_LBTcoy"] call FNC_AddItemRandom;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
-	["tfw_ilbe_dd_gr"] call FNC_AddItem;
+	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(IFAK) //Medicinas básicas
@@ -83,6 +116,8 @@ SET_GROUP(items) //Objetos básicos
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
 	["TFAR_ANPRC152"] call FNC_AddItem;
+	["CTS_FaceMask_tan", "CTS_FaceMask_Ghost_tan", "CTS_FaceMask_black", "CTS_Facemask_black_glasses", "CTS_Facemask_tan_glasses", 
+	"CTS_Facemask_black_goggles", "CTS_Facemask_tan_goggles", "milgp_f_face_shield_tactical_khk", "milgp_f_face_shield_tactical_blk"] call FNC_AddItemRandom;
 	[_unit,"RUFlagW"] call BIS_fnc_setUnitInsignia;
 
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
@@ -105,11 +140,11 @@ END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
 	["rhs_30Rnd_545x39_7N22_AK",6,"vest"] call FNC_AddItem; //Munición Principal
-	["AK74M_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
-	["rhsusf_acc_eotech_552"] call FNC_AddItem; //Mira
-	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria	
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
-	["silencer_hybrid_46"] call FNC_AddItem; //Silenciador
+	["AK105_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
+	["sma_eotech552"] call FNC_AddItem; //Mira
+	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
+	["jas_sfpeq_ak_top_blk"] call FNC_AddItem; //Laser	
+	["rhs_acc_ak5"] call FNC_AddItem; //Silenciador
 END_GROUP;
 
 SET_GROUP(rifleGL) //Rifle lanzagranadas
@@ -120,31 +155,41 @@ SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["rhs_VG40OP_white",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["RHS_VG40OP_red",4,"backpack"] call FNC_AddItem; //Granada Secundaria
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
-	["silencer_hybrid_46"] call FNC_AddItem; //Silenciador
+	["cup_acc_anpeq_15_top_flashlight_black_l"] call FNC_AddItem; //Laser	
+	["rhs_acc_ak5"] call FNC_AddItem; //Silenciador
 END_GROUP;
 
 SET_GROUP(rifleM) //Rifle Marksman
-	["10Rnd_762x54_Mag",12,"vest"] call FNC_AddItem; //Munición Principal
-	["srifle_DMR_01_black_F"] call FNC_AddItem; //Rifle
-	["optic_AMS"] call FNC_AddItem; //Mira 
+	["10Rnd_127x54_Mag",12,"vest"] call FNC_AddItem; //Munición Principal
+	["srifle_DMR_04_F"] call FNC_AddItem; //Rifle
+	["optic_dms_weathered_f"] call FNC_AddItem; //Mira 
 	["bipod_02_F_blk"] call FNC_AddItem; //Bípode
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
-	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
+	
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
+		["optic_nightstalker",1,"backpack"] call FNC_AddItem; //Mira Nocturna
+		["acc_pointer_ir"] call FNC_AddItem; //Laser	
+	};
 END_GROUP;
 
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	["75rnd_762x39_AK12_Mag_F",10,"vest"] call FNC_AddItem; //Munición Principal
 	["arifle_RPK12_F"] call FNC_AddItem; //Rifle
 	["optic_holosight_blk_f"] call FNC_AddItem; //Mira 
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
-	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
+	
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
+		["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+		["muzzle_snds_b"] call FNC_AddItem; //Silenciador
+	};
 END_GROUP;
 
 SET_GROUP(AT) //AT
-	["RPG32_F",2,"backpack"] call FNC_AddItem; //Munición Principal
-	["launch_RPG32_green_F"] call FNC_AddItem; //AT
-	["RPG32_HE_F",1,"backpack"] call FNC_AddItem; //Munición Secundaria
+	["MRAWS_HEAT_F",2,"backpack"] call FNC_AddItem; //Munición Principal
+	["launch_MRAWS_sand_F"] call FNC_AddItem; //AT
+	["MRAWS_HE_F",1,"backpack"] call FNC_AddItem; //Munición Secundaria
 END_GROUP;
 
 SET_GROUP(EXP) //Explosivos
@@ -232,14 +277,11 @@ case (package + "MEDIC"): { //Medic
 case (package + "RFL"): { //Rifleman
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformENG);
-	["rhs_30Rnd_545x39_7N22_AK",1] call FNC_AddItem; //Munición Principal
-	["AK74M_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
-	["rhsusf_acc_eotech_552"] call FNC_AddItem; //Mira
-};
-
-case (package + "UNARMED"): { //Rifleman
-	ADD_GROUP(uniform);
-	ADD_GROUP(uniformENG);
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(ammofrag);
+	ADD_GROUP(rifle);
+	ADD_GROUP(pistol);
 };
 
 case (package + "CM"): { //CM
