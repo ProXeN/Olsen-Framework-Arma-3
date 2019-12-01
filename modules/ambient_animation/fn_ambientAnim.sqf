@@ -62,7 +62,7 @@
 	-
 
 	Example:
-	[this,"SIT_HIGH2"] call BIS_fnc_ambientAnim;
+	[this,"SIT_HIGH2"] call FNC_ambientAnim;
 */
 
 private["_unit","_animset","_gear","_anims","_anim","_linked","_xSet","_azimutFix","_interpolate","_canInterpolate","_attach"];
@@ -74,7 +74,7 @@ private["_attachOffset","_attachObj","_attachSpecsAuto","_attachSpecs","_attachS
 
 	_unit  	 	 	= _this param [0, objNull, [objNull]];
 	_animset 	 	= _this param [1, "STAND", [""]];
-	_gear		 	= _this param [2, "RANDOM", [""]];
+	_gear		 	= _this param [2, "ASIS", [""]];
 	_forcedSnapPoint= _this param [3, objNull, [objNull]];
 	_interpolate	= _this param [4, false, [true]];
 	_attach			= _this param [5, true, [true]];
@@ -91,6 +91,7 @@ private["_attachOffset","_attachObj","_attachSpecsAuto","_attachSpecs","_attachS
 
 	//Prep unit, get weapons
 	if (primaryWeapon _unit != "") then {_unit setVariable ["ambientAnimMonitor_weapon",_weapon]};
+	(group this) setVariable ["Vcm_Disable",true];
 	{_unit disableAI _x} forEach ["ANIM","AUTOTARGET","FSM","MOVE","TARGET"];
 	detach _unit;
 

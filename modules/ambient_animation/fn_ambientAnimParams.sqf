@@ -51,6 +51,28 @@ switch (_this) do
 		_canInterpolate = true;
 	};
 
+	case "STAND_WEAPONCHECK":
+	{
+		_anims = [
+			"Acts_Rifle_Operations_Back",
+			"Acts_Rifle_Operations_Barrel",
+			"Acts_Rifle_Operations_Checking_Chamber",
+			"Acts_Rifle_Operations_Front",
+			"Acts_Rifle_Operations_Left",
+			"Acts_Rifle_Operations_Right",
+			"Acts_Rifle_Operations_Zeroing"
+		];
+		_canInterpolate = true;
+	};
+
+	case "STAND_BRIEFING":
+	{
+		_anims = [
+			"Acts_RU_Briefing_Overview"
+		];
+		_canInterpolate = true;
+	};
+
 	//generic standing without weapon
 	case "STAND_U1":
 	{
@@ -66,6 +88,11 @@ switch (_this) do
 	case "STAND_U3":
 	{
 		_anims 	= ["HubStandingUC_idle1","HubStandingUC_idle2","HubStandingUC_idle3","HubStandingUC_move1","HubStandingUC_move2"];
+		_noWeapon = true;
+	};
+	case "STAND_CIVILIAN":
+	{
+		_anims 	= ["Acts_CivilIdle_1", "Acts_CivilIdle_2", "Acts_CivilTalking_1", "Acts_CivilTalking_2", "Acts_CivilListening_1", "Acts_CivilListening_2"];
 		_noWeapon = true;
 	};
 
@@ -159,6 +186,14 @@ switch (_this) do
 	{
 		_anims = ["HubSittingChairC_idle1","HubSittingChairC_idle2","HubSittingChairC_idle3","HubSittingChairC_move1"];
 		_attachOffset = -0.5;
+		_attachSnap = 2;
+		_noBackpack = true;
+	};
+
+	case "SIT_SHOCKED":
+	{
+		_anims = ["Acts_CivilShocked_1", "Acts_CivilShocked_2"];
+		_attachOffset = 0;
 		_attachSnap = 2;
 		_noBackpack = true;
 	};
