@@ -13,6 +13,13 @@ SET_GROUP(uniform) //Uniforme Básico
 	] call FNC_AddItemRandom;
 END_GROUP;
 
+SET_GROUP(helmet) //Cascos
+	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
+	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
+	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
+	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
+END_GROUP;
+
 SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
 	["CTS_CIRAS_Ranger", "CTS_CIRAS_2_Ranger", "CTS_CIRAS_3_Ranger"] call FNC_AddItemRandom;
 	["milgp_h_airframe_01_RGR_hexagon", "milgp_h_airframe_02_RGR_hexagon", "milgp_h_airframe_04_RGR_hexagon"] call FNC_AddItemRandom;
@@ -21,48 +28,28 @@ END_GROUP;
 
 SET_GROUP(uniformM) //Uniforme Marksman
 	["CTS_Armatus_2_Ranger", "CTS_LBT6094_gen2_Ranger"] call FNC_AddItemRandom;
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
-	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
-	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
-	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
 	["CTS_FAPC_MG_MulticamTropic", "CTS_CarrierRig_Gunner_MulticamTropic", "CTS_RAV_MG_MulticamTropic",
 	 "CTS_FAPC_MG_OGA_OD", "CTS_CarrierRig_Gunner_OGA_OD", "CTS_LBT6094_MG_OGA_OD", "CTS_RAV_MG_OGA_OD"] call FNC_AddItemRandom;
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
-	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
-	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
-	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAT) //Uniforme Rifleman AT
 	["CTS_JPC_Ranger", "CTS_JPC_2_Ranger", "CTS_JPC_3_Ranger", "CTS_Armatus_1_Ranger"] call FNC_AddItemRandom;
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
-	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
-	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
-	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformENG) //Uniforme Engineer
 	["CTS_RAV_operator_MulticamTropic", "CTS_FAPC_Breacher_MulticamTropic", "CTS_FAPC_Operator_MulticamTropic",
 	 "CTS_FAPC_Breacher_OGA_OD", "CTS_FAPC_Operator_OGA_OD"] call FNC_AddItemRandom;
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
-	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
-	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
-	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
 	["CTS_MCT_Backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
 	["6094_MEDIC_od"] call FNC_AddItem;
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
-	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
-	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
-	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;
 	["CTS_MCT_Kitbag_compact2"] call FNC_AddItem;
 END_GROUP;
 
@@ -220,6 +207,7 @@ case (package + "FTL"): { //Lider de Equipo
 
 case (package + "M"): { //Marksman
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformM);
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
@@ -234,6 +222,7 @@ case (package + "M"): { //Marksman
 
 case (package + "AR"): { //Automatic Rifleman
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformAR);
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
@@ -242,8 +231,9 @@ case (package + "AR"): { //Automatic Rifleman
 	ADD_GROUP(pistol);
 };
 
-case (package + "AT"): { //Medic
+case (package + "AT"): { //AT
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformAT);
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
@@ -252,8 +242,9 @@ case (package + "AT"): { //Medic
 	ADD_GROUP(AT);
 };
 
-case (package + "ENG"): { //Medic
+case (package + "ENG"): { //Engineer
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformENG);
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
@@ -266,6 +257,7 @@ case (package + "ENG"): { //Medic
 
 case (package + "MEDIC"): { //Medic
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformMEDIC);
 	ADD_GROUP(ifakMEDIC);
 	ADD_GROUP(items);
@@ -274,14 +266,18 @@ case (package + "MEDIC"): { //Medic
 	ADD_GROUP(pistol);
 };
 
-case (package + "RFL"): { //Medic
+case (package + "RFL"): { //Rifleman
 	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
 	ADD_GROUP(uniformENG);
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
 };
 
-case (package + "CM"): { //Medic
+case (package + "CM"): { //CM
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformCM);
 	ADD_GROUP(ifak);

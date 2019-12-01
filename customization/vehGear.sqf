@@ -96,7 +96,8 @@ switch (_type) do {
 		["SmokeShell", 30] call FNC_AddItemVehicle;
 		["SmokeShellGreen", 30] call FNC_AddItemVehicle;
 		["SmokeShellBlue", 30] call FNC_AddItemVehicle;
-		["HandGrenade", 30] call FNC_AddItemVehicle;
+		["rhs_mag_rgo", 30] call FNC_AddItemVehicle;
+		["rhs_mag_zarya2", 30] call FNC_AddItemVehicle;
 
 		if (isClass(configFile>>"CfgPatches">>"ACE_COMMON")) then {
 			["ACE_fieldDressing", 50] call FNC_AddItemVehicle;

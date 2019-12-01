@@ -1,43 +1,37 @@
 #define package "CTS_"
 
 SET_GROUP(uniform) //Uniforme Básico
-	["U_O_R_Gorka_01_F"
-	] call FNC_AddItem;
+	["U_O_R_Gorka_01_F"] call FNC_AddItem;
+	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
 	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["tfw_ilbe_dd_gr"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformM) //Uniforme Marksman
 	["CTS_JPC_2_Ranger", "CTS_JPC_3_Ranger"] call FNC_AddItemRandom;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
 	["CTS_FAPC_MG_OGA_OD", "CTS_CarrierRig_Gunner_OGA_OD", "CTS_LBT6094_MG_OGA_OD", "CTS_RAV_MG_OGA_OD"] call FNC_AddItemRandom;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAT) //Uniforme Rifleman AT
 	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["CTS_MCT_backpack_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformENG) //Uniforme Engineer
 	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["CTS_MCT_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
 	["CPC_belt_LBTgprgr"] call FNC_AddItem;
-	["H_HelmetSpecter_paint_headset_F", "H_HelmetSpecter_cover_khaki_F", "H_HelmetSpecter_headset_F"] call FNC_AddItemRandom;
 	["CTS_MCT_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
@@ -99,8 +93,8 @@ END_GROUP;
 SET_GROUP(ammofrag) //Granadas/Explosivos básicos
 	["SmokeShell", 2] call FNC_AddItem;
 	["SmokeShellGreen", 2] call FNC_AddItem;
-	["HandGrenade", 2] call FNC_AddItem;
-	["rhs_mag_mk84",4,"vest"] call FNC_AddItem;
+	["rhs_mag_rgo", 2] call FNC_AddItem;
+	["rhs_mag_zarya2",4,"vest"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
@@ -197,7 +191,7 @@ case (package + "AR"): { //Automatic Rifleman
 	ADD_GROUP(pistol);
 };
 
-case (package + "AT"): { //Medic
+case (package + "AT"): { //AT
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformAT);
 	ADD_GROUP(ifak);
@@ -207,7 +201,7 @@ case (package + "AT"): { //Medic
 	ADD_GROUP(AT);
 };
 
-case (package + "ENG"): { //Medic
+case (package + "ENG"): { //Engineer
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformENG);
 	ADD_GROUP(ifak);
@@ -232,12 +226,13 @@ case (package + "MEDIC"): { //Medic
 case (package + "RFL"): { //Rifleman
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformENG);
-	["rhs_30Rnd_545x39_7N22_AK",1] call FNC_AddItem; //Munición Principal
-	["AK74M_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
-	["rhsusf_acc_eotech_552"] call FNC_AddItem; //Mira
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(ammofrag);
+	ADD_GROUP(rifle);
 };
 
-case (package + "UNARMED"): { //Rifleman
+case (package + "UNARMED"): { //Unarmed
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformENG);
 };
