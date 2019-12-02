@@ -8,7 +8,7 @@ class EditorData
 	toggles=37;
 	class ItemIDProvider
 	{
-		nextID=369;
+		nextID=371;
 	};
 	class MarkerIDProvider
 	{
@@ -16,16 +16,17 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7767.1592,24.627539,4330.9336};
-		dir[]={-0.0017057724,-0.77588373,0.63107145};
-		up[]={-0.0020972798,0.63015807,0.77641737};
-		aside[]={1.0000862,-2.0776829e-006,0.0027026429};
+		pos[]={7762.061,8.6616707,4362.9292};
+		dir[]={-0.014338836,-0.38663206,0.92226398};
+		up[]={-0.0060238163,0.92180675,0.38749516};
+		aside[]={0.9999581,-1.0986453e-006,0.015549351};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Characters_F",
+	"A3_Aegis_Characters_F_Aegis",
 	"ace_explosives",
 	"A3_Ui_F",
 	"cfp_uniforms",
@@ -39,6 +40,7 @@ addons[]=
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Enoch_Military_Barracks",
 	"A3_Props_F_Exp_A_Military_Equipment",
+	"A3_Aegis_Props_F_Aegis_Military_Equipment",
 	"A3_Props_F_Enoch_Military_Camps",
 	"A3_Characters_F_Common",
 	"A3_Drones_F_Air_F_Gamma_UAV_02",
@@ -46,23 +48,26 @@ addons[]=
 	"A3_Air_F_Jets_UAV_05",
 	"3den_Objects",
 	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Aegis_Supplies_F_Aegis_CargoNets",
 	"A3_Structures_F_Exp_Infrastructure_Pavements",
 	"A3_Structures_F_Heli_Items_Airport",
 	"uh60",
 	"A3_Modules_F_Curator_Curator",
 	"SSS_module",
 	"A3_Armor_F_Gamma_MBT_01",
+	"A3_Aegis_Armor_F_Aegis_MBT_01",
 	"rhsusf_c_troops",
 	"RHS_US_A2_AirImport",
 	"Kimi_HMDs_RHS_UI_Optional",
 	"ace_compat_rhs_usf3",
-	"Kimi_HMDs_RHS"
+	"Kimi_HMDs_RHS",
+	"A3_Props_F_Destroyer_Military_BriefingRoomScreen"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=29;
+		items=34;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -72,184 +77,219 @@ class AddonsMetaData
 		};
 		class Item1
 		{
+			className="A3_Aegis_Characters_F_Aegis";
+			name="Arma 3 Aegis - Characters and Clothing";
+			author="AveryTheKitty";
+			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		};
+		class Item2
+		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item2
+		class Item3
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item4
 		{
 			className="cfp_uniforms";
 			name="cfp_uniforms";
 			author="CFP Team";
 		};
-		class Item4
+		class Item5
 		{
 			className="RHNET_Actionbuilder";
 			name="RHNET_Actionbuilder";
 		};
-		class Item5
+		class Item6
 		{
 			className="Desert";
 			name="Desert";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Enoch - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item10
 		{
 			className="MRHMiscItems";
 			name="MRHMiscItems";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Structures_F_Exp_Commercial";
 			name="Arma 3 Apex - Commercial Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Enoch - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item15
+		{
+			className="A3_Aegis_Props_F_Aegis";
+			name="Arma 3 Aegis - Decorative and Mission Objects";
+			author="AveryTheKitty";
+			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		};
+		class Item16
 		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item17
 		{
 			className="A3_Air_F_Jets";
 			name="Arma 3 Jets - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item18
 		{
 			className="3den_Objects";
 			name="3den_Objects";
 		};
-		class Item17
+		class Item19
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item20
+		{
+			className="A3_Aegis_Supplies_F_Aegis";
+			name="Arma 3 Aegis - Ammoboxes and Supplies";
+			author="AveryTheKitty";
+			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		};
+		class Item21
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item22
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item23
 		{
 			className="uh60";
 			name="uh60";
 		};
-		class Item21
+		class Item24
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item25
 		{
 			className="SSS_module";
 			name="module";
 			author="Simplex Team";
 			url="https://github.com/SceptreOfficial/Simplex-Support-Services";
 		};
-		class Item23
+		class Item26
 		{
 			className="A3_Armor_F_Gamma";
 			name="Arma 3 - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item27
+		{
+			className="A3_Aegis_Armor_F_Aegis";
+			name="Arma 3 Aegis - Armored Land Vehicles";
+			author="AveryTheKitty";
+			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+		};
+		class Item28
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item25
+		class Item29
 		{
 			className="RHS_US_A2_AirImport";
 			name="RHSUSF A2 Air Ports";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item26
+		class Item30
 		{
 			className="Kimi_HMDs_RHS_UI_Optional";
 			name="Kimi_HMDs_RHS_UI_Optional";
 		};
-		class Item27
+		class Item31
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item28
+		class Item32
 		{
 			className="Kimi_HMDs_RHS";
 			name="Kimi_HMDs_RHS";
+		};
+		class Item33
+		{
+			className="A3_Props_F_Destroyer";
+			name="CFGPATCHES_A3_Props_F_Destroyer";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -490,7 +530,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=104;
+		items=106;
 		class Item0
 		{
 			dataType="Group";
@@ -7110,7 +7150,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="cts_assets\monitor\monitor_01.paa";
+							value="cts_assets\enoch\laptop1.paa";
 						};
 					};
 				};
@@ -8468,7 +8508,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7758,5.4438882,4370};
-				angles[]={0,4.712389,0};
+				angles[]={-0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -14279,6 +14319,173 @@ class Mission
 			title="Drones/Gunship/CAS Aviones";
 			id=368;
 		};
+		class Item104
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7757.5244,4.9910955,4370.4307};
+				angles[]={-0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=369;
+			type="Land_BriefingRoomScreen_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="cts_assets\enoch\laptopmain2.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item105
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7728,5,4277};
+			};
+			id=370;
+			type="SSS_module_AssignRequesters";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SSS_module_AssignRequesters_AssignList";
+					expression="_this setVariable ['AssignList',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="blu_0_0_1";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
 	};
 	class Connections
 	{
@@ -14492,8 +14699,8 @@ class Mission
 			class Item20
 			{
 				linkID=20;
-				item0=336;
-				item1=333;
+				item0=354;
+				item1=370;
 				class CustomData
 				{
 					type="Sync";
@@ -14502,8 +14709,8 @@ class Mission
 			class Item21
 			{
 				linkID=21;
-				item0=352;
-				item1=333;
+				item0=353;
+				item1=370;
 				class CustomData
 				{
 					type="Sync";
@@ -14512,8 +14719,8 @@ class Mission
 			class Item22
 			{
 				linkID=22;
-				item0=353;
-				item1=333;
+				item0=352;
+				item1=370;
 				class CustomData
 				{
 					type="Sync";
@@ -14522,8 +14729,8 @@ class Mission
 			class Item23
 			{
 				linkID=23;
-				item0=354;
-				item1=333;
+				item0=336;
+				item1=370;
 				class CustomData
 				{
 					type="Sync";
