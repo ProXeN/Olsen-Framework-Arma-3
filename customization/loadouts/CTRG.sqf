@@ -103,7 +103,7 @@ SET_GROUP(rifleGL)
 	["1Rnd_HE_Grenade_shell",6] call FNC_AddItem;
 	["arifle_SPAR_01_GL_blk_F"] call FNC_AddItem;
 	["optic_ERCO_blk_F"] call FNC_AddItem;
-	["acc_pointer_IR"] call FNC_AddItem;
+	["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem;
 	["muzzle_snds_m"] call FNC_AddItem;
 END_GROUP;
 
@@ -111,7 +111,7 @@ SET_GROUP(rifleM)
 	["10Rnd_338_Mag",8] call FNC_AddItem;
 	["srifle_DMR_02_camo_F"] call FNC_AddItem;
 	["optic_ams"] call FNC_AddItem;
-	["acc_pointer_IR"] call FNC_AddItem;
+	["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem;
 	["bipod_01_f_blk"] call FNC_AddItem;
 	["muzzle_snds_338_black"] call FNC_AddItem;
 END_GROUP;
@@ -120,7 +120,7 @@ SET_GROUP(rifleAR)
 	["200Rnd_65x39_cased_Box",4] call FNC_AddItem;
 	["LMG_Mk200_black_F"] call FNC_AddItem;
 	["optic_yorris"] call FNC_AddItem;
-	["acc_pointer_IR"] call FNC_AddItem;
+	["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem;
 	["bipod_01_f_blk"] call FNC_AddItem;
 END_GROUP;
 
@@ -129,7 +129,7 @@ SET_GROUP(rifle)
 	["30Rnd_556x45_Stanag_Tracer_red",2] call FNC_AddItem;
 	["arifle_SPAR_01_blk_F"] call FNC_AddItem;
 	["optic_holosight_blk_f"] call FNC_AddItem;
-	["acc_pointer_IR"] call FNC_AddItem;
+	["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem;
 	["muzzle_snds_m"] call FNC_AddItem;
 END_GROUP;
 

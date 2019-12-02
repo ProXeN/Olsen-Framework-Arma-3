@@ -102,7 +102,7 @@ SET_GROUP(rifle) //Rifle principal
 	["AK74M_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
 	["rhsusf_acc_eotech_552"] call FNC_AddItem; //Mira
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria	
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 	["silencer_hybrid_46"] call FNC_AddItem; //Silenciador
 END_GROUP;
 
@@ -114,7 +114,7 @@ SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["rhs_VG40OP_white",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["RHS_VG40OP_red",4,"backpack"] call FNC_AddItem; //Granada Secundaria
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 	["silencer_hybrid_46"] call FNC_AddItem; //Silenciador
 END_GROUP;
 
@@ -123,7 +123,7 @@ SET_GROUP(rifleM) //Rifle Marksman
 	["srifle_DMR_01_black_F"] call FNC_AddItem; //Rifle
 	["optic_AMS"] call FNC_AddItem; //Mira 
 	["bipod_02_F_blk"] call FNC_AddItem; //Bípode
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
 END_GROUP;
 
@@ -131,7 +131,7 @@ SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	["75rnd_762x39_AK12_Mag_F",10,"vest"] call FNC_AddItem; //Munición Principal
 	["arifle_RPK12_F"] call FNC_AddItem; //Rifle
 	["optic_holosight_blk_f"] call FNC_AddItem; //Mira 
-	["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
 END_GROUP;
 

@@ -152,7 +152,7 @@ SET_GROUP(rifleM) //Rifle Marksman
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
 	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
 		["optic_nightstalker",1,"backpack"] call FNC_AddItem; //Mira Nocturna
-		["acc_pointer_ir"] call FNC_AddItem; //Laser	
+		["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem; //Laser	
 		["muzzle_snds_B_snd_f"] call FNC_AddItem; //Silenciador
 	};
 END_GROUP;
@@ -165,7 +165,7 @@ SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
 	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
-		["rhsusf_acc_anpeq15side_bk"] call FNC_AddItem; //Laser	
+		["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem; //Laser	
 		["rhsusf_acc_nt4_black"] call FNC_AddItem; //Silenciador
 	};
 END_GROUP;
