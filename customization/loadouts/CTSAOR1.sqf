@@ -10,7 +10,7 @@ SET_GROUP(uniform) //Uniforme Básico
 END_GROUP;
 
 SET_GROUP(helmet) //Cascos
-	["Mohawk_Core_cyalumen_tan", "CTS_MCA_Helmet_Light", "CTS_Mich2000_2_OGA", 
+	["CTS_MCA_Helmet_Light", "CTS_Mich2000_2_OGA", 
 	 "CTS_oga_OPS", "CTS_Tan_spray_OPS", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", 
 	 "milgp_h_opscore_01_KHK","milgp_h_opscore_02_KHK","milgp_h_opscore_04_KHK",
 	 "milgp_h_opscore_01_khk_hexagon","milgp_h_opscore_02_khk_hexagon","milgp_h_opscore_04_khk_hexagon",

@@ -10,9 +10,9 @@ SET_GROUP(uniform) //Uniforme Básico
 END_GROUP;
 
 SET_GROUP(helmet) //Cascos
-	["CTS_Mich2000_Multicam", "CTS_Mich2000_OGA", "OPS_CORE_F", "CTS_Mich2000_CamoSprayTAN",
+	["CTS_Mich2000_Multicam", "CTS_Mich2000_OGA", "CTS_Mich2000_CamoSprayTAN",
 	 "CTS_Mich2000_2_Multicam", "CTS_Mich2000_2_OGA", "CTS_Mich2000_2_CamoSprayTAN",
-	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS", "USP_OPSCORE_FASTMTC_CMSW", 
 	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
 	 "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
 	 "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",

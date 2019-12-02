@@ -14,7 +14,7 @@ SET_GROUP(uniform) //Uniforme Básico
 END_GROUP;
 
 SET_GROUP(helmet) //Cascos
-	["Mohawk_Core_cyalumen_OD", "OPS_CORE_F", "OPS_CORE_strap_F", "CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS",
+	["CTS_oga_OD_OPS", "CTS_OD_spray_OPS", "CTS_MulticamTropic_OPS", "USP_OPSCORE_FASTMTC_MCT_CMSW", 
 	 "CTS_oga_OD_OPS_2", "CTS_od_spray_OPS_2", "milgp_h_opscore_01_RGR", "CTS_MulticamTropic_OPS_2",
 	 "milgp_h_opscore_01_RGR_Hexagon", "milgp_h_opscore_02_RGR", "milgp_h_opscore_02_RGR_Hexagon", "milgp_h_opscore_04_RGR",
 	 "milgp_h_opscore_04_RGR_Hexagon"] call FNC_AddItemRandom;

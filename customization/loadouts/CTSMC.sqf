@@ -13,8 +13,7 @@ SET_GROUP(uniform) //Uniforme Básico
 END_GROUP;
 
 SET_GROUP(helmet) //Cascos
-	["Mohawk_Core_cyalumen_tan", "Mohawk_Core_cyalumen_MTP", "OPS_CORE_F",
-	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS",
+	["CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS", "USP_OPSCORE_FASTMTC_CMSW", 
 	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
 	 "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
 	 "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
