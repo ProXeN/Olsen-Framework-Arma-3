@@ -45,12 +45,12 @@ SET_GROUP(uniformENG) //Uniforme Engineer
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
-	["6094_MEDIC_coy"] call FNC_AddItem;
+	["milgp_v_jpc_medic_cb"] call FNC_AddItem;
 	["CTS_MCA_Kitbag_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformCM) //Uniforme CM
-	["mbss_com_od"] call FNC_AddItem;
+	["milgp_v_jpc_teamleader_cb"] call FNC_AddItem;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
 	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
