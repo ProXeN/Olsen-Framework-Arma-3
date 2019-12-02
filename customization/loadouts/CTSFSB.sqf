@@ -98,7 +98,6 @@ SET_GROUP(items) //Objetos básicos
 	["TFAR_ANPRC152"] call FNC_AddItem;
 	["CTS_FaceMask_tan", "CTS_FaceMask_Ghost_tan", "CTS_FaceMask_black", "CTS_Facemask_black_glasses", "CTS_Facemask_tan_glasses", 
 	"CTS_Facemask_black_goggles", "CTS_Facemask_tan_goggles", "milgp_f_face_shield_tactical_khk", "milgp_f_face_shield_tactical_blk"] call FNC_AddItemRandom;
-	[_unit,"RUFlagW"] call BIS_fnc_setUnitInsignia;
 
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
