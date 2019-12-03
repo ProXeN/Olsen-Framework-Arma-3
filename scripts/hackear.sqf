@@ -2,11 +2,11 @@ if !(isServer) exitWith {};
 
 //Define Terminal
 _terminal = _this select 0;
-_codeProgress = {
-  private _progressTick = _this select 4;
-  if (_progressTick % 2 == 0) exitwith {};
-  playsound3d [((getarray (configfile >> "CfgSounds" >> "Orange_Action_Wheel" >> "sound")) param [0,""]) + ".wss",player,false,getposasl player,1,0.9 + 0.2 * _progressTick / 24];
-};
+// _codeProgress = {
+//   private _progressTick = _this select 4;
+//   if (_progressTick % 2 == 0) exitwith {};
+//   playsound3d [((getarray (configfile >> "CfgSounds" >> "Orange_Action_Wheel" >> "sound")) param [0,""]) + ".wss",player,false,getposasl player,1,0.9 + 0.2 * _progressTick / 24];
+// };
 
 //Add Hold Action
 [
@@ -16,8 +16,8 @@ _terminal,              /* 0: Target */
 "\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_hack_ca.paa",     /* 3: progressIcon */
 "_this distance _target < 3",  /* 4: CondShow */
 "_caller distance _target < 3",/* 5: codeProgress */
-{},                       /* 6: codeStart */
-_codeProgress,                       /* 7: codeTick */
+{playSound3D ["cts_assets\sounds\Sfx_terminal_disabled_01.wss",(_this select 0)]},                       /* 6: codeStart */
+{},                       /* 7: codeTick */
 {
 //["taskHack","succeeded"] remoteExec ["FHQ_fnc_ttSetTaskState", 2]
 [(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove",[0,-2] select isDedicated,true];
@@ -36,7 +36,7 @@ _codeProgress,                       /* 7: codeTick */
 },    /* 8: codeCompleted */
 {},                        /* 9: codeInterrupted */
 [],                        /* 10: Arguments */
-3,                        /* 11: Duration */
+2.5,                        /* 11: Duration */
 10,                        /* 12: priority */
 true,                    /* 13: Remove on completion */
 false                    /* 14: Show if unconcious */
