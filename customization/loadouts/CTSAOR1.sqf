@@ -50,7 +50,7 @@ SET_GROUP(uniformMEDIC) //Uniforme Medic
 	["CTS_MCA_Kitbag_compact2"] call FNC_AddItem;
 END_GROUP;
 
-SET_GROUP(uniformCM) //Uniforme Medic
+SET_GROUP(uniformCM) //Uniforme CM
 	["milgp_v_jpc_teamleader_cb"] call FNC_AddItem;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
 	["tfw_ilbe_dd_coy"] call FNC_AddItem;

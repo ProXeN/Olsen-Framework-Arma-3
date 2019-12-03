@@ -242,6 +242,7 @@ case (package + "AT"): { //AT
 };
 
 case (package + "ENG"): { //Engineer
+	ADD_GROUP(uniform);
 	ADD_GROUP(helmet);
 	ADD_GROUP(uniformENG);
 	ADD_GROUP(ifak);
