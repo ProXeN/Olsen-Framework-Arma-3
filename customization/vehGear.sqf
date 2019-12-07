@@ -40,8 +40,8 @@ switch (_type) do {
 		
 		_vehicle call FNC_RemoveAllVehicleGear;
 
-		["rhs_mag_30Rnd_556x45_Mk262_Stanag", 40] call FNC_AddItemVehicle;
-		["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red", 40] call FNC_AddItemVehicle;
+		["rhs_mag_30Rnd_556x45_Mk262_PMAG", 40] call FNC_AddItemVehicle;
+		["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red", 40] call FNC_AddItemVehicle;
 		["rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan", 40] call FNC_AddItemVehicle;
 		["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red", 40] call FNC_AddItemVehicle;
 		["1Rnd_HE_Grenade_shell", 15] call FNC_AddItemVehicle;

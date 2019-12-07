@@ -115,10 +115,10 @@ SET_GROUP(ammofrag) //Granadas/Explosivos básicos
 END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
-	["rhs_mag_30Rnd_556x45_Mk262_Stanag",6,"vest"] call FNC_AddItem; //Munición Principal
+	["rhs_mag_30Rnd_556x45_Mk262_PMAG",6,"vest"] call FNC_AddItem; //Munición Principal
 	["SMA_MK18afgOD"] call FNC_AddItem; //Rifle
 	["cup_optic_eotech553_od"] call FNC_AddItem; //Mira
-	["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
+	["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
@@ -129,11 +129,11 @@ SET_GROUP(rifle) //Rifle principal
 END_GROUP;
 
 SET_GROUP(rifleGL) //Rifle lanzagranadas
-	["rhs_mag_30Rnd_556x45_Mk262_Stanag",6,"vest"] call FNC_AddItem; //Munición Principal
+	["rhs_mag_30Rnd_556x45_Mk262_PMAG",6,"vest"] call FNC_AddItem; //Munición Principal
 	["1Rnd_HE_Grenade_shell",6,"vest"] call FNC_AddItem; //Granada Principal
 	["SMA_MK18OD_GL"] call FNC_AddItem; //Rifle
 	["SMA_ELCAN_SPECTER_green_RDS_4z"] call FNC_AddItem; //Mira
-	["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
+	["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["1Rnd_Smoke_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["1Rnd_SmokeRed_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	
@@ -163,7 +163,7 @@ END_GROUP;
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	["rhsusf_200rnd_556x45_M855_mixed_box",5,"vest"] call FNC_AddItem; //Munición Principal
 	["rhs_weap_m249_pip_L"] call FNC_AddItem; //Rifle
-	["rhsusf_acc_compm4"] call FNC_AddItem; //Mira 
+	["sma_spitfire_03_rds_low_black"] call FNC_AddItem; //Mira 
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;

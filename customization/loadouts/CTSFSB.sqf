@@ -12,7 +12,7 @@ END_GROUP;
 SET_GROUP(helmet) //Cascos
 	["CTS_Mich2000_Multicam", "CTS_Mich2000_OGA", "CTS_Mich2000_CamoSprayTAN",
 	 "CTS_Mich2000_2_Multicam", "CTS_Mich2000_2_OGA", "CTS_Mich2000_2_CamoSprayTAN",
-	 "OPS_CORE_strap_F", "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS", "USP_OPSCORE_FASTMTC_CMSW", 
+	 "CTS_OPS_Multicam", "CTS_oga_OPS", "CTS_Tan_spray_OPS", "USP_OPSCORE_FASTMTC_CMSW", 
 	 "CTS_OPS_2_multicam", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", "milgp_h_opscore_01_KHK",
 	 "milgp_h_opscore_01_mc", "milgp_h_opscore_02_KHK",
 	 "milgp_h_opscore_02_mc", "milgp_h_opscore_04_KHK",
@@ -154,9 +154,9 @@ SET_GROUP(rifleM) //Rifle Marksman
 END_GROUP;
 
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
-	["75rnd_762x39_AK12_Mag_F",10,"vest"] call FNC_AddItem; //Munición Principal
+	["75rnd_762x39_AK12_Mag_F",6,"vest"] call FNC_AddItem; //Munición Principal
 	["arifle_RPK12_F"] call FNC_AddItem; //Rifle
-	["optic_holosight_blk_f"] call FNC_AddItem; //Mira 
+	["optic_arco_ak_blk_f"] call FNC_AddItem; //Mira 
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
@@ -164,6 +164,14 @@ SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 		["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 		["muzzle_snds_b"] call FNC_AddItem; //Silenciador
 	};
+END_GROUP;
+
+SET_GROUP(ammoAR) //Rifle Automatic Rifleman
+	["75rnd_762x39_AK12_Mag_F",6,"backpack"] call FNC_AddItem; //Munición Principal
+END_GROUP;
+
+SET_GROUP(ammorifle) //Rifle Automatic Rifleman
+	["rhs_30Rnd_545x39_7N22_AK",6,"backpack"] call FNC_AddItem; //Munición Principal
 END_GROUP;
 
 SET_GROUP(AT) //AT
@@ -205,6 +213,7 @@ case (package + "M"): { //Marksman
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
 	ADD_GROUP(ammofrag);
+	ADD_GROUP(ammoAR);
 	ADD_GROUP(rifleM);
 	ADD_GROUP(pistol);
 	["ACE_Vector"] call FNC_AddItem; //Vector
@@ -268,6 +277,7 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
+	ADD_GROUP(ammorifle);
 };
 
 case (package + "CM"): { //CM

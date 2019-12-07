@@ -127,11 +127,24 @@ SET_GROUP(rifleM) //Rifle Marksman
 END_GROUP;
 
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
-	["75rnd_762x39_AK12_Mag_F",10,"vest"] call FNC_AddItem; //Munición Principal
+	["75rnd_762x39_AK12_Mag_F",6,"vest"] call FNC_AddItem; //Munición Principal
 	["arifle_RPK12_F"] call FNC_AddItem; //Rifle
 	["optic_holosight_blk_f"] call FNC_AddItem; //Mira 
-	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
-	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
+	
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
+		["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
+		["muzzle_snds_b"] call FNC_AddItem; //Silenciador
+	};
+END_GROUP;
+
+SET_GROUP(ammoAR) //Rifle Automatic Rifleman
+	["75rnd_762x39_AK12_Mag_F",6,"backpack"] call FNC_AddItem; //Munición Principal
+END_GROUP;
+
+SET_GROUP(ammorifle) //Rifle Automatic Rifleman
+	["rhs_30Rnd_545x39_7N22_AK",6,"backpack"] call FNC_AddItem; //Munición Principal
 END_GROUP;
 
 SET_GROUP(AT) //AT
@@ -172,6 +185,7 @@ case (package + "M"): { //Marksman
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
 	ADD_GROUP(ammofrag);
+	ADD_GROUP(ammoAR);
 	ADD_GROUP(rifleM);
 	ADD_GROUP(pistol);
 	["ACE_Vector"] call FNC_AddItem; //Vector
@@ -229,6 +243,7 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(items);
 	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
+	ADD_GROUP(ammorifle);
 };
 
 case (package + "UNARMED"): { //Unarmed

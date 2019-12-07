@@ -158,9 +158,9 @@ SET_GROUP(rifleM) //Rifle Marksman
 END_GROUP;
 
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
-	["rhsusf_200rnd_556x45_M855_mixed_box",5,"vest"] call FNC_AddItem; //Munición Principal
+	["rhsusf_200rnd_556x45_M855_mixed_box",4,"vest"] call FNC_AddItem; //Munición Principal
 	["rhs_weap_m249_pip_L"] call FNC_AddItem; //Rifle
-	["rhsusf_acc_compm4"] call FNC_AddItem; //Mira 
+	["sma_spitfire_03_rds_low_black"] call FNC_AddItem; //Mira 
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
@@ -168,6 +168,14 @@ SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 		["cup_acc_anpeq_15_flashlight_black_f"] call FNC_AddItem; //Laser	
 		["rhsusf_acc_nt4_black"] call FNC_AddItem; //Silenciador
 	};
+END_GROUP;
+
+SET_GROUP(ammoAR) //Rifle Automatic Rifleman
+	["rhsusf_200rnd_556x45_M855_mixed_box",3,"backpack"] call FNC_AddItem; //Munición Principal
+END_GROUP;
+
+SET_GROUP(ammorifle) //Rifle Automatic Rifleman
+	["rhs_mag_30Rnd_556x45_Mk262_PMAG",8,"backpack"] call FNC_AddItem; //Munición Principal
 END_GROUP;
 
 SET_GROUP(AT) //AT
@@ -209,6 +217,7 @@ case (package + "M"): { //Marksman
 	ADD_GROUP(ifak);
 	ADD_GROUP(items);
 	ADD_GROUP(ammofrag);
+	ADD_GROUP(ammoAR);
 	ADD_GROUP(rifleM);
 	ADD_GROUP(pistol);
 	["ACE_Vector"] call FNC_AddItem; //Vector
@@ -272,6 +281,7 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
+	ADD_GROUP(ammorifle);
 };
 
 case (package + "CM"): { //CM
