@@ -85,8 +85,7 @@ SET_GROUP(items) //Objetos básicos
 	["ItemMap"] call FNC_AddItem;
 	["ItemCompass"] call FNC_AddItem;
 	["ItemWatch"] call FNC_AddItem;
-	["ACE_MapTools",1,"vest"] call FNC_AddItem;
-	["ACE_microDAGR",1,"vest"] call FNC_AddItem;
+	["ItemMicroDAGR",1,"vest"] call FNC_AddItem;
 	["ItemcTabHCam",1,"vest"] call FNC_AddItem;
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;

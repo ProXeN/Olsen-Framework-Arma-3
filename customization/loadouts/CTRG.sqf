@@ -82,7 +82,7 @@ SET_GROUP(items)
 	if (ACE_Enabled) then {
 		["ACE_MapTools"] call FNC_AddItem;
 		["ACE_Flashlight_XL50"] call FNC_AddItem;
-		["ACE_microDAGR"] call FNC_AddItem;
+		["ItemMicroDAGR"] call FNC_AddItem;
 		["ACE_CableTie", 2] call FNC_AddItem;
 		if (ace_hearing) then {
 			["ACE_earplugs"] call FNC_AddItem;
