@@ -119,7 +119,7 @@ END_GROUP;
 SET_GROUP(rifleM) //Rifle Marksman
 	["10Rnd_762x54_Mag",12,"vest"] call FNC_AddItem; //Munición Principal
 	["srifle_DMR_01_black_F"] call FNC_AddItem; //Rifle
-	["optic_AMS"] call FNC_AddItem; //Mira 
+	["rhsusf_acc_leupoldmk4_2_mrds"] call FNC_AddItem; //Mira 
 	["bipod_02_F_blk"] call FNC_AddItem; //Bípode
 	["rhsusf_acc_anpeq15_bk"] call FNC_AddItem; //Laser	
 	["muzzle_snds_b"] call FNC_AddItem; //Silenciador
@@ -191,6 +191,7 @@ case (package + "M"): { //Marksman
 	["ACE_Kestrel4500",1,"vest"] call FNC_AddItem; //Kestrel
 	["ACE_ATragMX",1,"vest"] call FNC_AddItem; //AtragMX
 	["ACE_RangeCard",1,"vest"] call FNC_AddItem; //Tablas
+	["ACE_MapTools",1,"vest"] call FNC_AddItem; //Map Tools
 };
 
 case (package + "AR"): { //Automatic Rifleman

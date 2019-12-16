@@ -146,8 +146,8 @@ END_GROUP;
 
 SET_GROUP(rifleM) //Rifle Marksman
 	["20Rnd_762x51_Mag",9,"vest"] call FNC_AddItem; //Munición Principal
-	["srifle_DMR_03_khaki_F"] call FNC_AddItem; //Rifle
-	["optic_AMS_khk"] call FNC_AddItem; //Mira 
+	["arifle_SPAR_03_khk_F"] call FNC_AddItem; //Rifle
+	["rhsusf_acc_leupoldmk4_2_mrds"] call FNC_AddItem; //Mira 
 	["bipod_01_F_blk"] call FNC_AddItem; //Bípode
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
@@ -217,6 +217,7 @@ case (package + "M"): { //Marksman
 	["ACE_Kestrel4500",1,"vest"] call FNC_AddItem; //Kestrel
 	["ACE_ATragMX",1,"vest"] call FNC_AddItem; //AtragMX
 	["ACE_RangeCard",1,"vest"] call FNC_AddItem; //Tablas
+	["ACE_MapTools",1,"vest"] call FNC_AddItem; //Map Tools
 };
 
 case (package + "AR"): { //Automatic Rifleman

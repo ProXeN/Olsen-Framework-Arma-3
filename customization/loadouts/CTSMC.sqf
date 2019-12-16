@@ -21,7 +21,8 @@ SET_GROUP(helmet) //Cascos
 END_GROUP;
 
 SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
-	["CTS_CIRAS", "CTS_CIRAS_2", "CTS_CIRAS_3"] call FNC_AddItemRandom;
+	["CTS_CIRAS", "CTS_CIRAS_2", "CTS_CIRAS_3", "milgp_v_marciras_teamleader_belt_CB", "milgp_v_marciras_teamleader_belt_mc", 
+	"milgp_v_jpc_teamleader_belt_CB", "milgp_v_jpc_teamleader_belt_mc"] call FNC_AddItemRandom;
 	["milgp_h_airframe_01_KHK", "milgp_h_airframe_01_KHK_hexagon", "milgp_h_airframe_01_MC",
 	"milgp_h_airframe_02_KHK", "milgp_h_airframe_02_KHK_hexagon", "milgp_h_airframe_02_MC",
 	"milgp_h_airframe_04_KHK", "milgp_h_airframe_04_KHK_hexagon", "milgp_h_airframe_04_MC",
@@ -150,8 +151,8 @@ END_GROUP;
 
 SET_GROUP(rifleM) //Rifle Marksman
 	["20Rnd_762x51_Mag",9,"vest"] call FNC_AddItem; //Munición Principal
-	["srifle_DMR_03_F"] call FNC_AddItem; //Rifle
-	["optic_AMS"] call FNC_AddItem; //Mira 
+	["arifle_SPAR_03_blk_F"] call FNC_AddItem; //Rifle
+	["rhsusf_acc_leupoldmk4_2_mrds"] call FNC_AddItem; //Mira 
 	["bipod_01_F_blk"] call FNC_AddItem; //Bípode
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
@@ -230,6 +231,7 @@ case (package + "M"): { //Marksman
 	["ACE_Kestrel4500",1,"vest"] call FNC_AddItem; //Kestrel
 	["ACE_ATragMX",1,"vest"] call FNC_AddItem; //AtragMX
 	["ACE_RangeCard",1,"vest"] call FNC_AddItem; //Tablas
+	["ACE_MapTools",1,"vest"] call FNC_AddItem; //Map Tools
 };
 
 case (package + "AR"): { //Automatic Rifleman
