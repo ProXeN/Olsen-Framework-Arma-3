@@ -22,7 +22,7 @@ _terminal,              /* 0: Target */
 "\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_hack_ca.paa",     /* 3: progressIcon */
 "_this distance _target < 3",  /* 4: CondShow */
 "_caller distance _target < 3",/* 5: codeProgress */
-{playSound3D ["cts_assets\sounds\Sfx_terminal_disabled_01.wss",(_this select 0)]},                       /* 6: codeStart */
+{playSound3D ["cts_assets\sounds\Sfx_terminal_disabled_01.wss",(_this select 0),false,getPos (_this select 0),1,1,50]},                       /* 6: codeStart */
 {},                       /* 7: codeTick */
 {
     if ('MRH_HackingTool' in items (_this select 1)) then {
