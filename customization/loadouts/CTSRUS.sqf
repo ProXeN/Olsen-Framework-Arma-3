@@ -91,7 +91,7 @@ END_GROUP;
 SET_GROUP(ammofrag) //Granadas/Explosivos básicos
 	["SmokeShell", 2] call FNC_AddItem;
 	["SmokeShellGreen", 2] call FNC_AddItem;
-	["rhs_mag_rgo", 2] call FNC_AddItem;
+	["rhs_mag_rgn", 2] call FNC_AddItem;
 	["rhs_mag_zarya2",4,"vest"] call FNC_AddItem;
 END_GROUP;
 
