@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7758.6133,6.7044363,4369.4033};
-		dir[]={-0.63956636,-0.76844072,0.026708091};
-		up[]={-0.7683143,0.63920045,0.032085199};
-		aside[]={0.041724328,-2.422616e-006,0.99920768};
+		pos[]={7748.8403,35.199131,4304.2295};
+		dir[]={0.60335708,-0.59411204,0.53221232};
+		up[]={0.44610804,0.8037765,0.39350456};
+		aside[]={0.66156471,-1.8866267e-006,-0.74999624};
 	};
 };
 binarizationWanted=0;
@@ -7066,7 +7066,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7758,6.0544133,4369.5};
-				angles[]={-0,4.712389,0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13574,7 +13574,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="(group this) setVariable ['Vcm_Disable',true]";
 						};
 					};
 				};
@@ -13631,7 +13631,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="300";
+							value="600";
 						};
 					};
 				};
@@ -13650,7 +13650,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="600";
+							value="10";
 						};
 					};
 				};
@@ -13759,7 +13759,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="(group this) setVariable ['Vcm_Disable',true]";
 						};
 					};
 				};
@@ -13906,7 +13906,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="(group this) setVariable ['Vcm_Disable',true]";
 						};
 					};
 				};
@@ -13925,7 +13925,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="300";
+							value="600";
 						};
 					};
 				};
@@ -14493,7 +14493,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7758,6.054348,4369};
-				angles[]={-0,4.712389,0};
+				angles[]={0,4.712389,0};
 			};
 			side="Empty";
 			flags=4;
