@@ -118,27 +118,40 @@ END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
 	["rhs_30Rnd_545x39_7N22_AK",6,"vest"] call FNC_AddItem; //Munición Principal
-	["AK105_Zenitco_Long_magpul_RVG"] call FNC_AddItem; //Rifle
+	["rhs_weap_ak105_zenitco01_b33"] call FNC_AddItem; //Rifle
 	["sma_eotech552"] call FNC_AddItem; //Mira
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
-	["jas_sfpeq_ak_top_blk"] call FNC_AddItem; //Laser	
+	["rhs_acc_perst3_top"] call FNC_AddItem; //Laser	
 	["rhs_acc_ak5"] call FNC_AddItem; //Silenciador
+
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
+		["rhs_acc_perst3"] call FNC_AddItem; //Laser	
+		["rhs_acc_tgpa"] call FNC_AddItem; //Silenciador
+	};
 END_GROUP;
 
 SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["rhs_30Rnd_545x39_7N22_AK",6,"vest"] call FNC_AddItem; //Munición Principal
 	["rhs_VOG25",6,"vest"] call FNC_AddItem; //Granada Principal
-	["rhs_weap_ak74mr_gp25"] call FNC_AddItem; //Rifle
+	["CUP_arifle_AK74M_GL_railed"] call FNC_AddItem; //Rifle
 	["SMA_ELCAN_SPECTER_RDS_4z"] call FNC_AddItem; //Mira
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["rhs_VG40OP_white",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["RHS_VG40OP_red",4,"backpack"] call FNC_AddItem; //Granada Secundaria
-	["cup_acc_anpeq_15_top_flashlight_black_l"] call FNC_AddItem; //Laser	
 	["rhs_acc_ak5"] call FNC_AddItem; //Silenciador
+
+	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
+	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
+	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
+		["rhs_acc_perst3"] call FNC_AddItem; //Laser	
+		["rhs_acc_tgpa"] call FNC_AddItem; //Silenciador
+	};
 END_GROUP;
 
 SET_GROUP(rifleM) //Rifle Marksman
-	["10Rnd_762x54_Mag",12,"vest"] call FNC_AddItem; //Munición Principal
+	["10Rnd_762x54_Mag",18,"vest"] call FNC_AddItem; //Munición Principal
 	["srifle_DMR_01_black_F"] call FNC_AddItem; //Rifle
 	["rhsusf_acc_leupoldmk4_2_mrds"] call FNC_AddItem; //Mira 
 	["bipod_02_F_blk"] call FNC_AddItem; //Bípode
