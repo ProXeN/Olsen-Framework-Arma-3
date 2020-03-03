@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7748.8403,35.199131,4304.2295};
-		dir[]={0.60335708,-0.59411204,0.53221232};
-		up[]={0.44610804,0.8037765,0.39350456};
-		aside[]={0.66156471,-1.8866267e-006,-0.74999624};
+		pos[]={7745.5322,19.517288,4288.8872};
+		dir[]={0.31041625,-0.33863923,-0.88838166};
+		up[]={0.11201353,0.94053358,-0.3205739};
+		aside[]={-0.94410992,-9.7567681e-007,-0.32989168};
 	};
 };
 binarizationWanted=0;
@@ -530,7 +530,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=107;
+		items=106;
 		class Item0
 		{
 			dataType="Group";
@@ -14456,39 +14456,6 @@ class Mission
 		};
 		class Item105
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={7728,5,4277};
-			};
-			id=370;
-			type="SSS_module_AssignRequesters";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="SSS_module_AssignRequesters_AssignList";
-					expression="_this setVariable ['AssignList',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="blu_0_0_1";
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item106
-		{
 			dataType="Object";
 			class PositionInfo
 			{
@@ -14872,8 +14839,8 @@ class Mission
 			class Item20
 			{
 				linkID=20;
-				item0=354;
-				item1=370;
+				item0=352;
+				item1=333;
 				class CustomData
 				{
 					type="Sync";
@@ -14883,7 +14850,7 @@ class Mission
 			{
 				linkID=21;
 				item0=353;
-				item1=370;
+				item1=333;
 				class CustomData
 				{
 					type="Sync";
@@ -14892,8 +14859,8 @@ class Mission
 			class Item22
 			{
 				linkID=22;
-				item0=352;
-				item1=370;
+				item0=354;
+				item1=333;
 				class CustomData
 				{
 					type="Sync";
@@ -14903,7 +14870,7 @@ class Mission
 			{
 				linkID=23;
 				item0=336;
-				item1=370;
+				item1=333;
 				class CustomData
 				{
 					type="Sync";
