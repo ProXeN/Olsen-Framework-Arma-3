@@ -32,24 +32,24 @@ END_GROUP;
 
 SET_GROUP(uniformM) //Uniforme Marksman
 	["CTS_Armatus_2", "CTS_LBT6094_gen2"] call FNC_AddItemRandom;
-	["CTS_MC_Backpack_compact"] call FNC_AddItem;
+	["milgp_bp_hydration_cb"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
 	["CTS_FAPC_MG_Multicam", "CTS_CarrierRig_Gunner_Multicam", "CTS_LBT6094_MG_Multicam", "CTS_RAV_MG_Multicam",
 	 "CTS_FAPC_MG_OGA", "CTS_CarrierRig_Gunner_OGA", "CTS_LBT6094_MG_OGA", "CTS_RAV_MG_OGA"] call FNC_AddItemRandom;
-	["CTS_MC_Backpack_compact"] call FNC_AddItem;
+	["milgp_bp_hydration_cb", "milgp_bp_hydration_mc"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformAT) //Uniforme Rifleman AT
 	["CTS_JPC", "CTS_JPC_2", "CTS_JPC_3", "CTS_Armatus_1"] call FNC_AddItemRandom;
-	["CTS_MC_Backpack_compact"] call FNC_AddItem;
+	["milgp_bp_Breacher_cb"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformENG) //Uniforme Engineer
 	["CTS_RAV_operator_Multicam", "CTS_FAPC_Breacher_Multicam", "CTS_FAPC_Operator_Multicam",
 	 "CTS_FAPC_Breacher_OGA", "CTS_FAPC_Operator_OGA"] call FNC_AddItemRandom;
-	["CTS_MC_Kitbag_compact", "CTS_MCA_Kitbag_compact2"] call FNC_AddItemRandom;
+	["milgp_bp_Pointman_mc", "milgp_bp_Pointman_cb"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
