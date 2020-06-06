@@ -119,7 +119,7 @@ switch (_type) do {
 
 		_vehicle call FNC_RemoveAllVehicleGear;
 
-		["B_Parachute", 10] call FNC_AddItemVehicle;
+		["B_Parachute", 2] call FNC_AddItemVehicle;
 
 		if (isClass(configFile>>"CfgPatches">>"ACE_COMMON")) then {
 			["ACE_fieldDressing", 50] call FNC_AddItemVehicle;
@@ -135,6 +135,8 @@ switch (_type) do {
 		} else {
 			["FirstAidKit", 50] call FNC_AddItemVehicle;
 		};
+		
+		["Toolkit", 1] call FNC_AddItemVehicle;
 
 	};
 
