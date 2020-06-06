@@ -57,6 +57,13 @@ SET_GROUP(uniformMEDIC) //Uniforme Medic
 	["CTS_MC_Kitbag_compact", "CTS_MCA_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
+SET_GROUP(uniformPILOT) //Uniforme Piloto
+	["CTS_HeliPilot_Uniform"] call FNC_AddItem;
+	["V_TacVest_blk"] call FNC_AddItem;
+	["CTS_HeliPilot_Helmet"] call FNC_AddItem;
+	["B_Parachute"] call FNC_AddItem;
+END_GROUP;
+
 SET_GROUP(uniformCM) //Uniforme CM
 	["milgp_v_jpc_teamleader_mc"] call FNC_AddItem;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
@@ -97,6 +104,7 @@ SET_GROUP(items) //Objetos básicos
 	["ItemcTabHCam",1,"vest"] call FNC_AddItem;
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
+	["MS_Strobe_Mag_1",1,"vest"] call FNC_AddItem;
 	["TFAR_ANPRC152"] call FNC_AddItem;
 
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
@@ -203,6 +211,11 @@ SET_GROUP(pistol) //Pistola
 	["RH_gemtech45"] call FNC_AddItem; //Accesorios
 END_GROUP;
 
+SET_GROUP(SMG) //Pistola
+	["50Rnd_570x28_SMG_03",3,"vest"] call FNC_AddItem; //Munición
+	["SMG_03C_camo"] call FNC_AddItem; //Pistola
+END_GROUP;
+
 case (package + "FTL"): { //Lider de Equipo
 	ADD_GROUP(uniform);
 	ADD_GROUP(uniformFTL);
@@ -290,6 +303,14 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
 	ADD_GROUP(ammorifle);
+};
+
+case (package + "PILOT"): { //Rifleman
+	ADD_GROUP(uniformPilot);
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(SMG);
+	ADD_GROUP(pistol);
 };
 
 case (package + "CM"): { //CM

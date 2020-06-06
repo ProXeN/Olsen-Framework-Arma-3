@@ -54,6 +54,13 @@ SET_GROUP(uniformMEDIC) //Uniforme Medic
 	["CTS_MC_Kitbag_compact", "CTS_MCA_Kitbag_compact2"] call FNC_AddItemRandom;
 END_GROUP;
 
+SET_GROUP(uniformPILOT) //Uniforme Piloto
+	["CTS_HeliPilot_Uniform"] call FNC_AddItem;
+	["V_TacVest_blk"] call FNC_AddItem;
+	["CTS_HeliPilot_Helmet"] call FNC_AddItem;
+	["B_Parachute"] call FNC_AddItem;
+END_GROUP;
+
 SET_GROUP(uniformCM) //Uniforme CM
 	["CPC_belt_LBT", "CPC_belt_LBTcoy"] call FNC_AddItemRandom;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
@@ -94,6 +101,7 @@ SET_GROUP(items) //Objetos básicos
 	["ItemcTabHCam",1,"vest"] call FNC_AddItem;
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
+	["MS_Strobe_Mag_1",1,"vest"] call FNC_AddItem;
 	["TFAR_ANPRC152"] call FNC_AddItem;
 	["CTS_FaceMask_tan", "CTS_FaceMask_Ghost_tan", "CTS_FaceMask_black", "CTS_Facemask_black_glasses", "CTS_Facemask_tan_glasses", 
 	"CTS_Facemask_black_goggles", "CTS_Facemask_tan_goggles", "milgp_f_face_shield_tactical_khk", "milgp_f_face_shield_tactical_blk"] call FNC_AddItemRandom;
@@ -291,6 +299,14 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
 	ADD_GROUP(ammorifle);
+};
+
+case (package + "PILOT"): { //Rifleman
+	ADD_GROUP(uniformPilot);
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(SMG);
+	ADD_GROUP(pistol);
 };
 
 case (package + "CM"): { //CM
