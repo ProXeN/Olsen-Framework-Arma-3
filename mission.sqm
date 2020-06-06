@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7748.5991,34.866314,4323.2495};
-		dir[]={0.46234506,-0.68622929,0.56158954};
-		up[]={0.43623418,0.72728002,0.52987325};
-		aside[]={0.77204698,-4.7960202e-007,-0.63560939};
+		pos[]={7735.0986,28.844915,4290.5977};
+		dir[]={0.89501458,-0.44614333,-0.004921786};
+		up[]={0.44631174,0.89487296,-0.0024548862};
+		aside[]={-0.0054986533,6.9257744e-008,-1.0000414};
 	};
 };
 binarizationWanted=0;
@@ -14644,7 +14644,6 @@ class Mission
 			class Attributes
 			{
 				init="call{[{[_this select 0, false, 1, false, true, west, ""blu_f"", 0] spawn fnc_SpawnGunners}, [this], 5] call CBA_fnc_waitAndExecute; [this, ""AIR""] call FNC_VehicleGearScript;}";
-				name="helicas";
 				textures="Black";
 				reportOwnPosition=1;
 				pylons="CUP_PylonPod_19Rnd_Rocket_FFAR_M;CUP_PylonPod_1200Rnd_TE1_Red_Tracer_M621_20mm_HE_M;CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M[0];CUP_PylonPod_19Rnd_Rocket_FFAR_M;";
