@@ -30,6 +30,7 @@ PREP(hasExtracted);
 PREP(RRR);
 PREP(simpleConv);
 PREP(objectMarker);
+PREP(spawnGunners);
 
 enableSaving [false, false];
 

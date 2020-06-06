@@ -182,7 +182,11 @@ if (_hasTurret) then {
 
 	if (!alive _vehicle) exitWith {};
 	_vehicle setVehicleAmmo 1; // Reload all turrets
+	{
+		(if !alive _x) then {_vehicle deleteVehicleCrew _x}
+	} forEach crew _vehicle;
 	sleep 2;
+	[_vehicle, false, 1, false, true, west, "blu_f", 0] call fnc_SpawnGunners;
 	_vehicle vehicleChat format ["%1 ha sido rearmado", _vehicleName];
 } else {
 	sleep 2;
