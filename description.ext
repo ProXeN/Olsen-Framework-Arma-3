@@ -89,3 +89,9 @@ class CfgCarrier {
 };
 
 #undef description_carrier
+
+#define description_persistence
+
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+#undef description_persistence
