@@ -114,7 +114,7 @@ SET_GROUP(items) //Objetos básicos
 		["ACE_IR_Strobe_Item",1,"vest"] call FNC_AddItem;
 		["B_IR_Grenade",1,"vest"] call FNC_AddItem;
 		["Chemlight_green",2,"vest"] call FNC_AddItem;
-		["JAS_GPNVG18_Tan"] call FNC_AddItem;
+		["USP_GPNVG18_TAN"] call FNC_AddItem;
 	};
 END_GROUP;
 
