@@ -38,7 +38,7 @@ if (!isDedicated) then {
 
 	FW_DebugMessagesEnabled = true; //Only disable debug messages when the mission is released
 
-	setViewDistance 2500; //View distance for the player
+	//setViewDistance 2500; //View distance for the player
 
 	//call FNC_forceTerrainGrid; //uncomment this to force high terrain setting. This will prevent faraway objects from appearing as floating. Useful for missions with long sightlines.
 	
