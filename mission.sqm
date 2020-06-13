@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7762.0166,6.7355824,4373.7896};
-		dir[]={-0.045369685,-0.28433219,0.95777011};
-		up[]={-0.013465339,0.9586432,0.28426388};
-		aside[]={0.9989782,7.1622753e-007,0.047324769};
+		pos[]={7762.0068,6.7298746,4373.792};
+		dir[]={-0.021558555,-0.2111596,0.97733599};
+		up[]={-0.0046624294,0.97738439,0.21137303};
+		aside[]={0.99986207,8.3733835e-007,0.022058195};
 	};
 };
 binarizationWanted=0;
@@ -1960,7 +1960,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this disableAI ""PATH""; this setVariable [""UseGrid"", False]}";
+						init="call{this disableAI ""PATH""; this setVariable [""zbe_cacheDisabled"", true];}";
 						name="Redfox";
 					};
 					id=65;
@@ -2007,6 +2007,25 @@ class Mission
 						};
 						class Attribute2
 						{
+							property="face";
+							expression="_this setface _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="RussianHead_4";
+								};
+							};
+						};
+						class Attribute3
+						{
 							property="mrh_textMess";
 							expression="_this setVariable ['MRH_message_conversationText',_value,true]";
 							class Value
@@ -2024,7 +2043,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute3
+						class Attribute4
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -2043,7 +2062,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute4
+						class Attribute5
 						{
 							property="speaker";
 							expression="_this setspeaker _value;";
@@ -2062,7 +2081,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute5
+						class Attribute6
 						{
 							property="mrh_hasConv";
 							expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_simpleConvFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true];};";
@@ -2081,7 +2100,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute6
+						class Attribute7
 						{
 							property="mrh_message_removeAction";
 							expression="_this setVariable ['MRH_message_removeActionAfterUse',_value,true]";
@@ -2100,7 +2119,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=7;
+						nAttributes=8;
 					};
 				};
 			};
@@ -2128,7 +2147,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this disableAI ""PATH""; if (isServer) then {[this] execVM ""scripts\hablar.sqf""}; this setVariable [""UseGrid"", False]}";
+						init="call{this disableAI ""PATH""; if (isServer) then {[this] execVM ""scripts\hablar.sqf""}; this setVariable [""zbe_cacheDisabled"", true];}";
 						name="VIP";
 					};
 					id=67;
@@ -9386,7 +9405,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{[this, ""CTS_RFL""] call FNC_GearScript; [this,[""STAND"",""ASIS""],nil,true] call FNC_ambientAnimMonitor}";
+						init="call{[this, ""CTS_RFL""] call FNC_GearScript; [this,[""STAND"",""ASIS""],nil,true] call FNC_ambientAnimMonitor;" \n "this setVariable [""zbe_cacheDisabled"", true];}";
 					};
 					id=213;
 					type="B_Soldier_F";
@@ -9594,7 +9613,7 @@ class Mission
 			flags=6;
 			class Attributes
 			{
-				init="call{(group this) setVariable [""Vcm_Disable"",true];" \n "nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } }; this setVariable [""UseGrid"", False]; {_x setVariable [""UseGrid"", False]} forEach units group this; }";
+				init="call{nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } }; this setVariable [""zbe_cacheDisabled"", true];}";
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
 			};
@@ -9710,7 +9729,7 @@ class Mission
 			flags=6;
 			class Attributes
 			{
-				init="call{(group this) setVariable [""Vcm_Disable"",true];" \n "nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } }; this setVariable [""UseGrid"", False]; {_x setVariable [""UseGrid"", False]} forEach units group this; }";
+				init="call{nul = this spawn { while {alive _this} do { _this setFuel 1; sleep 600 } }; this setVariable [""zbe_cacheDisabled"", true];}";
 				reportRemoteTargets=1;
 				reportOwnPosition=1;
 			};
@@ -13015,7 +13034,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(group _this) setVariable ['Vcm_Disable',true]; [_this, 'AIR'] call FNC_VehicleGearScript; _this setVariable [""UseGrid"", False]; {_x setVariable [""UseGrid"", False]} forEach units group _this; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="[_this, 'AIR'] call FNC_VehicleGearScript; group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
@@ -13105,7 +13124,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="_this setVariable [""UseGrid"", False]; {_x setVariable [""UseGrid"", False]} forEach units group _this; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
@@ -13710,7 +13729,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(group _this) setVariable ['Vcm_Disable',true]; _this setVariable [""UseGrid"", False]; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
@@ -13895,7 +13914,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(group _this) setVariable ['Vcm_Disable',true]; _this setVariable [""UseGrid"", False]; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
@@ -14042,7 +14061,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(group _this) setVariable ['Vcm_Disable',true]; _this setVariable [""UseGrid"", False]; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
@@ -14113,7 +14132,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="_this setVariable [""UseGrid"", False]; {_x setVariable [""UseGrid"", False]} forEach units group _this; group _this setVariable ['grad_persistence_isExcluded',true];";
+							value="group _this setVariable ['grad_persistence_isExcluded',true]; _this setVariable [""zbe_cacheDisabled"", true];";
 						};
 					};
 				};
