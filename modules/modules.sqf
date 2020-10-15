@@ -5,7 +5,7 @@
 
 //Enabled modules by default, disable them by adding // in front.
 
-#include "tfar_setup\root.sqf"
+#include "acre_setup\root.sqf"
 #include "eg_spectator_mode\root.sqf"
 #include "jip\root.sqf"
 #include "start_on_safe\root.sqf"
@@ -35,5 +35,6 @@
 //#include "setup_timer\root.sqf"
 //#include "start_in_parachute\root.sqf"
 //#include "start_in_vehicle\root.sqf"
+//#include "tfar_setup\root.sqf"
 
 
