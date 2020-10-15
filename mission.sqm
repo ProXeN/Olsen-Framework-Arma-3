@@ -8,7 +8,7 @@ class EditorData
 	toggles=37;
 	class ItemIDProvider
 	{
-		nextID=388;
+		nextID=390;
 	};
 	class MarkerIDProvider
 	{
@@ -16,17 +16,16 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7762.0068,6.7298746,4373.792};
-		dir[]={-0.021558555,-0.2111596,0.97733599};
-		up[]={-0.0046624294,0.97738439,0.21137303};
-		aside[]={0.99986207,8.3733835e-007,0.022058195};
+		pos[]={7755.0073,14.699342,4348.1445};
+		dir[]={0.28456581,-0.48881721,0.8248167};
+		up[]={0.15948752,0.8722679,0.46227846};
+		aside[]={0.94542021,1.5603655e-007,-0.32617342};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Characters_F",
-	"A3_Aegis_Characters_F_Aegis",
 	"ace_explosives",
 	"A3_Ui_F",
 	"cfp_uniforms",
@@ -35,12 +34,10 @@ addons[]=
 	"A3_Weapons_F_Orange",
 	"A3_Structures_F_Items_Electronics",
 	"A3_Props_F_Enoch_Military_Equipment",
-	"MRHMiscItems",
 	"A3_Structures_F_Exp_Commercial_MultistoryBuilding_03",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Enoch_Military_Barracks",
 	"A3_Props_F_Exp_A_Military_Equipment",
-	"A3_Aegis_Props_F_Aegis_Military_Equipment",
 	"A3_Props_F_Enoch_Military_Camps",
 	"A3_Characters_F_Common",
 	"A3_Drones_F_Air_F_Gamma_UAV_02",
@@ -48,27 +45,26 @@ addons[]=
 	"A3_Air_F_Jets_UAV_05",
 	"3den_Objects",
 	"A3_Supplies_F_Heli_CargoNets",
-	"A3_Aegis_Supplies_F_Aegis_CargoNets",
 	"A3_Structures_F_Exp_Infrastructure_Pavements",
 	"A3_Structures_F_Heli_Items_Airport",
-	"uh60",
 	"A3_Modules_F_Curator_Curator",
 	"SSS_module",
 	"A3_Armor_F_Gamma_MBT_01",
-	"A3_Aegis_Armor_F_Aegis_MBT_01",
+	"acre_sys_intercom",
 	"rhsusf_c_troops",
 	"RHS_US_A2_AirImport",
 	"Kimi_HMDs_RHS_UI_Optional",
-	"ace_compat_rhs_usf3",
 	"Kimi_HMDs_RHS",
+	"ace_compat_rhs_usf3",
 	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
-	"CUP_AirVehicles_UH60"
+	"CUP_AirVehicles_UH60",
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=35;
+		items=31;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -78,224 +74,200 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="A3_Aegis_Characters_F_Aegis";
-			name="Arma 3 Aegis - Characters and Clothing";
-			author="AveryTheKitty";
-			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
-		};
-		class Item2
-		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="cfp_uniforms";
 			name="cfp_uniforms";
 			author="CFP Team";
 		};
-		class Item5
+		class Item4
 		{
 			className="RHNET_Actionbuilder";
 			name="RHNET_Actionbuilder";
 		};
-		class Item6
+		class Item5
 		{
 			className="Desert";
 			name="Desert";
 		};
-		class Item7
+		class Item6
 		{
 			className="A3_Weapons_F_Orange";
 			name="Arma 3 Orange - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Props_F_Enoch";
-			name="Arma 3 Enoch - Decorative and Mission Objects";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
-		{
-			className="MRHMiscItems";
-			name="MRHMiscItems";
-		};
-		class Item11
+		class Item9
 		{
 			className="A3_Structures_F_Exp_Commercial";
 			name="Arma 3 Apex - Commercial Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item10
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item11
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item12
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
-		{
-			className="A3_Aegis_Props_F_Aegis";
-			name="Arma 3 Aegis - Decorative and Mission Objects";
-			author="AveryTheKitty";
-			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
-		};
-		class Item16
+		class Item13
 		{
 			className="A3_Drones_F";
 			name="Arma 3 Beta - Drones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item14
 		{
 			className="A3_Air_F_Jets";
 			name="Arma 3 Jets - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item15
 		{
 			className="3den_Objects";
 			name="3den_Objects";
 		};
-		class Item19
+		class Item16
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
-		{
-			className="A3_Aegis_Supplies_F_Aegis";
-			name="Arma 3 Aegis - Ammoboxes and Supplies";
-			author="AveryTheKitty";
-			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
-		};
-		class Item21
+		class Item17
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item18
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
-		{
-			className="uh60";
-			name="uh60";
-		};
-		class Item24
+		class Item19
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item20
 		{
 			className="SSS_module";
 			name="module";
 			author="Simplex Team";
 			url="https://github.com/SceptreOfficial/Simplex-Support-Services";
 		};
-		class Item26
+		class Item21
 		{
 			className="A3_Armor_F_Gamma";
 			name="Arma 3 - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item22
 		{
-			className="A3_Aegis_Armor_F_Aegis";
-			name="Arma 3 Aegis - Armored Land Vehicles";
-			author="AveryTheKitty";
-			url="https://forums.bistudio.com/forums/topic/205858-arma-3-aegis-alpha";
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item28
+		class Item23
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item29
+		class Item24
 		{
 			className="RHS_US_A2_AirImport";
 			name="RHSUSF A2 Air Ports";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item30
+		class Item25
 		{
 			className="Kimi_HMDs_RHS_UI_Optional";
 			name="Kimi_HMDs_RHS_UI_Optional";
 		};
-		class Item31
+		class Item26
+		{
+			className="Kimi_HMDs_RHS";
+			name="Kimi_HMDs_RHS";
+		};
+		class Item27
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item32
-		{
-			className="Kimi_HMDs_RHS";
-			name="Kimi_HMDs_RHS";
-		};
-		class Item33
+		class Item28
 		{
 			className="A3_Props_F_Destroyer";
 			name="CFGPATCHES_A3_Props_F_Destroyer";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item34
+		class Item29
 		{
 			className="CUP_AirVehicles_UH60";
 			name="CUP_AirVehicles_UH60";
+		};
+		class Item30
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -536,7 +508,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=108;
+		items=102;
 		class Item0
 		{
 			dataType="Group";
@@ -7264,121 +7236,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7777.5601,6.4537821,4380.9438};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="call{[this,ascensorArriba] call MRH_fnc_Elevator;}";
-			};
-			id=182;
-			type="MRH_ElevatorButton";
-			atlOffset=0.94587708;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item29
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={7776,30.907396,4393};
 			};
 			side="Empty";
@@ -7389,123 +7246,7 @@ class Mission
 			id=183;
 			type="Land_MultistoryBuilding_03_F";
 		};
-		class Item30
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7776.1509,58.276783,4404.542};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="call{[this,ascensorAbajo] call MRH_fnc_Elevator;}";
-			};
-			id=184;
-			type="MRH_ElevatorButton";
-			atlOffset=0.94599915;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item31
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7619,7 +7360,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item32
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7735,7 +7476,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item33
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7852,7 +7593,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item34
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7864,7 +7605,6 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				name="edificio";
 			};
 			id=196;
 			type="Land_GuardHouse_02_F";
@@ -7872,6 +7612,70 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="DoorStates";
+					expression="['init',_this,_value] call bis_fnc_3DENAttributeDoorStates;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=21;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_search_nameFound";
 					expression="_this setVariable ['MRH_object_Found',_value,true]";
 					class Value
@@ -7889,7 +7693,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
@@ -7908,7 +7712,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -7927,7 +7731,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
+				class Attribute4
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -7943,203 +7747,11 @@ class Mission
 								};
 							};
 							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item35
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7745.9702,6.7973003,4366.4131};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="escaner";
-			};
-			id=198;
-			type="MRH_BioScanner";
-			atlOffset=0.00048112869;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="MRH_BS_codeHandSCreen";
-					expression="[_this,_value,'Hand'] call MRH_fnc_MilsimTools_MiscItems_handleBioScannerActions;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="MRH_BS_ctrledObj";
-					expression="_this setVariable ['MRH_ScannerSettings_controlledBuilding',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="<NULL-object>";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="MRH_BS_controlNearestDoor";
-					expression="[_value,_this] spawn MRH_fnc_MilsimTools_MiscItems_bioScannerInit";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
 						};
 					};
 				};
 				class Attribute5
 				{
-					property="MRH_BS_conditionOpen";
-					expression="_this setVariable ['MRH_ScannerSettings_conditionUnlock',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="MRH_BS_codeEyeScan";
-					expression="[_this,_value,'Eye'] call MRH_fnc_MilsimTools_MiscItems_handleBioScannerActions;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="MRH_BS_useActions";
-					expression="_this setVariable ['MRH_BS_UseCustomActions',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
 					property="mrh_hackAndCollectData_codeToExec";
 					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
 					class Value
@@ -8157,67 +7769,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute9
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="MRH_BS_codeTouchSCreen";
-					expression="[_this,_value,'main'] call MRH_fnc_MilsimTools_MiscItems_handleBioScannerActions;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				nAttributes=12;
+				nAttributes=6;
 			};
 		};
-		class Item36
+		class Item33
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8352,18 +7907,18 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item37
+		class Item34
 		{
 			dataType="Comment";
 			class PositionInfo
 			{
 				position[]={7748,5,4366};
 			};
-			title="Escaner Retinal";
+			title="Cerrar Puertas";
 			description="Bloquea la puerta que tiene más cerca";
 			id=203;
 		};
-		class Item38
+		class Item35
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8373,7 +7928,7 @@ class Mission
 			title="Ascensor";
 			id=204;
 		};
-		class Item39
+		class Item36
 		{
 			dataType="Group";
 			side="West";
@@ -8528,7 +8083,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item40
+		class Item37
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8868,29 +8423,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute17
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=18;
+				nAttributes=17;
 			};
 		};
-		class Item41
+		class Item38
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9211,182 +8747,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute16
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=17;
+				nAttributes=16;
 			};
 		};
-		class Item42
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7758,5.8938737,4371.25};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{[this] execVM ""scripts\recoger.sqf""}";
-			};
-			id=211;
-			type="MRH_USB_ThumbDrive";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_can_search_obj";
-					expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_searchObjectFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true]};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="mrh_search_obj_success";
-					expression="_this setVariable ['MRH_successfulSearch',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item43
+		class Item39
 		{
 			dataType="Group";
 			side="West";
@@ -9517,7 +8881,7 @@ class Mission
 			id=212;
 			atlOffset=0.001999855;
 		};
-		class Item44
+		class Item40
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9527,7 +8891,7 @@ class Mission
 			title="Animaciones";
 			id=214;
 		};
-		class Item45
+		class Item41
 		{
 			dataType="Group";
 			side="West";
@@ -9602,7 +8966,7 @@ class Mission
 			};
 			id=215;
 		};
-		class Item46
+		class Item42
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9619,31 +8983,8 @@ class Mission
 			};
 			id=216;
 			type="B_UAV_02_dynamicLoadout_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
-		class Item47
+		class Item43
 		{
 			dataType="Group";
 			side="West";
@@ -9718,7 +9059,7 @@ class Mission
 			};
 			id=219;
 		};
-		class Item48
+		class Item44
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9735,31 +9076,8 @@ class Mission
 			};
 			id=220;
 			type="B_UAV_05_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=1;
-			};
 		};
-		class Item49
+		class Item45
 		{
 			dataType="Trigger";
 			position[]={7762,5,4376};
@@ -9774,7 +9092,7 @@ class Mission
 			id=223;
 			type="EmptyDetector";
 		};
-		class Item50
+		class Item46
 		{
 			dataType="Trigger";
 			position[]={7758,5,4376};
@@ -9789,7 +9107,7 @@ class Mission
 			id=224;
 			type="EmptyDetector";
 		};
-		class Item51
+		class Item47
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9800,7 +9118,7 @@ class Mission
 			description="Trigger de Misión Fallida";
 			id=225;
 		};
-		class Item52
+		class Item48
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -9811,7 +9129,7 @@ class Mission
 			description="Trigger de Misión Cumplida";
 			id=226;
 		};
-		class Item53
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -9907,8 +9225,167 @@ class Mission
 				};
 				class Attribute4
 				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item50
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7766,5.0021229,4379};
+			};
+			title="Ropa";
+			description="Cambiarse de ropa";
+			id=237;
+		};
+		class Item51
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7824,5,4280};
+			};
+			title="Drones";
+			description="Configurados para que no interfieran con VCOM y para que tengan fuel infinito.";
+			id=238;
+		};
+		class Item52
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7746,5,4256};
+			};
+			title="Transporte";
+			description="Ponemos cajas cerca para que pueda llevarlas con eslingas.";
+			id=244;
+		};
+		class Item53
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7664,5,4269};
+			};
+			title="Artillería";
+			id=245;
+		};
+		class Item54
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7760,5.8253026,4374};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{[this, ""FULL""] call FNC_VehicleGearScript;" \n "}";
+				name="caja1";
+			};
+			id=250;
+			type="B_CargoNet_01_ammo_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""arifle_MXC_F"",""arifle_MXM_F"",""arifle_MX_F"",""arifle_MX_GL_F"",""arifle_MX_SW_F"",""arifle_SDAR_F"",""hgun_P07_F"",""hgun_Pistol_heavy_01_F"",""launch_NLAW_F"",""launch_Titan_F"",""launch_Titan_short_F"",""SMG_01_F"",""srifle_EBR_F"",""srifle_LRR_camo_F"",""srifle_LRR_F"",""FirstAidKit"",""Medikit""],[4,2,8,4,4,2,2,2,2,2,2,2,2,2,2,10,1]],[[""100Rnd_65x39_caseless_mag_Tracer"",""11Rnd_45ACP_Mag"",""16Rnd_9x21_Mag"",""1Rnd_HE_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokePurple_Grenade_shell"",""1Rnd_SmokeRed_Grenade_shell"",""1Rnd_SmokeYellow_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""20Rnd_556x45_UW_mag"",""20Rnd_762x51_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""30Rnd_556x45_Stanag_red"",""30Rnd_65x39_caseless_mag"",""3Rnd_HE_Grenade_shell"",""7Rnd_408_Mag"",""APERSBoundingMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSTripMine_Wire_Mag"",""ATMine_Range_Mag"",""B_IR_Grenade"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""HandGrenade"",""Laserbatteries"",""MiniGrenade"",""SatchelCharge_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag"",""SmokeShell"",""SmokeShellBlue"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellPurple"",""SmokeShellRed"",""SmokeShellYellow"",""Titan_AA"",""Titan_AP"",""Titan_AT"",""UGL_FlareGreen_F"",""UGL_FlareWhite_F""],[16,14,14,15,2,2,2,2,2,2,2,6,24,14,6,52,3,12,5,5,5,5,8,5,5,24,5,24,5,5,2,2,2,2,2,2,2,6,6,6,2,2]],[[""Binocular"",""Laserdesignator"",""Rangefinder"",""acc_flashlight"",""acc_pointer_IR"",""ItemGPS"",""MineDetector"",""muzzle_snds_acp"",""muzzle_snds_B"",""muzzle_snds_H"",""muzzle_snds_H_SW"",""muzzle_snds_L"",""optic_Aco"",""optic_Aco_smg"",""optic_DMS"",""optic_Hamr"",""optic_Holosight"",""optic_LRPS"",""optic_MRD"",""optic_NVS"",""optic_SOS"",""optic_tws"",""optic_tws_mg"",""ToolKit""],[1,1,1,5,5,5,1,5,5,5,1,5,2,2,2,2,2,2,2,2,2,2,2,1]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
 					class Value
 					{
 						class data
@@ -9946,204 +9423,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item54
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={7766,5.0021229,4379};
-			};
-			title="Ropa";
-			description="Cambiarse de ropa";
-			id=237;
-		};
 		class Item55
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={7824,5,4280};
-			};
-			title="Drones";
-			description="Configurados para que no interfieran con VCOM y para que tengan fuel infinito.";
-			id=238;
-		};
-		class Item56
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={7746,5,4256};
-			};
-			title="Transporte";
-			description="Ponemos cajas cerca para que pueda llevarlas con eslingas.";
-			id=244;
-		};
-		class Item57
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={7664,5,4269};
-			};
-			title="Artillería";
-			id=245;
-		};
-		class Item58
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7760,5.8253026,4374};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{[this, ""FULL""] call FNC_VehicleGearScript;" \n "}";
-				name="caja1";
-			};
-			id=250;
-			type="B_CargoNet_01_ammo_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""arifle_MXC_F"",""arifle_MXM_F"",""arifle_MX_F"",""arifle_MX_GL_F"",""arifle_MX_SW_F"",""arifle_SDAR_F"",""hgun_P07_F"",""hgun_Pistol_heavy_01_F"",""launch_NLAW_F"",""launch_Titan_F"",""launch_Titan_short_F"",""SMG_01_F"",""srifle_EBR_F"",""srifle_LRR_camo_F"",""srifle_LRR_F"",""FirstAidKit"",""Medikit""],[4,2,8,4,4,2,2,2,2,2,2,2,2,2,2,10,1]],[[""100Rnd_65x39_caseless_mag_Tracer"",""11Rnd_45ACP_Mag"",""16Rnd_9x21_Mag"",""1Rnd_HE_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokePurple_Grenade_shell"",""1Rnd_SmokeRed_Grenade_shell"",""1Rnd_SmokeYellow_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""20Rnd_556x45_UW_mag"",""20Rnd_762x51_Mag"",""30Rnd_45ACP_Mag_SMG_01"",""30Rnd_556x45_Stanag_red"",""30Rnd_65x39_caseless_mag"",""3Rnd_HE_Grenade_shell"",""7Rnd_408_Mag"",""APERSBoundingMine_Range_Mag"",""APERSMine_Range_Mag"",""APERSTripMine_Wire_Mag"",""ATMine_Range_Mag"",""B_IR_Grenade"",""ClaymoreDirectionalMine_Remote_Mag"",""DemoCharge_Remote_Mag"",""HandGrenade"",""Laserbatteries"",""MiniGrenade"",""SatchelCharge_Remote_Mag"",""SLAMDirectionalMine_Wire_Mag"",""SmokeShell"",""SmokeShellBlue"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellPurple"",""SmokeShellRed"",""SmokeShellYellow"",""Titan_AA"",""Titan_AP"",""Titan_AT"",""UGL_FlareGreen_F"",""UGL_FlareWhite_F""],[16,14,14,15,2,2,2,2,2,2,2,6,24,14,6,52,3,12,5,5,5,5,8,5,5,24,5,24,5,5,2,2,2,2,2,2,2,6,6,6,2,2]],[[""Binocular"",""Laserdesignator"",""Rangefinder"",""acc_flashlight"",""acc_pointer_IR"",""ItemGPS"",""MineDetector"",""muzzle_snds_acp"",""muzzle_snds_B"",""muzzle_snds_H"",""muzzle_snds_H_SW"",""muzzle_snds_L"",""optic_Aco"",""optic_Aco_smg"",""optic_DMS"",""optic_Hamr"",""optic_Holosight"",""optic_LRPS"",""optic_MRD"",""optic_NVS"",""optic_SOS"",""optic_tws"",""optic_tws_mg"",""ToolKit""],[1,1,1,5,5,5,1,5,5,5,1,5,2,2,2,2,2,2,2,2,2,2,2,1]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10162,6 +9442,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -10179,7 +9478,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -10198,7 +9497,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -10217,64 +9516,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -10293,10 +9535,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item60
+		class Item56
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10315,6 +9576,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -10332,7 +9612,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -10351,7 +9631,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -10370,64 +9650,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -10446,10 +9669,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item61
+		class Item57
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10468,6 +9710,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -10485,7 +9746,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -10504,7 +9765,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -10523,64 +9784,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -10599,10 +9803,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item62
+		class Item58
 		{
 			dataType="Trigger";
 			position[]={7807,5,4321};
@@ -10620,7 +9843,7 @@ class Mission
 			id=254;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item63
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10635,7 +9858,7 @@ class Mission
 			id=255;
 			type="Land_HelipadSquare_F";
 		};
-		class Item64
+		class Item60
 		{
 			dataType="Trigger";
 			position[]={7787,5,4321};
@@ -10653,7 +9876,7 @@ class Mission
 			id=258;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item65
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10668,7 +9891,7 @@ class Mission
 			id=259;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item66
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10683,7 +9906,7 @@ class Mission
 			id=260;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item67
+		class Item63
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10699,7 +9922,7 @@ class Mission
 			id=261;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item68
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10715,7 +9938,7 @@ class Mission
 			id=262;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item69
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10730,7 +9953,7 @@ class Mission
 			id=263;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item70
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10745,7 +9968,7 @@ class Mission
 			id=264;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item71
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10760,7 +9983,7 @@ class Mission
 			id=265;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item72
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10775,7 +9998,7 @@ class Mission
 			id=266;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item73
+		class Item69
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10785,7 +10008,7 @@ class Mission
 			title="FARP Aire";
 			id=267;
 		};
-		class Item74
+		class Item70
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10795,7 +10018,7 @@ class Mission
 			title="FARP Tierra";
 			id=268;
 		};
-		class Item75
+		class Item71
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -10806,138 +10029,7 @@ class Mission
 			description="Para que lo usen los jugadores. Lleva medicinas y paracaidas en el inventario.";
 			id=278;
 		};
-		class Item76
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=4;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7760,5.0014391,4240.0498};
-						angles[]={0,0.0022514747,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-					};
-					id=292;
-					type="B_Helipilot_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7760,5.0014391,4240.0498};
-						angles[]={0,0.0022514747,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=293;
-					type="B_Helipilot_F";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7760,5.0014391,4240.0498};
-						angles[]={0,0.0022514747,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=294;
-					type="B_helicrew_F";
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={7760,5.0014391,4240.0498};
-						angles[]={0,0.0022514747,0};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=295;
-					type="B_helicrew_F";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=4;
-				};
-				class Links
-				{
-					items=4;
-					class Item0
-					{
-						linkID=0;
-						item0=292;
-						item1=291;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=293;
-						item1=291;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=294;
-						item1=291;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={1};
-						};
-					};
-					class Item3
-					{
-						linkID=3;
-						item0=295;
-						item1=291;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={2};
-						};
-					};
-				};
-			};
-			id=279;
-		};
-		class Item77
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10956,6 +10048,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -10973,7 +10084,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -10992,7 +10103,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -11011,64 +10122,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -11087,10 +10141,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item78
+		class Item73
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11109,6 +10182,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -11126,7 +10218,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -11145,7 +10237,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -11164,64 +10256,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -11240,10 +10275,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item79
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11262,6 +10316,25 @@ class Mission
 			{
 				class Attribute0
 				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
 					property="mrh_hackAndCollectDataHackDuration";
 					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
 					class Value
@@ -11279,7 +10352,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
+				class Attribute2
 				{
 					property="mrh_search_CodeFound";
 					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
@@ -11298,7 +10371,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute2
+				class Attribute3
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -11317,64 +10390,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
 				class Attribute4
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
 				{
 					property="mrh_hackAndCollectDataHackFileSize";
 					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
@@ -11393,168 +10409,29 @@ class Mission
 						};
 					};
 				};
-				nAttributes=7;
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
-		class Item80
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7823.9741,6.9256029,4239.6816};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{[this, ""AIR""] call FNC_VehicleGearScript;" \n "if (isNil 'SHK_Fastrope_AccessLevel') then {{this animateSource [_x,1]} forEach ['rope1hide', 'rope2hide']}}";
-				reportOwnPosition=1;
-			};
-			id=290;
-			type="B_MH60L_noprobe_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_fastroping_equipFRIES";
-					expression="if (_value) then {[_this] call ace_fastroping_fnc_equipFRIES}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item81
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7759.9741,6.9256029,4239.6816};
-				angles[]={0,0.0022514747,0};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-				init="call{this setVariable [""UseGrid"", False]; group this setVariable ['grad_persistence_isExcluded',true];}";
-				name="heli1";
-				reportOwnPosition=1;
-			};
-			id=291;
-			type="B_MH60L_noprobe_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""rhs_weap_m4_carryhandle"",""FirstAidKit"",""Medikit""],[2,10,2]],[[""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""rhs_mag_m67"",""rhs_mag_m18_green"",""rhs_mag_m18_red"",""rhs_mag_an_m8hc""],[12,4,2,2,4]],[[],[]],[[""B_Parachute""],[4]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_fastroping_equipFRIES";
-					expression="if (_value) then {[_this] call ace_fastroping_fnc_equipFRIES}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item82
+		class Item75
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11668,7 +10545,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item83
+		class Item76
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11758,7 +10635,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item84
+		class Item77
 		{
 			dataType="Group";
 			side="West";
@@ -12975,7 +11852,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item85
+		class Item78
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13008,7 +11885,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item86
+		class Item79
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13079,7 +11956,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item87
+		class Item80
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13226,7 +12103,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item88
+		class Item81
 		{
 			dataType="Group";
 			side="West";
@@ -13327,7 +12204,7 @@ class Mission
 			};
 			id=337;
 		};
-		class Item89
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
@@ -13363,29 +12240,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item90
+		class Item83
 		{
 			dataType="Group";
 			side="West";
@@ -13486,7 +12344,7 @@ class Mission
 			};
 			id=342;
 		};
-		class Item91
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -13522,29 +12380,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item92
+		class Item85
 		{
 			dataType="Group";
 			side="West";
@@ -13645,7 +12484,7 @@ class Mission
 			};
 			id=347;
 		};
-		class Item93
+		class Item86
 		{
 			dataType="Object";
 			class PositionInfo
@@ -13681,29 +12520,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item94
+		class Item87
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13831,7 +12651,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item95
+		class Item88
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13978,7 +12798,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item96
+		class Item89
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -14106,7 +12926,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item97
+		class Item90
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -14177,7 +12997,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item98
+		class Item91
 		{
 			dataType="Group";
 			side="West";
@@ -14252,7 +13072,7 @@ class Mission
 			};
 			id=356;
 		};
-		class Item99
+		class Item92
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14290,29 +13110,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item100
+		class Item93
 		{
 			dataType="Group";
 			side="West";
@@ -14439,7 +13240,7 @@ class Mission
 			};
 			id=361;
 		};
-		class Item101
+		class Item94
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14476,29 +13277,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=2;
+				nAttributes=1;
 			};
 		};
-		class Item102
+		class Item95
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -14508,7 +13290,7 @@ class Mission
 			title="CAS";
 			id=367;
 		};
-		class Item103
+		class Item96
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -14518,7 +13300,7 @@ class Mission
 			title="Drones/Gunship/CAS Aviones";
 			id=368;
 		};
-		class Item104
+		class Item97
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14652,7 +13434,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item105
+		class Item98
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14824,7 +13606,7 @@ class Mission
 				nAttributes=8;
 			};
 		};
-		class Item106
+		class Item99
 		{
 			dataType="Object";
 			class PositionInfo
@@ -14845,6 +13627,25 @@ class Mission
 			class CustomAttributes
 			{
 				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
 				{
 					property="VehicleCustomization";
 					expression="if (local _this) then {if (isSimpleObject _this) then {_this setVariable ['bis_fnc_initVehicle_customization',_value]} else {([_this] + _value + [true]) call (uinamespace getvariable 'bis_fnc_initVehicle');};};";
@@ -15232,48 +14033,10 @@ class Mission
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_AmmoCrateNumberItem";
-					expression="_this setVariable ['MRH_numberOfammo',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=3;
+				nAttributes=2;
 			};
 		};
-		class Item107
+		class Item100
 		{
 			dataType="Group";
 			side="West";
@@ -15417,7 +14180,7 @@ class Mission
 						class Attribute6
 						{
 							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 							class Value
 							{
 								class data
@@ -15573,7 +14336,7 @@ class Mission
 						class Attribute6
 						{
 							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 							class Value
 							{
 								class data
@@ -15729,7 +14492,7 @@ class Mission
 						class Attribute6
 						{
 							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 							class Value
 							{
 								class data
@@ -15885,7 +14648,7 @@ class Mission
 						class Attribute6
 						{
 							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
 							class Value
 							{
 								class data
@@ -15934,16 +14697,209 @@ class Mission
 				nAttributes=1;
 			};
 		};
+		class Item101
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7748.5,5,4367.25};
+			};
+			areaSize[]={1,-1,1};
+			id=389;
+			type="ModuleEditTerrainObject_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=7;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="#state";
+					expression="_this setVariable [""#state"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="#doorStates";
+					expression="_this setVariable [""#doorStates"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=21845;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=21845;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=21845;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=24;
+			nextID=23;
 		};
 		class Links
 		{
-			items=24;
+			items=23;
 			class Item0
 			{
 				linkID=0;
@@ -16077,8 +15033,8 @@ class Mission
 			class Item13
 			{
 				linkID=13;
-				item0=334;
-				item1=291;
+				item0=341;
+				item1=336;
 				class CustomData
 				{
 					type="Sync";
@@ -16087,7 +15043,7 @@ class Mission
 			class Item14
 			{
 				linkID=14;
-				item0=341;
+				item0=346;
 				item1=336;
 				class CustomData
 				{
@@ -16097,7 +15053,7 @@ class Mission
 			class Item15
 			{
 				linkID=15;
-				item0=346;
+				item0=351;
 				item1=336;
 				class CustomData
 				{
@@ -16107,8 +15063,8 @@ class Mission
 			class Item16
 			{
 				linkID=16;
-				item0=351;
-				item1=336;
+				item0=355;
+				item1=359;
 				class CustomData
 				{
 					type="Sync";
@@ -16117,8 +15073,8 @@ class Mission
 			class Item17
 			{
 				linkID=17;
-				item0=355;
-				item1=359;
+				item0=334;
+				item1=362;
 				class CustomData
 				{
 					type="Sync";
@@ -16127,8 +15083,8 @@ class Mission
 			class Item18
 			{
 				linkID=18;
-				item0=334;
-				item1=362;
+				item0=355;
+				item1=333;
 				class CustomData
 				{
 					type="Sync";
@@ -16137,7 +15093,7 @@ class Mission
 			class Item19
 			{
 				linkID=19;
-				item0=355;
+				item0=352;
 				item1=333;
 				class CustomData
 				{
@@ -16147,7 +15103,7 @@ class Mission
 			class Item20
 			{
 				linkID=20;
-				item0=352;
+				item0=353;
 				item1=333;
 				class CustomData
 				{
@@ -16157,7 +15113,7 @@ class Mission
 			class Item21
 			{
 				linkID=21;
-				item0=353;
+				item0=354;
 				item1=333;
 				class CustomData
 				{
@@ -16167,16 +15123,6 @@ class Mission
 			class Item22
 			{
 				linkID=22;
-				item0=354;
-				item1=333;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item23
-			{
-				linkID=23;
 				item0=336;
 				item1=333;
 				class CustomData
