@@ -67,7 +67,8 @@ if (FW_RespawnTickets > 0) then {
 
 		player setVariable ["FW_Spectating", true, true];
 
-		[player, true] call TFAR_fnc_forceSpectator;
+		[true] call acre_api_fnc_setSpectator;
+		//TFAR [player, true] call TFAR_fnc_forceSpectator;
 		"" execVM "core\spectate.sqf";
 
 
