@@ -27,7 +27,7 @@ switch (_type) do {
 			["ACE_morphine", 50] call FNC_AddItemVehicle;
 			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
 			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
-			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_Splint", 50] call FNC_AddItemVehicle;
 			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
 			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
 		} else {
@@ -53,7 +53,7 @@ switch (_type) do {
 		["MRAWS_HE_F", 10] call FNC_AddItemVehicle;
 		["DemoCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
 		["SatchelCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
-		["RH_15Rnd_45cal_fnp", 20] call FNC_AddItemVehicle;
+		["ACWP_18Rnd_9x21_Mag_USP", 20] call FNC_AddItemVehicle;
 		["ACE_CableTie", 20] call FNC_AddItemVehicle;
 		["SmokeShell", 30] call FNC_AddItemVehicle;
 		["SmokeShellGreen", 30] call FNC_AddItemVehicle;
@@ -68,7 +68,7 @@ switch (_type) do {
 			["ACE_morphine", 50] call FNC_AddItemVehicle;
 			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
 			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
-			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_Splint", 50] call FNC_AddItemVehicle;
 			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
 			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
 		} else {
@@ -107,7 +107,7 @@ switch (_type) do {
 			["ACE_morphine", 50] call FNC_AddItemVehicle;
 			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
 			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
-			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_Splint", 50] call FNC_AddItemVehicle;
 			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
 			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
 		} else {
@@ -129,7 +129,7 @@ switch (_type) do {
 			["ACE_morphine", 50] call FNC_AddItemVehicle;
 			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
 			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
-			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_Splint", 50] call FNC_AddItemVehicle;
 			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
 			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
 		} else {
@@ -151,7 +151,7 @@ switch (_type) do {
 			["ACE_morphine", 50] call FNC_AddItemVehicle;
 			["ACE_epinephrine", 50] call FNC_AddItemVehicle;
 			["ACE_tourniquet", 50] call FNC_AddItemVehicle;
-			["ADV_aceSplint_splint", 50] call FNC_AddItemVehicle;
+			["ACE_Splint", 50] call FNC_AddItemVehicle;
 			["ACE_salineIV_250", 20] call FNC_AddItemVehicle;
 			["ACE_salineIV_500", 20] call FNC_AddItemVehicle;
 		} else {
