@@ -75,7 +75,7 @@ SET_GROUP(IFAK) //Medicinas básicas
 	["ACE_packingBandage",4,"backpack"] call FNC_AddItem;
 	["ACE_morphine",2,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_250",2,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",4,"backpack"] call FNC_AddItem;
+	["ACE_Splint",4,"backpack"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(IFAKMEDIC) //Medicinas Médico
@@ -88,7 +88,7 @@ SET_GROUP(IFAKMEDIC) //Medicinas Médico
 	["ACE_epinephrine",15,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_250",6,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_500",6,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",15,"backpack"] call FNC_AddItem;
+	["ACE_Splint",15,"backpack"] call FNC_AddItem;
 	["ACE_personalAidKit",1,"backpack"] call FNC_AddItem;
 	["ACE_surgicalKit",1,"backpack"] call FNC_AddItem;
 END_GROUP;
@@ -102,7 +102,7 @@ SET_GROUP(items) //Objetos básicos
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
 	["MS_Strobe_Mag_1",1,"vest"] call FNC_AddItem;
-	["TFAR_ANPRC152"] call FNC_AddItem;
+	["ACRE_PRC152"] call FNC_AddItem;
 	["CTS_FaceMask_tan", "CTS_FaceMask_Ghost_tan", "CTS_FaceMask_black", "CTS_Facemask_black_glasses", "CTS_Facemask_tan_glasses", 
 	"CTS_Facemask_black_goggles", "CTS_Facemask_tan_goggles", "milgp_f_face_shield_tactical_khk", "milgp_f_face_shield_tactical_blk"] call FNC_AddItemRandom;
 
@@ -144,7 +144,7 @@ SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["rhs_30Rnd_545x39_7N22_AK",6,"vest"] call FNC_AddItem; //Munición Principal
 	["rhs_VOG25",6,"vest"] call FNC_AddItem; //Granada Principal
 	["CUP_arifle_AK74M_GL_railed"] call FNC_AddItem; //Rifle
-	["SMA_ELCAN_SPECTER_RDS_4z"] call FNC_AddItem; //Mira
+	["CUP_optic_elcan_specterdr_rmr_black"] call FNC_AddItem; //Mira
 	["rhs_30Rnd_545x39_AK_plum_green",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["rhs_VG40OP_white",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["RHS_VG40OP_red",4,"backpack"] call FNC_AddItem; //Granada Secundaria

@@ -10,68 +10,66 @@ SET_GROUP(uniform) //Uniforme Básico
 END_GROUP;
 
 SET_GROUP(helmet) //Cascos
-	["CTS_MCA_Helmet_Light", "CTS_Mich2000_2_OGA", 
-	 "CTS_oga_OPS", "CTS_Tan_spray_OPS", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", 
+	["CTS_Mich2000_2_OGA", "CTS_oga_OPS", "CTS_Tan_spray_OPS", "CTS_oga_OPS_2", "CTS_tan_spray_OPS_2", 
 	 "milgp_h_opscore_01_KHK","milgp_h_opscore_02_KHK","milgp_h_opscore_04_KHK",
 	 "milgp_h_opscore_01_khk_hexagon","milgp_h_opscore_02_khk_hexagon","milgp_h_opscore_04_khk_hexagon",
-	 "CFP_OPS2017_Helmet_AOR1", "CFP_OpsC_Med_AOR1", "CFP_OpsC_Covered2_AOR1", "CFP_OpsC_Covered_AOR1"] call FNC_AddItemRandom;
+	 "CFP_OpsC_Med_AOR1", "CFP_OpsC_Covered2_AOR1", "CFP_OpsC_Covered_AOR1"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
-	["CTS_CIRAS", "CTS_CIRAS_2", "CTS_CIRAS_3"] call FNC_AddItemRandom;
+	["tfa_v_mmac_teamleader_belt_coy", "tfa_v_jpc_teamleader_belt_coy"] call FNC_AddItemRandom;
 	["milgp_h_airframe_01_KHK", "milgp_h_airframe_02_KHK", "milgp_h_airframe_04_KHK", 
-	 "milgp_h_airframe_01_khk_hexagon", "milgp_h_airframe_02_khk_hexagon", "milgp_h_airframe_04_khk_hexagon", "CTS_AirFrame" ] call FNC_AddItemRandom;
+	 "milgp_h_airframe_01_khk_hexagon", "milgp_h_airframe_02_khk_hexagon", "milgp_h_airframe_04_khk_hexagon"] call FNC_AddItemRandom;
 	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformM) //Uniforme Marksman
-	["CTS_Armatus_2", "CTS_LBT6094_gen2"] call FNC_AddItemRandom;
-	["CTS_MCA_Backpack_compact2"] call FNC_AddItem;
+	["tfa_v_jpc_marksman_belt_coy", "tfa_v_mmac_marksman_belt_coy"] call FNC_AddItemRandom;
+	["tfa_bp_hydration_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformAR) //Uniforme Automatic Rifleman
-	["CTS_FAPC_MG_OGA", "CTS_CarrierRig_Gunner_OGA", "CTS_LBT6094_MG_OGA", "CTS_RAV_MG_OGA", "CFP_RAV_MG_AOR1",
-	 "CFP_LBT6094_MG_AOR1", "CFP_CarrierRig_Gunner_AOR1", "CFP_FAPC_MG_AOR1"] call FNC_AddItemRandom;
-	["CTS_MCA_Backpack_compact2"] call FNC_AddItem;
+	["tfa_v_jpc_hgunner_belt_coy", "tfa_v_mmac_hgunner_belt_coy"] call FNC_AddItemRandom;
+	["tfa_bp_hydration_coy"] call FNC_AddItemRandom;
 END_GROUP;
 
 SET_GROUP(uniformAT) //Uniforme Rifleman AT
-	["CTS_JPC", "CTS_JPC_2", "CTS_JPC_3", "CTS_Armatus_1"] call FNC_AddItemRandom;
-	["CTS_MCA_Backpack_compact2"] call FNC_AddItem;
+	["tfa_v_jpc_assaulter_belt_coy", "tfa_v_mmac_assaulter_belt_coy"] call FNC_AddItemRandom;
+	["tfa_bp_Breacher_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformENG) //Uniforme Engineer
-	["CTS_FAPC_Breacher_OGA", "CTS_FAPC_Operator_OGA", "CFP_FAPC_Breacher_AOR1", "CFP_FAPC_Operator_AOR1"] call FNC_AddItemRandom;
-	["CTS_MCA_Backpack_compact2"] call FNC_AddItem;
+	["tfa_v_jpc_assaulter_belt_coy", "tfa_v_mmac_assaulter_belt_coy"] call FNC_AddItemRandom;
+	[ "tfa_bp_Pointman_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformMEDIC) //Uniforme Medic
-	["milgp_v_jpc_medic_cb"] call FNC_AddItem;
+	["tfa_v_jpc_medic_belt_coy","tfa_v_mmac_medic_belt_coy"] call FNC_AddItemRandom;
 	["CTS_MCA_Kitbag_compact2"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformPILOT) //Uniforme Piloto
-	["CTS_HeliPilot_Uniform"] call FNC_AddItem;
+	["U_B_HeliPilotCoveralls"] call FNC_AddItem;
 	["V_TacVest_blk"] call FNC_AddItem;
-	["CTS_HeliPilot_Helmet"] call FNC_AddItem;
+	["rhsusf_hgu56p_visor"] call FNC_AddItem;
 	["B_Parachute"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(uniformCM) //Uniforme CM
-	["milgp_v_jpc_teamleader_cb"] call FNC_AddItem;
+	["tfa_v_jpc_teamleader_coy"] call FNC_AddItem;
 	["CUP_H_BAF_PARA_PRRUNDER_BERET"] call FNC_AddItem;
 	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(IFAK) //Medicinas básicas
-	["ACE_tourniquet",2,"backpack"] call FNC_AddItem;
+	["ACE_tourniquet",1,"backpack"] call FNC_AddItem;
 	["ACE_elasticBandage",6,"backpack"] call FNC_AddItem;
 	["ACE_fieldDressing",4,"backpack"] call FNC_AddItem;
-	["ACE_quikclot",7,"backpack"] call FNC_AddItem;
+	["ACE_quikclot",6,"backpack"] call FNC_AddItem;
 	["ACE_packingBandage",4,"backpack"] call FNC_AddItem;
-	["ACE_morphine",2,"backpack"] call FNC_AddItem;
-	["ACE_salineIV_250",2,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",4,"backpack"] call FNC_AddItem;
+	["ACE_morphine",1,"backpack"] call FNC_AddItem;
+	["ACE_salineIV_250",1,"backpack"] call FNC_AddItem;
+	["ACE_Splint",2,"backpack"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(IFAKMEDIC) //Medicinas Médico
@@ -84,7 +82,7 @@ SET_GROUP(IFAKMEDIC) //Medicinas Médico
 	["ACE_epinephrine",15,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_250",6,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_500",6,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",15,"backpack"] call FNC_AddItem;
+	["ACE_Splint",15,"backpack"] call FNC_AddItem;
 	["ACE_personalAidKit",1,"backpack"] call FNC_AddItem;
 	["ACE_surgicalKit",1,"backpack"] call FNC_AddItem;
 END_GROUP;
@@ -98,7 +96,7 @@ SET_GROUP(items) //Objetos básicos
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
 	["MS_Strobe_Mag_1",1,"vest"] call FNC_AddItem;
-	["TFAR_ANPRC152"] call FNC_AddItem;
+	["ACRE_PRC152"] call FNC_AddItem;
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
@@ -115,28 +113,28 @@ SET_GROUP(ammofrag) //Granadas/Explosivos básicos
 	["SmokeShell", 2] call FNC_AddItem;
 	["SmokeShellGreen", 2] call FNC_AddItem;
 	["HandGrenade", 2] call FNC_AddItem;
-	["rhs_mag_mk84",4,"vest"] call FNC_AddItem;
+	["rhs_mag_mk84",2,"vest"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(rifle) //Rifle principal
 	["rhs_mag_30Rnd_556x45_Mk262_PMAG",6,"vest"] call FNC_AddItem; //Munición Principal
-	["SMA_MK18afgTAN"] call FNC_AddItem; //Rifle
-	["sma_eotech_t"] call FNC_AddItem; //Mira
+	["ACWP_M4A5_145_troy_MOD3_TAN"] call FNC_AddItem; //Rifle
+	["ACWP_eotech_TAN"] call FNC_AddItem; //Mira
 	["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
 	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
-		["sma_anpeq15_tan"] call FNC_AddItem; //Laser	
-		["sma_supp1tan_556"] call FNC_AddItem; //Silenciador
+		["m300_r_peq_t_ir_tan"] call FNC_AddItem; //Laser	
+		["acwp_sp_wp_tan"] call FNC_AddItem; //Silenciador
 	};
 END_GROUP;
 
 SET_GROUP(rifleGL) //Rifle lanzagranadas
 	["rhs_mag_30Rnd_556x45_Mk262_PMAG",6,"vest"] call FNC_AddItem; //Munición Principal
 	["1Rnd_HE_Grenade_shell",6,"vest"] call FNC_AddItem; //Granada Principal
-	["SMA_MK18TAN_GL"] call FNC_AddItem; //Rifle
-	["SMA_ELCAN_SPECTER_TAN_RDS_4z"] call FNC_AddItem; //Mira
+	["SPS_HK416_11_glm_fde_f"] call FNC_AddItem; //Rifle
+	["CUP_optic_elcan_specterdr_rmr_coyote"] call FNC_AddItem; //Mira
 	["rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",3,"vest"] call FNC_AddItem; //Munición Secundaria
 	["1Rnd_Smoke_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
 	["1Rnd_SmokeRed_Grenade_shell",4,"backpack"] call FNC_AddItem; //Granada Secundaria
@@ -144,8 +142,8 @@ SET_GROUP(rifleGL) //Rifle lanzagranadas
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
 	if (daytime < (_lite) || (daytime + 1) > _dark) then { //Accesorios nocturnos para rifle
-		["sma_anpeq15_tan"] call FNC_AddItem; //Laser	
-		["sma_supp1tan_556"] call FNC_AddItem; //Silenciador
+		["m300_r_peq_t_ir_tan"] call FNC_AddItem; //Laser	
+		["acwp_sp_wp_tan"] call FNC_AddItem; //Silenciador
 	};
 END_GROUP;
 
@@ -167,7 +165,7 @@ END_GROUP;
 SET_GROUP(rifleAR) //Rifle Automatic Rifleman
 	["rhsusf_200rnd_556x45_M855_mixed_box",4,"vest"] call FNC_AddItem; //Munición Principal
 	["rhs_weap_m249_pip_L"] call FNC_AddItem; //Rifle
-	["sma_spitfire_03_rds_low_black"] call FNC_AddItem; //Mira 
+	["rhsusf_acc_eotech_xps3"] call FNC_AddItem; //Mira 
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
@@ -198,9 +196,9 @@ SET_GROUP(EXP) //Explosivos
 END_GROUP;
 
 SET_GROUP(pistol) //Pistola
-	["RH_15Rnd_45cal_fnp",2,"vest"] call FNC_AddItem; //Munición
-	["RH_fnp45"] call FNC_AddItem; //Pistola
-	["RH_gemtech45"] call FNC_AddItem; //Accesorios
+	["ACWP_18Rnd_9x21_Mag_USP_TAN",2,"vest"] call FNC_AddItem; //Munición
+	["ACWP_USP_TAN"] call FNC_AddItem; //Pistola
+	["hlc_muzzle_octane9"] call FNC_AddItem; //Accesorios
 END_GROUP;
 
 case (package + "FTL"): { //Lider de Equipo

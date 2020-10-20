@@ -17,8 +17,7 @@ SET_GROUP(helmet) //Cascos
 	 "Mohawk_COre_cyalumen_MTP", "Mohawk_Core_cyalumen_TAN",
 	 "Mohawk_COre_MANTA_MTP", "Mohawk_Core_MANTA_TAN",
 	 "Mohawk_COre_cover_MTP", "Mohawk_Core_cover_TAN",
-	 "Morales_OpsCore_M81", "Morales_OpsCore", "NSWDG_Helmet_FastXP_Baldspot_Tan", "NSWDG_Helmet_FastXP_Hitman_Tan",
-	 "NSWDG_Helmet_FastXP_Mohawk_Tan"
+	 "Morales_OpsCore_M81", "Morales_OpsCore"
 	 ] call FNC_AddItemRandom;
 END_GROUP;
 
@@ -27,8 +26,7 @@ SET_GROUP(uniformFTL) //Uniforme Lideres de Equipo
 	"tfa_v_jpc_teamleader_belt_coy", "tfa_v_jpc_teamleader_belt_mc"] call FNC_AddItemRandom;
 	["milgp_h_airframe_01_KHK", "milgp_h_airframe_01_KHK_hexagon", "milgp_h_airframe_01_MC",
 	"milgp_h_airframe_02_KHK", "milgp_h_airframe_02_KHK_hexagon", "milgp_h_airframe_02_MC",
-	"milgp_h_airframe_04_KHK", "milgp_h_airframe_04_KHK_hexagon", "milgp_h_airframe_04_MC",
-	"CTS_AirFrame" ] call FNC_AddItemRandom;
+	"milgp_h_airframe_04_KHK", "milgp_h_airframe_04_KHK_hexagon", "milgp_h_airframe_04_MC"] call FNC_AddItemRandom;
 	["tfw_ilbe_dd_coy"] call FNC_AddItem;
 END_GROUP;
 

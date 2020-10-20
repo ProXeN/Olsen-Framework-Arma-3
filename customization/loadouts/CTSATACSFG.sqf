@@ -73,7 +73,7 @@ SET_GROUP(IFAK) //Medicinas básicas
 	["ACE_packingBandage",4,"backpack"] call FNC_AddItem;
 	["ACE_morphine",2,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_250",2,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",4,"backpack"] call FNC_AddItem;
+	["ACE_Splint",4,"backpack"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(IFAKMEDIC) //Medicinas Médico
@@ -86,7 +86,7 @@ SET_GROUP(IFAKMEDIC) //Medicinas Médico
 	["ACE_epinephrine",15,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_250",6,"backpack"] call FNC_AddItem;
 	["ACE_salineIV_500",6,"backpack"] call FNC_AddItem;
-	["adv_aceSplint_splint",15,"backpack"] call FNC_AddItem;
+	["ACE_Splint",15,"backpack"] call FNC_AddItem;
 	["ACE_personalAidKit",1,"backpack"] call FNC_AddItem;
 	["ACE_surgicalKit",1,"backpack"] call FNC_AddItem;
 END_GROUP;
@@ -100,7 +100,7 @@ SET_GROUP(items) //Objetos básicos
 	["ACE_CableTie",2,"vest"] call FNC_AddItem;
 	["ACE_Clacker",1,"vest"] call FNC_AddItem;
 	["MS_Strobe_Mag_1",1,"vest"] call FNC_AddItem;
-	["TFAR_ANPRC152"] call FNC_AddItem;
+	["ACRE_PRC152"] call FNC_AddItem;
 	
 	_lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 	_dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
