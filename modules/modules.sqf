@@ -17,6 +17,7 @@
 //#include "fastrope\root.sqf"
 //#include "carrier\root.sqf"
 //#include "tasktracker\root.sqf"
+//#include "ai_skill\root.sqf"
 
 //Additional modules that can be enabled by removing the //
 //!!Some of them require changing settings in their settings.sqf file!!
