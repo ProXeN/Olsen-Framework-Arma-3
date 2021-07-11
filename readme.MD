@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/ProXeN/Simulatio-Framework-Arma-3/releases/latest">
-        <img src="https://img.shields.io/badge/Version-3.3.3-blue.svg" alt="Olsen Framework Version">
+        <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Olsen Framework Version">
     </a>
     <a href="https://www.iniciativasimulatio.com.com">
         <img src="https://img.shields.io/badge/Fork-Simulatio-green.svg" alt="CTS">
