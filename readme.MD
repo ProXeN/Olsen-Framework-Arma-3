@@ -6,13 +6,13 @@
         <img src="https://img.shields.io/badge/Version-3.3.3-blue.svg" alt="Olsen Framework Version">
     </a>
     <a href="https://www.iniciativasimulatio.com.com">
-        <img src="https://img.shields.io/badge/Fork-CTS-green.svg" alt="CTS">
+        <img src="https://img.shields.io/badge/Fork-Simulatio-green.svg" alt="CTS">
     </a>
     <a href="https://github.com/ProXeN/Simulatio-Framework-Arma-3/issues">
         <img src="https://img.shields.io/github/issues-raw/ProXeN/Simulatio-Framework-Arma-3.svg?label=Issues" alt="Olsen Framework Issues">
     </a>
     <a href="https://iniciativasimulatio.com/wiki/doku.php?id=edicion:principal">
-        <img src="https://img.shields.io/badge/CTS-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="CTS Wiki">
+        <img src="https://img.shields.io/badge/Simulatio-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="CTS Wiki">
     </a>
     <a href="https://discord.gg/qnKdQD5mYW">
         <img src="https://img.shields.io/discord/419542231276584961?label=Discord&logo=discord" akt="Discord CTS">
