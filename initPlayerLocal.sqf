@@ -4,7 +4,7 @@ PRX_LMAO = {
 	[[_line1,_line2],"SIDE",0.10,true] spawn FNC_SIMPLECONV;
 };
 
-CTS_Conversacion = {
+IS_Conversacion = {
 	params ["_npc"];
   if (player distance _npc < 20) then {
     _line1 = ["Golf Oscar Delta", "Hola tio. Esto es el constructor. Es nuestro programa de carga.", _npc];
@@ -16,7 +16,7 @@ CTS_Conversacion = {
   };
 };
 
-CTS_Intel = {
+IS_Intel = {
   hint "Te has bajado un archivo. Mira el Briefing para consultarlo"; 
   player createDiaryRecord ["Diary", ["Archivo Descargado","<img image='images\archivo.jpg' width='400' height='250'/>"]];
 };

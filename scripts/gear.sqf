@@ -5,8 +5,8 @@ params ["_box"];
 [
 _box,              /* 0: Target */
 "Coger Equipación", 		      /* 1: Title */
-"\cts_assets\actions\rearm.paa",     /* 2: idleIcon */
-"\cts_assets\actions\rearm.paa",     /* 3: progressIcon */
+"\simulatio_assets\actions\rearm.paa",     /* 2: idleIcon */
+"\simulatio_assets\actions\rearm.paa",     /* 3: progressIcon */
 "_this distance _target < 3",  /* 4: CondShow */
 "_caller distance _target < 3",/* 5: codeProgress */
 {},                       /* 6: codeStart */

@@ -10,7 +10,6 @@ PREP(trackUnit);
 PREP(untrackUnit);
 PREP(StartingCount);
 PREP(stackNames);
-PREP(getDamagedAssets);
 PREP(createRespawnMarker);
 PREP(inArea);
 PREP(areaCount);
@@ -24,8 +23,6 @@ PREP(addTeam);
 PREP(spectateCheck);
 PREP(spectatePrep);
 PREP(countTeam);
-PREP(spawnAI);
-PREP(spawnVehicle);
 PREP(hasExtracted);
 PREP(RRR);
 PREP(simpleConv);
@@ -70,9 +67,6 @@ if (!isDedicated) then {
 			_msg remoteExecCall ["FNC_EndMission", 2];
 		}, "admin"] call CBA_fnc_registerChatCommand;
 	};
-
-	//"FW_EndMission" player event sends the received variables to the end screen
-	FW_EndMissionEh = ["FW_EndMission", {_this execVM "core\dia\endscreen\dia_endscreen.sqf";}] call CBA_fnc_addEventHandler;
 
 	//Various settings
 	enableEngineArtillery false; //Disable Arma 3 artillery computer

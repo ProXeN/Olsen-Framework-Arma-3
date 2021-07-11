@@ -5,10 +5,10 @@ class Header
 };
 
 author = "Proxen";
-OnLoadName = "CTS Plantilla";
-OnLoadMission = "Prueba la plantilla de CTS.";
-OverviewText = "Prueba la plantilla de CTS.";
-loadScreen =__EVAL(selectRandom ['cts_assets\overview\overview.jpg','cts_assets\overview\overview2.jpg','cts_assets\overview\overview3.jpg','cts_assets\overview\overview4.jpg','cts_assets\overview\overview5.jpg','cts_assets\overview\overview6.jpg','cts_assets\overview\overview7.jpg','cts_assets\overview\overview8.jpg','cts_assets\overview\overview9.jpg','cts_assets\overview\overview10.jpg','cts_assets\overview\overview11.jpg','cts_assets\overview\overview12.jpg','cts_assets\overview\overview13.jpg','cts_assets\overview\overview14.jpg','cts_assets\overview\overview15.jpg','cts_assets\overview\overview16.jpg','cts_assets\overview\overview17.jpg']);
+OnLoadName = "Iniciativa Simulatio Plantilla";
+OnLoadMission = "Prueba la plantilla de Iniciativa Simulatio.";
+OverviewText = "Prueba la plantilla de Iniciativa Simulatio.";
+loadScreen =__EVAL(selectRandom ['simulatio_assets\overview\overview.jpg','simulatio_assets\overview\overview2.jpg','simulatio_assets\overview\overview3.jpg','simulatio_assets\overview\overview4.jpg','simulatio_assets\overview\overview5.jpg','simulatio_assets\overview\overview6.jpg','simulatio_assets\overview\overview7.jpg','simulatio_assets\overview\overview8.jpg','simulatio_assets\overview\overview9.jpg','simulatio_assets\overview\overview10.jpg']);
 
 
 #include "core\description.hpp" //DO NOT REMOVE
@@ -78,6 +78,12 @@ class Params {
 };
 
 #undef description_params
+
+class CfgDebriefing {
+
+	#include "customization\endTypes.hpp" //DO NOT REMOVE
+	
+};
 
 #define description_carrier
 

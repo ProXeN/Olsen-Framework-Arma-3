@@ -10,7 +10,7 @@ NEWTAB("OPORD")
 	<br/><font size='15' face='RobotoCondensedBold' color='#FFA500'>SITUACIÓN</font>
 	<br/><font size='13'>
 	La pequeña isla de Altis lleva en guerra civil casi dos años. El gobierno ha caído y ahora la isla se rige por 'Warlords' Señores de la guerra. 
-	Uno de estos 'Warlords' nos ha contratado para mover la balanza hacia su favor... Pagando claro está. CTS se infiltará en la isla y eliminará los almacenes de suministros y municiones de sus rivales..</font>
+	Uno de estos 'Warlords' nos ha contratado para mover la balanza hacia su favor... Pagando claro está. La Iniciativa se infiltará en la isla y eliminará los almacenes de suministros y municiones de sus rivales..</font>
 	<br/>
 	<br/>
 	<img image='images\briefing.jpg' width='367' height='206'/>

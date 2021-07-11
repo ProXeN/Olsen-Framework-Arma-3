@@ -1,4 +1,4 @@
-private _westCasualty = "CTS" call FNC_CasualtyPercentage; //Gets the casualty percentage of team "CTS"
+private _westCasualty = "Iniciativa Simulatio" call FNC_CasualtyPercentage; //Gets the casualty percentage of team "Iniciativa Simulatio"
 
 if (_westCasualty >= 100) exitWith {
 	

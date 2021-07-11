@@ -11,33 +11,22 @@ if (!isDedicated) then {
 
 	switch (date select 1) do {
 
-		case 1: {_month = "January"};
-		case 2: {_month = "February"};
-		case 3: {_month = "March"};
-		case 4: {_month = "April"};
-		case 5: {_month = "May"};
-		case 6: {_month = "June"};
-		case 7: {_month = "July"};
-		case 8: {_month = "August"};
-		case 9: {_month = "September"};
-		case 10: {_month = "October"};
-		case 11: {_month = "November"};
-		case 12: {_month = "December"};
+		case 1: {_month = "Enero"};
+		case 2: {_month = "Febrero"};
+		case 3: {_month = "Marzo"};
+		case 4: {_month = "Abril"};
+		case 5: {_month = "Mayo"};
+		case 6: {_month = "Junio"};
+		case 7: {_month = "Julio"};
+		case 8: {_month = "Agosto"};
+		case 9: {_month = "Septiembre"};
+		case 10: {_month = "Octubre"};
+		case 11: {_month = "Noviembre"};
+		case 12: {_month = "Diciembre"};
 
 	};
 
-	_day = format ["%1th", date select 2];
-
-	if (((date select 2) mod 10) < 4) then {
-
-		switch ((date select 2) mod 10) do {
-
-			case 1: {_day = format ["%1st", date select 2]};
-			case 2: {_day = format ["%1nd", date select 2]};
-			case 3: {_day = format ["%1rd", date select 2]};
-
-		};
-	};
+	_day = format ["%1", date select 2];
 
 	private _h = date select 3;
 	if (date select 4 == 60) then {_h = _h + 1;};
@@ -105,6 +94,9 @@ if (!isDedicated) then {
 		0 fadesound 0;
 		cutText ["", "BLACK FADED", 999];
 		waitUntil {!(isNil "preload_complete")};
+		sleep 1;
+		_text = format ["<img size= '6' style='vertical-align:middle' shadow='false' image='images\simulatio.paa'/><br/><br/><t size='.9' color='#FFFFFF'>%1</t>", "PRESENTA"];
+        [_text,0,0,2,2] spawn BIS_fnc_dynamicText;
 		sleep 3;
 		"dynamicBlur" ppEffectEnable true;   
 		"dynamicBlur" ppEffectAdjust [6];   

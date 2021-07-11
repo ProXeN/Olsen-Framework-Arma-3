@@ -13,7 +13,7 @@ if (isServer) then {
 					["taskPhone", "Localizar pistas en el área del accidente.", "Localizar Pistas", "LOCALIZAR", getPos phone, "assigned", "search"]
 				] call FHQ_fnc_ttAddTasks;
 				"mSearch" setMarkerAlpha 0;
-				remoteExec ["CTS_Helicoptero", [0,-2] select isDedicated];
+				remoteExec ["IS_Helicoptero", [0,-2] select isDedicated];
 			};
 
 			case "t_taskPhone": {
@@ -21,7 +21,7 @@ if (isServer) then {
 					{true},
 					["taskRescue", "Localizar a los periodistas secuestrados.", "Rescatar Periodistas", "RESCATAR", getmarkerPos "mTemple", "assigned", "run"]
 				] call FHQ_fnc_ttAddTasks;
-				remoteExec ["CTS_Telefono", [0,-2] select isDedicated];
+				remoteExec ["IS_Telefono", [0,-2] select isDedicated];
 				"mTemple" setMarkerAlpha 1;
 			};
 
@@ -30,7 +30,7 @@ if (isServer) then {
 					{true},
 					["taskExtract", "Extraer a los rehenes.", "Extracción", "EXTRAER", "", "assigned", "exit"]
 				] call FHQ_fnc_ttAddTasks;
-				remoteExec ["CTS_Rescate", [0,-2] select isDedicated];
+				remoteExec ["IS_Rescate", [0,-2] select isDedicated];
 			};
 		};
 	};

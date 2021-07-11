@@ -204,7 +204,8 @@ private["_attachOffset","_attachObj","_attachSpecsAuto","_attachSpecs","_attachS
 			[
 				["Land_CampingChair_V2_F",[0,0.08,-0.02],-180],
 				["Land_ChairPlastic_F",[0,0.08,-0.02],90],
-				["Land_ChairWood_F",[0,0.02,-0.02],-180]
+				["Land_ChairWood_F",[0,0.02,-0.02],-180],
+				["Land_OfficeChair_01_F",[0,-0.05,0.05],-180]
 			];
 		};
 		case "SIT";

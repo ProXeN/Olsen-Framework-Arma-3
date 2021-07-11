@@ -5,7 +5,7 @@ if (isServer) then {
 
 	setViewDistance 2500; //View distance for the server (the ai's)
 
-	[west, "CTS", "player"] call FNC_AddTeam; //Adds a player team called CTS on side west
+	[west, "Iniciativa Simulatio", "player"] call FNC_AddTeam; //Adds a player team called Iniciativa Simulatio on side west
 	[east, "OPFOR", "ai"] call FNC_AddTeam; //Adds a ai team called OPFOR on side east
 	
 	// [resistance, "Local Militia", "player"] call FNC_AddTeam; //Adds a player team called Local Militia on side resistance (aka independent)

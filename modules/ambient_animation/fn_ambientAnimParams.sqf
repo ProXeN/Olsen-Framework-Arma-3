@@ -157,7 +157,7 @@ switch (_this) do
 	case "SIT_AT_TABLE":
 	{
 		_anims = ["HubSittingAtTableU_idle1","HubSittingAtTableU_idle2","HubSittingAtTableU_idle3"];
-		_attachOffset = -0.5;
+		_attachOffset = 0.5;
 		_attachSnap = 2;
 		_noBackpack = true;
 		_noWeapon = true;

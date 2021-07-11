@@ -83,7 +83,7 @@ if (_vehicleName == "") then {_vehicleName = _vehicleDescription};
 if !(_serviceName == "") then {
 	[_serviceName, _serviceSub] spawn BIS_fnc_infoText;
 } else {
-	_vehicle vehicleChat "CTS FARP";
+	_vehicle vehicleChat "Simulatio FARP";
 };
 _vehicle engineOn false;
 

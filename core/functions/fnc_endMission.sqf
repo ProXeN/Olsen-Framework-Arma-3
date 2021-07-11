@@ -1,8 +1,7 @@
 /*
- * Author: Olsen
+ * Author: Olsen. Modified by Proxen
  *
  * Ends mission in orderly fashion and displays end screen.
- * Sends the team stats, time limit, scenario and executes "FW_EndMission" on all players machines.
  *
  * Arguments:
  * 0: text to display in end screen <string>
@@ -13,26 +12,15 @@
  * Public: Yes
  */
 
-private _scenario = _this;
+if !(isServer) exitWith {};
 
 if (time > 0) then {
 
+	if (isDedicated) then {["Operación finalizada."] call ocap_fnc_exportData};
+
 	FW_MissionEnded = true;
 
-	if (!isNil "aCount_endCount") then {call aCount_endCount};
-	
-	{
-
-		private _team = (_x select 0);
-
-		private _assets = _team call FNC_GetDamagedAssets;
-
-		[_team, 5, _assets select 0] call FNC_SetTeamVariable;
-		[_team, 6, _assets select 1] call FNC_SetTeamVariable;
-
-	} forEach FW_Teams;
-
-	["FW_EndMission", [_scenario, FW_Teams]] call CBA_fnc_globalEvent;
+	[_this select 0, _this select 1] remoteExec ["BIS_fnc_endMission"];
 	
 } else {
 	"End Conditions have just been triggered. Mission will have to be ended manually." remoteExec ["systemChat", 0, false];

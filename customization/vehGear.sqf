@@ -53,7 +53,7 @@ switch (_type) do {
 		["MRAWS_HE_F", 10] call FNC_AddItemVehicle;
 		["DemoCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
 		["SatchelCharge_Remote_Mag", 10] call FNC_AddItemVehicle;
-		["ACWP_18Rnd_9x21_Mag_USP", 20] call FNC_AddItemVehicle;
+		["Tier1_17Rnd_9x19_P320_FMJ", 20] call FNC_AddItemVehicle;
 		["ACE_CableTie", 20] call FNC_AddItemVehicle;
 		["SmokeShell", 30] call FNC_AddItemVehicle;
 		["SmokeShellGreen", 30] call FNC_AddItemVehicle;
@@ -86,6 +86,7 @@ switch (_type) do {
 		["rhs_VG40OP_white", 15] call FNC_AddItemVehicle;
 		["RHS_VG40OP_red", 15] call FNC_AddItemVehicle;
 		["10Rnd_762x54_Mag", 20] call FNC_AddItemVehicle;
+		["rhs_100rnd_762x54mmR_7N26", 20] call FNC_AddItemVehicle;
 		["75rnd_762x39_AK12_Mag_F", 20] call FNC_AddItemVehicle;
 		["RPG32_F", 10] call FNC_AddItemVehicle;
 		["RPG32_HE_F", 10] call FNC_AddItemVehicle;
