@@ -15,7 +15,7 @@
         <img src="https://img.shields.io/badge/Simulatio-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="CTS Wiki">
     </a>
     <a href="https://discord.gg/qnKdQD5mYW">
-        <img src="https://img.shields.io/discord/419542231276584961?label=Discord&logo=discord" akt="Discord CTS">
+        <img src="https://img.shields.io/discord/859207675899150417?label=Discord&logo=discord" akt="Discord CTS">
     </a>
 </p>
 
