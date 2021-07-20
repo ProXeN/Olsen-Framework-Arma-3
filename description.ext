@@ -2,6 +2,8 @@
 class Header
 {
 	gameType = COOP;	// Game type
+	minPlayers = 1;
+  	maxPlayers = 60;
 };
 
 author = "Proxen";
