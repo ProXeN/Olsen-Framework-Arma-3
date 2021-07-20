@@ -9,6 +9,9 @@
 	respawnDialog = 0; //Disables the score screen while respawning
 	respawnTemplates[] = {"Base"}; //Disables respawn countdown
 	enableDebugConsole[] = {"76561198008840087"}; //Only for logged-in admins
+	corpseManagerMode = 3;
+	wreckManagerMode = 0;
+	minPlayerDistance = 100;
 	enableTargetDebug = 1; //Enable CBA Target Debugging
 
 	class Extended_PreInit_EventHandlers {
