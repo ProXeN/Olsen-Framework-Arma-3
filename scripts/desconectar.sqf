@@ -1,3 +1,12 @@
+PRX_ElectricHum = {
+	params ["_item"];
+	_item setVehicleVarName "PRX_soundSource";
+	while {isNil "t_interruptor"} do { 
+		_item say3D ['OMEnergyHum',30];  
+		sleep 10; 
+	};
+};
+
 if !(isServer) exitWith {};
 params ["_item"];
 
@@ -9,16 +18,6 @@ _item animate ["SwitchLight", 1];
 PRX_soundSource = createVehicle ["Land_Battery_F",position _item,[],0,"CAN_COLLIDE"];
 PRX_soundSource hideObjectGlobal true;
 publicVariable "PRX_soundSource";
-
-
-PRX_ElectricHum = {
-	params ["_item"];
-	_item setVehicleVarName "PRX_soundSource";
-	while {isNil "t_interruptor"} do { 
-		_item say3D ['OMEnergyHum',30];  
-		sleep 10; 
-	};
-};
 
 [PRX_soundSource] remoteExec ["PRX_ElectricHum",[0,-2] select isDedicated,true];	
 
