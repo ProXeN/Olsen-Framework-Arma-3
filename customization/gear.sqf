@@ -17,7 +17,7 @@ _lite = (date call BIS_fnc_sunriseSunsetTime) # 0;
 _dark = (date call BIS_fnc_sunriseSunsetTime) # 1;
 if (daytime < (_lite) || (daytime + 1) > _dark) then {
 	FW_isNight = true;
-};	
+} else { FW_isNight = false};	
 
 _unit call FNC_RemoveAllGear;
 
