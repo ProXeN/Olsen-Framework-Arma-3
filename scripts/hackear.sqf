@@ -16,14 +16,19 @@ _terminal,              /* 0: Target */
 "\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_hack_ca.paa",     /* 3: progressIcon */
 "_this distance _target < 3",  /* 4: CondShow */
 "_caller distance _target < 3",/* 5: codeProgress */
-{playSound3D ["simulatio_assets\sounds\Sfx_terminal_disabled_01.wss",(_this select 0),false,getPos (_this select 0),1,1,25]},                       /* 6: codeStart */
+{playSound3D [
+    selectRandom [
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_01.wss",
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_02.wss",
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_03.wss"
+    ]
+    ,(_this select 0),false,getPos (_this select 0),5,1,25]},                       /* 6: codeStart */
 {},                       /* 7: codeTick */
 {
 //["taskHack","succeeded"] remoteExec ["FHQ_fnc_ttSetTaskState", 2]
-[(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove",[0,-2] select isDedicated,true];
 [  
  [  
-  ["title","CTS - ¡Somos Comunidad!"],  
+  ["title","Iniciativa Simulatio"],  
   ["meta",["Proxen 'Golf Oscar Delta'",[2035,2,24,11,38],"CET"]],  
   ["textbold","Que guapo, primo"],  
   ["image",["\a3\Missions_F_Orange\Data\Img\orange_overview_ca.paa","To wapa la foto nen"]],  
@@ -36,8 +41,8 @@ _terminal,              /* 0: Target */
 },    /* 8: codeCompleted */
 {},                        /* 9: codeInterrupted */
 [],                        /* 10: Arguments */
-2.5,                        /* 11: Duration */
+1,                        /* 11: Duration */
 10,                        /* 12: priority */
-true,                    /* 13: Remove on completion */
+false,                    /* 13: Remove on completion */
 false                    /* 14: Show if unconcious */
 ] remoteExec ["BIS_fnc_holdActionAdd",[0,-2] select isDedicated,true];

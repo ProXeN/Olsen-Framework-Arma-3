@@ -22,8 +22,13 @@ _terminal,              /* 0: Target */
 "\a3\ui_f\data\IGUI\Cfg\HoldActions\holdAction_hack_ca.paa",     /* 3: progressIcon */
 "_this distance _target < 3",  /* 4: CondShow */
 "_caller distance _target < 3",/* 5: codeProgress */
-{playSound3D ["simulatio_assets\sounds\Sfx_terminal_disabled_01.wss",(_this select 0),false,getPos (_this select 0),1,1,25]},                       /* 6: codeStart */
-{},                       /* 7: codeTick */
+{playSound3D [
+    selectRandom [
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_01.wss",
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_02.wss",
+        "a3\Missions_F_Oldman\Data\sound\Intel_Laptop\1sec\Intel_Laptop_1sec_03.wss"
+    ]
+    ,(_this select 0),false,getPos (_this select 0),5,1,25]},                       /* 6: codeStart */{},                       /* 7: codeTick */
 {
     if ('MRH_HackingTool' in items (_this select 1)) then {
         [(_this select 0)] spawn MRH_fnc_MilsimTools_Functions_Hack;
@@ -33,7 +38,7 @@ _terminal,              /* 0: Target */
 },    /* 8: codeCompleted */
 {},                        /* 9: codeInterrupted */
 [],                        /* 10: Arguments */
-2.5,                        /* 11: Duration */
+1,                        /* 11: Duration */
 10,                        /* 12: priority */
 false,                    /* 13: Remove on completion */
 false                    /* 14: Show if unconcious */
