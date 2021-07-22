@@ -342,6 +342,17 @@ case (package + "RFL"): { //Rifleman
 	ADD_GROUP(ammofrag);
 	ADD_GROUP(rifle);
 	ADD_GROUP(pistol);
+};
+
+case (package + "AAR"): { //Rifleman
+	ADD_GROUP(uniform);
+	ADD_GROUP(helmet);
+	ADD_GROUP(uniformENG);
+	ADD_GROUP(ifak);
+	ADD_GROUP(items);
+	ADD_GROUP(ammofrag);
+	ADD_GROUP(rifle);
+	ADD_GROUP(pistol);
 	ADD_GROUP(ammoAR);
 };
 
