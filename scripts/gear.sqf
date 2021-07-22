@@ -14,7 +14,7 @@ _box,              /* 0: Target */
 {
 titleText ["", "BLACK OUT", 1];
 [player, player getVariable "FW_Loadout"] call FNC_GearScript;
-playSound "cambiarRopa";
+playSound selectRandom ["cambiarRopa", "OMIntelGrabBody_01", "OMIntelGrabBody_02", "OMIntelGrabBody_03"];
 [{titleText ["", "BLACK IN", 1]}, [], 3] call CBA_fnc_waitAndExecute;
 },    /* 8: codeCompleted */
 {},                        /* 9: codeInterrupted */
