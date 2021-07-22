@@ -1582,3 +1582,225 @@ class RscControlsGroup
 	shadow = 0;
 	style = 16;
 };
+//Keypad
+class RscTextKeypad
+{
+    access = 0;
+    type = CT_STATIC;
+    style = ST_MULTI + ST_CENTER + 512;
+    linespacing = 1;
+    colorBackground[] = {0,0,0,0};
+    colorText[] = {1,1,1,1};
+    text = "";
+    shadow = 0;
+    font = "PuristaMedium";
+    SizeEx = 0.03;
+    fixedWidth = 0;
+    x = 0;
+    y = 0;
+    h = 0;
+    w = 0;   
+};
+
+class RscPictureKeypad
+{
+    access = 0;
+    idc = -1;
+    type = CT_STATIC;
+    style = ST_PICTURE;
+    colorBackground[] = {0,0,0,0};
+    colorText[] = {1,1,1,1};
+    font = "PuristaLight";
+    sizeEx = 0;
+    lineSpacing = 0;
+    text = "";
+    fixedWidth = 0;
+    shadow = 0;
+    x = 0;
+    y = 0;
+    w = 0.2;
+    h = 0.15;
+};
+
+class RscButtonKeypad
+{
+    
+    access = 0;
+    type = CT_BUTTON;
+    text = "";
+    colorText[] = {0,0,0,0};
+    colorDisabled[] = {0,0,0,0};
+    colorBackground[] = {0,0,0,0};
+    colorBackgroundDisabled[] = {0,0,0,0};
+    colorBackgroundActive[] = {0,0,0,0};
+    colorFocused[] = {0,0,0,0};
+    colorShadow[] = {0,0,0,0};
+    colorBorder[] = {0,0,0,0};
+    soundEnter[] = {"\A3\ui_f\data\sound\ReadOut\ReadoutHideClick1",0,0};
+    soundPush[] = {"\A3\ui_f\data\sound\ReadOut\ReadoutHideClick1",0,0};
+    soundClick[] = {"\Simulatio_Assets\keypad\Sounds\GC_Button_01",0.09,1};
+    soundEscape[] = {"\A3\ui_f\data\sound\ReadOut\ReadoutHideClick1",0,0};
+    style = 2;
+    x = 0;
+    y = 0;
+    w = 0.055589;
+    h = 0.039216;
+    shadow = 0;
+    font = "PuristaMedium";
+    sizeEx = 0.025;
+    offsetX = 0;
+    offsetY = 0;
+    offsetPressedX = 0;
+    offsetPressedY = 0;
+    borderSize = 0;
+};
+class GC_Dialog
+
+{
+	idd = -1;
+	movingEnable = false;
+
+	class controls {
+		class RscButton_1609: RscButtonKeypad
+		{
+			idc = 1609;
+			x = 0.464774 * safezoneW + safezoneX;
+			y = 0.6492 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Clear"", 0]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class GC_Keypad: RscPictureKeypad
+		{
+			idc = 500;
+			text = "\simulatio_assets\keypad\GC_Keypad.paa";
+			x = 0.3481215 * safezoneW + safezoneX;
+			y = 0.2096 * safezoneH + safezoneY;
+			w = 0.303693 * safezoneW;
+			h = 0.583 * safezoneH;
+		};
+
+		// Keypad Numeral 01
+
+		class RscButton_1600: RscButtonKeypad
+		{
+			idc = 1600;
+			text = "1"; //--- ToDo: Localize;
+			x = 0.464774 * safezoneW + safezoneX;
+			y = 0.5444 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 1]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1601: RscButtonKeypad
+		{
+			idc = 1601;
+			text = "2"; //--- ToDo: Localize;
+			x = 0.48884 * safezoneW + safezoneX;
+			y = 0.5444 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 2]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1602: RscButtonKeypad
+		{
+			idc = 1602;
+			text = "3"; //--- ToDo: Localize;
+			x = 0.512906 * safezoneW + safezoneX;
+			y = 0.5444 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 3]execVM ""Scripts\GC_keypad.sqf""";
+		};
+
+		class RscButton_1603: RscButtonKeypad
+		{
+			idc = 1603;
+			text = "4"; //--- ToDo: Localize;
+			x = 0.464774 * safezoneW + safezoneX;
+			y = 0.5792 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 4]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1604: RscButtonKeypad
+		{
+			idc = 1604;
+			text = "5"; //--- ToDo: Localize;
+			x = 0.48884 * safezoneW + safezoneX;
+			y = 0.5792 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 5]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1605: RscButtonKeypad
+		{
+			idc = 1605;
+			text = "6"; //--- ToDo: Localize;
+			x = 0.512906 * safezoneW + safezoneX;
+			y = 0.5792 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 6]execVM ""Scripts\GC_keypad.sqf""";
+		};
+
+		class RscButton_1606: RscButtonKeypad
+		{
+			idc = 1606;
+			text = "7"; //--- ToDo: Localize;
+			x = 0.464774 * safezoneW + safezoneX;
+			y = 0.6144 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 7]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1607: RscButtonKeypad
+		{
+			idc = 1607;
+			text = "8"; //--- ToDo: Localize;
+			x = 0.48884 * safezoneW + safezoneX;
+			y = 0.6144 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 8]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1608: RscButtonKeypad
+		{
+			idc = 1608;
+			text = "9"; //--- ToDo: Localize;
+			x = 0.512906 * safezoneW + safezoneX;
+			y = 0.6144 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 9]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1610: RscButtonKeypad
+		{
+			idc = 1610;
+			text = "0"; //--- ToDo: Localize;
+			x = 0.48884 * safezoneW + safezoneX;
+			y = 0.6492 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Number"", 0]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class RscButton_1611: RscButtonKeypad
+		{
+			idc = 1611;
+			x = 0.512906 * safezoneW + safezoneX;
+			y = 0.6492 * safezoneH + safezoneY;
+			w = 0.0229202 * safezoneW;
+			h = 0.033 * safezoneH;
+			action = "[""Enter"", 0]execVM ""Scripts\GC_keypad.sqf""";
+		};
+		class GC_KeyPad_Message: RscTextKeypad
+		{
+			idc = 1000;
+			text = "ENTER CODE"; //--- ToDo: Localize;
+			x = 0.45025 * safezoneW + safezoneX;
+			y = 0.455 * safezoneH + safezoneY;
+			w = 0.1 * safezoneW;
+			h = 0.085 * safezoneH;
+		};
+	};
+};
