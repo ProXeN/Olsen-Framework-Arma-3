@@ -6,6 +6,22 @@ _item animate ["Power_1", 1];
 _item animate ["Power_2", 1];
 _item animate ["SwitchLight", 1];
 
+PRX_soundSource = createVehicle ["Land_Battery_F",position _item,[],0,"CAN_COLLIDE"];
+PRX_soundSource hideObjectGlobal true;
+publicVariable "PRX_soundSource";
+
+
+PRX_ElectricHum = {
+	params ["_item"];
+	_item setVehicleVarName "PRX_soundSource";
+	while {isNil "t_interruptor"} do { 
+		_item say3D ['OMEnergyHum',30];  
+		sleep 10; 
+	};
+};
+
+[PRX_soundSource] remoteExec ["PRX_ElectricHum",[0,-2] select isDedicated,true];	
+
 //Add Hold Action
 [
 _item,              /* 0: Target */
@@ -23,12 +39,13 @@ _item,              /* 0: Target */
 (_this select 0) animate ["SwitchLight", 0];
 playSound3D ["a3\missions_f_exp\data\sounds\exp_m07_lightsoff_01.wss", (_this select 0)];
 [(_this select 0),(_this select 2)] remoteExec ["bis_fnc_holdActionRemove",[0,-2] select isDedicated,true];
-{[_x, false] call BIS_fnc_switchLamp;} forEach (nearestObjects [player, ["lamps_base_f"], 100]);
+{[_x, false] call BIS_fnc_switchLamp;} forEach (nearestObjects [player, ["lamps_base_f"], 500]);
 missionNamespace setVariable ["t_interruptor", true, true];
+deleteVehicle PRX_soundSource;
 },
 {},                        /* 9: codeInterrupted */
 [],                        /* 10: Arguments */
-3,                        /* 11: Duration */
+0.5,                        /* 11: Duration */
 10,                        /* 12: priority */
 true,                    /* 13: Remove on completion */
 false                    /* 14: Show if unconcious */
