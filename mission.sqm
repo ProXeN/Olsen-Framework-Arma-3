@@ -8,7 +8,7 @@ class EditorData
 	toggles=37;
 	class ItemIDProvider
 	{
-		nextID=1954;
+		nextID=1967;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=84;
+		nextID=92;
 	};
 	class Camera
 	{
-		pos[]={7762.7065,21.226658,4364.8408};
-		dir[]={-0.008188487,-0.49947593,0.86628908};
-		up[]={-0.0047210213,0.8663277,0.49945357};
-		aside[]={0.9999553,0,0.00945195};
+		pos[]={7757.2217,6.7822199,4370.4878};
+		dir[]={-0.9689669,-0.24687037,-0.016180385};
+		up[]={-0.24686588,0.96903461,-0.0041221417};
+		aside[]={-0.016696921,-5.2466703e-008,0.99990541};
 	};
 };
 binarizationWanted=0;
@@ -37,7 +37,6 @@ addons[]=
 	"MB_Lab",
 	"A3_Weapons_F_Orange",
 	"A3_Structures_F_Items_Electronics",
-	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Structures_F_Exp_Commercial_MultistoryBuilding_03",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Enoch_Military_Barracks",
@@ -59,7 +58,6 @@ addons[]=
 	"RHS_US_A2_AirImport",
 	"Kimi_HMDs_RHS_UI_Optional",
 	"Kimi_HMDs_RHS",
-	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
 	"CUP_AirVehicles_UH60",
 	"A3_Modules_F",
 	"cox_security_essentials",
@@ -68,6 +66,7 @@ addons[]=
 	"A3_Soft_F_Exp_Truck_01",
 	"ace_cargo",
 	"ace_captives",
+	"simulatio_assets",
 	"A3_Props_F_Enoch_Military_Decontamination",
 	"A3_Props_F_Enoch_Industrial_Electric",
 	"A3_Structures_F_Civ_Lamps",
@@ -126,36 +125,36 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="A3_Props_F_Enoch";
-			name="Arma 3 Contact Platform - Decorative and Mission Objects";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item8
-		{
 			className="A3_Structures_F_Exp_Commercial";
 			name="Arma 3 Apex - Commercial Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item11
+		{
+			className="A3_Props_F_Enoch";
+			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -253,55 +252,55 @@ class AddonsMetaData
 		};
 		class Item26
 		{
-			className="A3_Props_F_Destroyer";
-			name="CFGPATCHES_A3_Props_F_Destroyer";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item27
-		{
 			className="CUP_AirVehicles_UH60";
 			name="CUP_AirVehicles_UH60";
 		};
-		class Item28
+		class Item27
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item29
+		class Item28
 		{
 			className="cox_security_essentials";
 			name="cox_security_essentials";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item30
 		{
 			className="A3_Soft_F_Exp";
 			name="Arma 3 Apex - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item32
+		class Item31
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item33
+		class Item32
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
+		};
+		class Item33
+		{
+			className="simulatio_assets";
+			name="Iniciativa Simulatio - Textures and Assets";
+			author="Proxen";
+			url="http://www.iniciativasimulatio.com";
 		};
 		class Item34
 		{
@@ -321,14 +320,15 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"Enoch",
 	"Expansion",
+	"Enoch",
 	"Contact",
 	"Jets",
 	"3den_objects_mod",
 	"Heli",
 	"RHS_USAF",
-	"CUP_Vehicles"
+	"CUP_Vehicles",
+	"ORANGE"
 };
 randomSeed=15601517;
 class ScenarioData
@@ -567,7 +567,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=152;
+		items=161;
 		class Item0
 		{
 			dataType="Marker";
@@ -773,7 +773,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="this disableAI ""PATH""; ";
+						init="[this, ""C_SICK""] call FNC_GearScript; this disableAI ""PATH""; ";
 						name="Redfox";
 					};
 					id=65;
@@ -2419,179 +2419,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7754,6.054348,4369.5};
-				angles[]={0,4.712389,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="[this, 20, ""varHackeo""] execVM ""scripts\hackear2.sqf""";
-			};
-			id=180;
-			type="Land_Laptop_03_olive_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_objectHack_isGlobalCode";
-					expression="_this setVariable ['MRH_objectHack_runCodeGlobally',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_hackAndCollectData";
-					expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_addHackFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true]};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ObjectTextureCustom1";
-					expression="_this setObjectTextureGlobal [1,_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="simulatio_assets\enoch\laptop1.paa";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item22
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={7776,30.907396,4393};
 			};
 			side="Empty";
@@ -2602,7 +2429,7 @@ class Mission
 			id=183;
 			type="Land_MultistoryBuilding_03_F";
 		};
-		class Item23
+		class Item22
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2716,7 +2543,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item24
+		class Item23
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2832,7 +2659,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Object";
 			class PositionInfo
@@ -2949,12 +2776,12 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7744.252,6.9052353,4365.9321};
+				position[]={7728,6.9052353,4368};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -3128,7 +2955,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item27
+		class Item26
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3264,18 +3091,18 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item28
+		class Item27
 		{
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={7748,5,4366};
+				position[]={7730,5,4354};
 			};
 			title="Cerrar Puertas";
 			description="Bloquea la puerta que tiene más cerca";
 			id=203;
 		};
-		class Item29
+		class Item28
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -3285,7 +3112,7 @@ class Mission
 			title="Ascensor";
 			id=204;
 		};
-		class Item30
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3628,7 +3455,7 @@ class Mission
 				nAttributes=17;
 			};
 		};
-		class Item31
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -3952,7 +3779,7 @@ class Mission
 				nAttributes=16;
 			};
 		};
-		class Item32
+		class Item31
 		{
 			dataType="Group";
 			side="West";
@@ -3971,7 +3798,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="[this, ""IS_RFL""] call FNC_GearScript; [this,[""STAND"",""ASIS""],nil,true] call FNC_ambientAnimMonitor;" \n "this setVariable [""zbe_cacheDisabled"", true]";
+						init="[this, ""IS_RFL""] call FNC_GearScript; [this,[""STAND"",""ASIS""],nil,true] call FNC_ambientAnimMonitor;" \n "this setVariable [""zbe_cacheDisabled"", true]; this setVariable [""lambs_danger_disableAI"", true]";
 					};
 					id=213;
 					type="B_Soldier_F";
@@ -4083,17 +3910,18 @@ class Mission
 			id=212;
 			atlOffset=0.001999855;
 		};
-		class Item33
+		class Item32
 		{
 			dataType="Comment";
 			class PositionInfo
 			{
 				position[]={7774,5,4376};
 			};
-			title="Animaciones";
+			title="Animaciones / Desactivar LAMBS";
+			description="Usar 'this setVariable [""lambs_danger_disableAI"", true]' para desactivar LAMBs.";
 			id=214;
 		};
-		class Item34
+		class Item33
 		{
 			dataType="Group";
 			side="West";
@@ -4168,7 +3996,7 @@ class Mission
 			};
 			id=215;
 		};
-		class Item35
+		class Item34
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4186,7 +4014,7 @@ class Mission
 			id=216;
 			type="B_UAV_02_dynamicLoadout_F";
 		};
-		class Item36
+		class Item35
 		{
 			dataType="Group";
 			side="West";
@@ -4261,7 +4089,7 @@ class Mission
 			};
 			id=219;
 		};
-		class Item37
+		class Item36
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4279,7 +4107,7 @@ class Mission
 			id=220;
 			type="B_UAV_05_F";
 		};
-		class Item38
+		class Item37
 		{
 			dataType="Trigger";
 			position[]={7762,5,4376};
@@ -4294,7 +4122,7 @@ class Mission
 			id=223;
 			type="EmptyDetector";
 		};
-		class Item39
+		class Item38
 		{
 			dataType="Trigger";
 			position[]={7758,5,4376};
@@ -4309,7 +4137,7 @@ class Mission
 			id=224;
 			type="EmptyDetector";
 		};
-		class Item40
+		class Item39
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4320,7 +4148,7 @@ class Mission
 			description="Trigger de Misión Fallida";
 			id=225;
 		};
-		class Item41
+		class Item40
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4331,7 +4159,7 @@ class Mission
 			description="Trigger de Misión Cumplida";
 			id=226;
 		};
-		class Item42
+		class Item41
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4447,7 +4275,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item43
+		class Item42
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4458,7 +4286,7 @@ class Mission
 			description="Cambiarse de ropa";
 			id=237;
 		};
-		class Item44
+		class Item43
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4469,7 +4297,7 @@ class Mission
 			description="Configurados para que no interfieran con VCOM y para que tengan fuel infinito.";
 			id=238;
 		};
-		class Item45
+		class Item44
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4480,7 +4308,7 @@ class Mission
 			description="Ponemos cajas cerca para que pueda llevarlas con eslingas.";
 			id=244;
 		};
-		class Item46
+		class Item45
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -4490,7 +4318,7 @@ class Mission
 			title="Artillería";
 			id=245;
 		};
-		class Item47
+		class Item46
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4625,7 +4453,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item48
+		class Item47
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4759,7 +4587,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item49
+		class Item48
 		{
 			dataType="Object";
 			class PositionInfo
@@ -4893,7 +4721,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item50
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5027,7 +4855,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item51
+		class Item50
 		{
 			dataType="Trigger";
 			position[]={7807,5,4321};
@@ -5045,7 +4873,7 @@ class Mission
 			id=254;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item52
+		class Item51
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5060,7 +4888,7 @@ class Mission
 			id=255;
 			type="Land_HelipadSquare_F";
 		};
-		class Item53
+		class Item52
 		{
 			dataType="Trigger";
 			position[]={7787,5,4321};
@@ -5078,7 +4906,7 @@ class Mission
 			id=258;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item54
+		class Item53
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5093,7 +4921,7 @@ class Mission
 			id=259;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item55
+		class Item54
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5108,7 +4936,7 @@ class Mission
 			id=260;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item56
+		class Item55
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5124,7 +4952,7 @@ class Mission
 			id=261;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item57
+		class Item56
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5140,7 +4968,7 @@ class Mission
 			id=262;
 			type="Land_ConcreteKerb_03_BY_long_F";
 		};
-		class Item58
+		class Item57
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5155,7 +4983,7 @@ class Mission
 			id=263;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item59
+		class Item58
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5170,7 +4998,7 @@ class Mission
 			id=264;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item60
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5185,7 +5013,7 @@ class Mission
 			id=265;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5200,7 +5028,7 @@ class Mission
 			id=266;
 			type="PortableHelipadLight_01_green_F";
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -5210,7 +5038,7 @@ class Mission
 			title="FARP Aire";
 			id=267;
 		};
-		class Item63
+		class Item62
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -5220,7 +5048,7 @@ class Mission
 			title="FARP Tierra";
 			id=268;
 		};
-		class Item64
+		class Item63
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -5231,7 +5059,7 @@ class Mission
 			description="Para que lo usen los jugadores. Lleva medicinas y paracaidas en el inventario.";
 			id=278;
 		};
-		class Item65
+		class Item64
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5365,7 +5193,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item66
+		class Item65
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5499,7 +5327,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item67
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5633,7 +5461,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item68
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -5747,7 +5575,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item69
+		class Item68
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5837,7 +5665,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item70
+		class Item69
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -5965,7 +5793,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item71
+		class Item70
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6169,7 +5997,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item72
+		class Item71
 		{
 			dataType="Group";
 			side="West";
@@ -6270,7 +6098,7 @@ class Mission
 			};
 			id=337;
 		};
-		class Item73
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6310,7 +6138,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item74
+		class Item73
 		{
 			dataType="Group";
 			side="West";
@@ -6411,7 +6239,7 @@ class Mission
 			};
 			id=342;
 		};
-		class Item75
+		class Item74
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6451,7 +6279,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Group";
 			side="West";
@@ -6552,7 +6380,7 @@ class Mission
 			};
 			id=347;
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6592,7 +6420,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6777,7 +6605,7 @@ class Mission
 				nAttributes=9;
 			};
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6981,7 +6809,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7166,7 +6994,7 @@ class Mission
 				nAttributes=9;
 			};
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7294,7 +7122,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Group";
 			side="West";
@@ -7369,7 +7197,7 @@ class Mission
 			};
 			id=356;
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7411,7 +7239,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Group";
 			side="West";
@@ -7538,7 +7366,7 @@ class Mission
 			};
 			id=361;
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Object";
 			class PositionInfo
@@ -7579,7 +7407,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item86
+		class Item85
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -7589,7 +7417,7 @@ class Mission
 			title="CAS";
 			id=367;
 		};
-		class Item87
+		class Item86
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -7599,313 +7427,7 @@ class Mission
 			title="Drones/Gunship/CAS Aviones";
 			id=368;
 		};
-		class Item88
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7753.5244,4.9910955,4370.4307};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=369;
-			type="Land_BriefingRoomScreen_01_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ObjectTextureCustom0";
-					expression="_this setObjectTextureGlobal [0,_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="simulatio_assets\enoch\laptopmain2.paa";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				nAttributes=6;
-			};
-		};
-		class Item89
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={7754,6.054348,4369};
-				angles[]={0,4.712389,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=371;
-			type="Land_Laptop_03_olive_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="mrh_objectHack_isGlobalCode";
-					expression="_this setVariable ['MRH_objectHack_runCodeGlobally',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="mrh_hackAndCollectData";
-					expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_addHackFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true]};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="mrh_hackAndCollectDataHackDuration";
-					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ObjectTextureCustom1";
-					expression="_this setObjectTextureGlobal [1,_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="simulatio_assets\enoch\laptop1.paa";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="mrh_search_CodeFound";
-					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="true";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="mrh_hackAndCollectData_codeToExec";
-					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="missionNamespace setVariable [""hackCompleted"", true, true]; remoteExec [""IS_Intel"", [0,-2] select isDedicated, true]";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="mrh_search_nameFound";
-					expression="_this setVariable ['MRH_object_Found',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="mrh_hackAndCollectDataHackFileSize";
-					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="10";
-						};
-					};
-				};
-				nAttributes=8;
-			};
-		};
-		class Item90
+		class Item87
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8336,12 +7858,12 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item91
+		class Item88
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7742.75,5,4367};
+				position[]={7728,5,4354};
 			};
 			areaSize[]={1,-1,1};
 			id=389;
@@ -8529,7 +8051,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item92
+		class Item89
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8539,7 +8061,7 @@ class Mission
 			title="Equipo de Fuego";
 			id=455;
 		};
-		class Item93
+		class Item90
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8549,7 +8071,7 @@ class Mission
 			title="Equipo de Fuego (Tirador)";
 			id=456;
 		};
-		class Item94
+		class Item91
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8559,7 +8081,7 @@ class Mission
 			title="Equipo de Fuego (AT)";
 			id=468;
 		};
-		class Item95
+		class Item92
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8569,7 +8091,7 @@ class Mission
 			title="Elemento de Apoyo (AT)";
 			id=474;
 		};
-		class Item96
+		class Item93
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8579,7 +8101,7 @@ class Mission
 			title="Elemento de Apoyo (AA)";
 			id=488;
 		};
-		class Item97
+		class Item94
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8589,7 +8111,7 @@ class Mission
 			title="Elemento de Apoyo (Demoliciones)";
 			id=495;
 		};
-		class Item98
+		class Item95
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8705,7 +8227,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item99
+		class Item96
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8821,7 +8343,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item100
+		class Item97
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8831,7 +8353,7 @@ class Mission
 			title="Equipo de Fuego (JTAC)";
 			id=509;
 		};
-		class Item101
+		class Item98
 		{
 			dataType="Trigger";
 			position[]={5269.5,5,3410.25};
@@ -8843,7 +8365,7 @@ class Mission
 			id=511;
 			type="EmptyDetector";
 		};
-		class Item102
+		class Item99
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -8853,7 +8375,7 @@ class Mission
 			title="Triggers";
 			id=513;
 		};
-		class Item103
+		class Item100
 		{
 			dataType="Layer";
 			name="Triggers";
@@ -10279,7 +9801,7 @@ class Mission
 			};
 			id=514;
 		};
-		class Item104
+		class Item101
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -10369,7 +9891,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item105
+		class Item102
 		{
 			dataType="Trigger";
 			position[]={5269.75,5,3242.5};
@@ -10382,7 +9904,7 @@ class Mission
 			id=1339;
 			type="EmptyDetector";
 		};
-		class Item106
+		class Item103
 		{
 			dataType="Layer";
 			name="Pandemics_HALO_C130";
@@ -10412,8 +9934,8 @@ class Mission
 								description="#04ff00";
 								disableSimulation=1;
 							};
-							id=1344;
-							type="Land_Laptop_03_olive_F";
+							id=1957;
+							type="Land_Laptop_03_olive_Simulatio_F";
 							atlOffset=6.5326691e-005;
 							class CustomAttributes
 							{
@@ -10457,25 +9979,6 @@ class Mission
 								};
 								class Attribute2
 								{
-									property="ObjectTextureCustom1";
-									expression="_this setObjectTextureGlobal [1,_value]";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"STRING"
-												};
-											};
-											value="simulatio_assets\enoch\laptop1.paa";
-										};
-									};
-								};
-								class Attribute3
-								{
 									property="mrh_search_CodeFound";
 									expression="_this setVariable ['MRH_object_Found_code',_value,true]";
 									class Value
@@ -10490,6 +9993,25 @@ class Mission
 												};
 											};
 											value="true";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="SwitchTexture";
+									expression="_this setObjectTexture [1, _value]";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\simulatio_assets\monitor\monitor_16.paa";
 										};
 									};
 								};
@@ -10561,7 +10083,7 @@ class Mission
 			id=1345;
 			atlOffset=6.5326691e-005;
 		};
-		class Item107
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
@@ -10904,7 +10426,7 @@ class Mission
 				nAttributes=17;
 			};
 		};
-		class Item108
+		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11228,7 +10750,7 @@ class Mission
 				nAttributes=16;
 			};
 		};
-		class Item109
+		class Item106
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11343,7 +10865,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item110
+		class Item107
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11458,7 +10980,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item111
+		class Item108
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11650,7 +11172,7 @@ class Mission
 				nAttributes=9;
 			};
 		};
-		class Item112
+		class Item109
 		{
 			dataType="Object";
 			class PositionInfo
@@ -11766,7 +11288,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item113
+		class Item110
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -11777,7 +11299,7 @@ class Mission
 			description="Se activa el trigger cuando se hace una foto a todos los objetos sincronizados.";
 			id=1364;
 		};
-		class Item114
+		class Item111
 		{
 			dataType="Trigger";
 			position[]={7752,5,4370.75};
@@ -11790,7 +11312,7 @@ class Mission
 			id=1365;
 			type="EmptyDetector";
 		};
-		class Item115
+		class Item112
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12013,7 +11535,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item116
+		class Item113
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12236,7 +11758,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item117
+		class Item114
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12247,7 +11769,7 @@ class Mission
 			description="Se activa el trigger cuando se recogen todos los objetos sincronizados.";
 			id=1369;
 		};
-		class Item118
+		class Item115
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12470,7 +11992,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item119
+		class Item116
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12481,7 +12003,7 @@ class Mission
 			description="Se activa el trigger cuando se introduce el código 71492 en la tablet (configurable en scripts\GC_Keypad línea 21).";
 			id=1372;
 		};
-		class Item120
+		class Item117
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12704,7 +12226,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item121
+		class Item118
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12715,7 +12237,7 @@ class Mission
 			description="Se activa el trigger cuando se hackea el portátil.";
 			id=1375;
 		};
-		class Item122
+		class Item119
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -12938,7 +12460,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item123
+		class Item120
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12949,7 +12471,7 @@ class Mission
 			description="Se activa el trigger cuando se hackea el portátil.";
 			id=1378;
 		};
-		class Item124
+		class Item121
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12960,7 +12482,7 @@ class Mission
 			description="Podéis personalizar el texto y las imágenes. Muy útil para establecer trasfondos.";
 			id=1379;
 		};
-		class Item125
+		class Item122
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12971,7 +12493,7 @@ class Mission
 			description="Muy útiles para incluir narrativa o ambientación. Podéis personalizarlo editando la imagen ""images\leaflet.jpg""";
 			id=1380;
 		};
-		class Item126
+		class Item123
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12982,7 +12504,7 @@ class Mission
 			description="Para inserciones HALO/HAHO";
 			id=1381;
 		};
-		class Item127
+		class Item124
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -12993,7 +12515,7 @@ class Mission
 			description="Radio interactuable vía ACE para ambientación.";
 			id=1382;
 		};
-		class Item128
+		class Item125
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13004,7 +12526,7 @@ class Mission
 			description="Se activa el trigger cuando se hackea el terminal";
 			id=1383;
 		};
-		class Item129
+		class Item126
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13227,7 +12749,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item130
+		class Item127
 		{
 			dataType="Trigger";
 			position[]={7763.5,5,4381};
@@ -13240,7 +12762,7 @@ class Mission
 			id=1386;
 			type="EmptyDetector";
 		};
-		class Item131
+		class Item128
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13251,7 +12773,7 @@ class Mission
 			description="Apaga todas las luces a 500m del interruptor.";
 			id=1387;
 		};
-		class Item132
+		class Item129
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -13474,7 +12996,7 @@ class Mission
 				nAttributes=11;
 			};
 		};
-		class Item133
+		class Item130
 		{
 			dataType="Object";
 			class PositionInfo
@@ -13491,7 +13013,7 @@ class Mission
 			type="Land_LampHalogen_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item134
+		class Item131
 		{
 			dataType="Object";
 			class PositionInfo
@@ -13508,7 +13030,7 @@ class Mission
 			type="Land_LampStreet_02_F";
 			atlOffset=4.7683716e-007;
 		};
-		class Item135
+		class Item132
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13518,7 +13040,7 @@ class Mission
 			title="Escuadra";
 			id=1391;
 		};
-		class Item136
+		class Item133
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13528,7 +13050,7 @@ class Mission
 			title="Escuadra (Tirador)";
 			id=1392;
 		};
-		class Item137
+		class Item134
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13538,7 +13060,7 @@ class Mission
 			title="Escuadra (AT)";
 			id=1393;
 		};
-		class Item138
+		class Item135
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -13548,7 +13070,7 @@ class Mission
 			title="Escuadra (JTAC)";
 			id=1394;
 		};
-		class Item139
+		class Item136
 		{
 			dataType="Group";
 			side="West";
@@ -13701,7 +13223,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item140
+		class Item137
 		{
 			dataType="Group";
 			side="West";
@@ -14183,7 +13705,7 @@ class Mission
 			};
 			id=1889;
 		};
-		class Item141
+		class Item138
 		{
 			dataType="Group";
 			side="West";
@@ -14687,7 +14209,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item142
+		class Item139
 		{
 			dataType="Group";
 			side="West";
@@ -15168,7 +14690,7 @@ class Mission
 			};
 			id=1899;
 		};
-		class Item143
+		class Item140
 		{
 			dataType="Group";
 			side="West";
@@ -15649,7 +15171,7 @@ class Mission
 			};
 			id=1904;
 		};
-		class Item144
+		class Item141
 		{
 			dataType="Group";
 			side="West";
@@ -16364,7 +15886,7 @@ class Mission
 			};
 			id=1909;
 		};
-		class Item145
+		class Item142
 		{
 			dataType="Group";
 			side="West";
@@ -17079,7 +16601,7 @@ class Mission
 			};
 			id=1916;
 		};
-		class Item146
+		class Item143
 		{
 			dataType="Group";
 			side="West";
@@ -17817,7 +17339,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item147
+		class Item144
 		{
 			dataType="Group";
 			side="West";
@@ -18532,7 +18054,7 @@ class Mission
 			};
 			id=1930;
 		};
-		class Item148
+		class Item145
 		{
 			dataType="Group";
 			side="West";
@@ -18919,7 +18441,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item149
+		class Item146
 		{
 			dataType="Group";
 			side="West";
@@ -19306,7 +18828,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item150
+		class Item147
 		{
 			dataType="Group";
 			side="West";
@@ -19693,7 +19215,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item151
+		class Item148
 		{
 			dataType="Group";
 			side="West";
@@ -20352,6 +19874,1386 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item149
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7753.5244,4.9910955,4370.4307};
+				angles[]={0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this] execVM ""scripts\briefing.sqf""";
+			};
+			id=1954;
+			type="Land_BriefingRoomScreen_Simulatio_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="simulatio_assets\briefingScreen\simulatio.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item150
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7754,6.0544133,4369};
+				angles[]={0,4.712389,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1955;
+			type="Land_Laptop_03_olive_Simulatio_F";
+			atlOffset=6.5326691e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_objectHack_isGlobalCode";
+					expression="_this setVariable ['MRH_objectHack_runCodeGlobally',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectData";
+					expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_addHackFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true]};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [1, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\laptop1.paa";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionNamespace setVariable [""hackCompleted"", true, true]; remoteExec [""IS_Intel"", [0,-2] select isDedicated, true]";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				nAttributes=8;
+			};
+		};
+		class Item151
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7754,6.0544133,4369.5};
+				angles[]={0,4.712389,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this, 20, ""varHackeo""] execVM ""scripts\hackear2.sqf""";
+			};
+			id=1956;
+			type="Land_Laptop_03_olive_Simulatio_F";
+			atlOffset=6.5326691e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_objectHack_isGlobalCode";
+					expression="_this setVariable ['MRH_objectHack_runCodeGlobally',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectData";
+					expression="if (_value) then {[[_this],{_this call MRH_fnc_MilsimTools_Functions_addHackFromAttributes}] RemoteExec ['Call',[0,-2] select isDedicated,true]};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [1, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\laptop2.paa";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				nAttributes=8;
+			};
+		};
+		class Item152
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7750,5.8462853,4374};
+				angles[]={-0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1958;
+			type="Land_TripodScreen_Simulatio_01_dual_v2_olive_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SwitchTextureL";
+					expression="_this setObjectTexture [0, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\ad1_h.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SwitchTextureR";
+					expression="_this setObjectTexture [1, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\ad2_v.paa";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item153
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7750,5.2500854,4380};
+				angles[]={-0,4.712389,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1959;
+			type="Land_MultiScreenComputer_Simulatio_01_sand_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SwitchTextureL";
+					expression="_this setObjectTexture [1, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\laptop1.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SwitchTextureR";
+					expression="_this setObjectTexture [3, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\laptop3.paa";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="SwitchTextureC";
+					expression="_this setObjectTexture [2, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\enoch\laptop2.paa";
+						};
+					};
+				};
+				nAttributes=8;
+			};
+		};
+		class Item154
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7750,5.2546797,4378};
+				angles[]={-0,4.712389,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1960;
+			type="Land_PCSet_01_Screen_Simulatio_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [0, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\monitor\monitor_14.paa";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item155
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7771.25,7.5408373,4380.75};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1961;
+			type="Banner_Simulatio_F";
+		};
+		class Item156
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7768.5,7.4694877,4380.75};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1962;
+			type="Banner_01_Simulatio_F";
+			atlOffset=1.9978771;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [0, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\flag\flag_simulatio.paa";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item157
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7750,5.9688811,4376};
+				angles[]={-0,4.712389,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1963;
+			type="Land_MapBoard_Simulatio_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [0, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\board\mapboard_lythium.paa";
+						};
+					};
+				};
+				nAttributes=6;
+			};
+		};
+		class Item158
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7748,5,4376};
+			};
+			title="Objetos Simulatio";
+			description="Múltiples objetos propios con texturas personalizadas. Buscad 'Simulatio' en la categoría de objetos en la barra de la derecha.";
+			id=1964;
+		};
+		class Item159
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7734,5,4368};
+			};
+			title="Edificios Cerrados";
+			description="Se puede editar invidualmente el estado de cada puerta para que esté abierta, cerrada o bloqueada.";
+			id=1965;
+		};
+		class Item160
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7750,6.1414685,4382};
+				angles[]={0,4.712389,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1966;
+			type="SignAd_Simulatio_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="mrh_search_nameFound";
+					expression="_this setVariable ['MRH_object_Found',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="mrh_hackAndCollectDataHackDuration";
+					expression="_this setVariable ['MRH_objectHackDuration',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="mrh_search_CodeFound";
+					expression="_this setVariable ['MRH_object_Found_code',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="true";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="mrh_hackAndCollectDataHackFileSize";
+					expression="_this setVariable ['MRH_objectHackFileSize',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="10";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="mrh_hackAndCollectData_codeToExec";
+					expression="_this setVariable ['MRH_objectHack_codeToExecute',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SwitchTexture";
+					expression="_this setObjectTexture [0, _value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="\simulatio_assets\sign\sign_ammo_es.paa";
+						};
+					};
+				};
+				nAttributes=6;
 			};
 		};
 	};
