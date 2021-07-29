@@ -32,4 +32,5 @@ switch (_type) do {
 	//#include "loadouts\ISFSB.sqf" //Multicam RUS
 	//#include "loadouts\ISRUS.sqf" //Gorka RUS
 	//#include "loadouts\ISRatnik.sqf" //Ratnik RUS
+	#include "loadouts\CIV.sqf" //Civiles
 };
