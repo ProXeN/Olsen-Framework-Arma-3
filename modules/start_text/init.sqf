@@ -1,5 +1,7 @@
 ["Start Text", "Displays animated text on mission start.", "Olsen &amp; Starfox64"] call FNC_RegisterModule;
 
+if !(isMultiplayer) exitWith {};
+
 if (!isDedicated) then {
 	private ["_month", "_hour", "_min", "_startTextArray", "_line", "_unparsedText"];
 
