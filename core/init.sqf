@@ -28,6 +28,7 @@ PREP(RRR);
 PREP(simpleConv);
 PREP(objectMarker);
 PREP(spawnGunners);
+PREP(lightSource);
 
 enableSaving [false, false];
 
