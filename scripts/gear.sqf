@@ -19,7 +19,7 @@ playSound selectRandom ["cambiarRopa", "OMIntelGrabBody_01", "OMIntelGrabBody_02
 },    /* 8: codeCompleted */
 {},                        /* 9: codeInterrupted */
 [],                        /* 10: Arguments */
-4,                        /* 11: Duration */
+0.5,                        /* 11: Duration */
 10,                        /* 12: priority */
 false,                    /* 13: Remove on completion */
 false                    /* 14: Show if unconcious */
